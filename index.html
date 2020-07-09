@@ -275,7 +275,7 @@
     <h6>OmixApp</h6>
 
 <script>
-    var ba = ["Chrome","Firefox","Safari","Chrome Mobile"]
+    var ba = ["Android"]
     var b,ua = navigator.userAgent;
     for(var i=0; i <ba.length; i++){
         if( ua.indexOf(ba[i]) > -1 ){
@@ -284,8 +284,8 @@
 
         }
     }
-alert(b)
-    if (b == "Chrome Mobile"){
+
+    if (b == "Android"){
         window.location.assign("Error404.html");
     }
 
