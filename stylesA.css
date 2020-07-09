@@ -1,0 +1,704 @@
+body{
+    background-color: 	#333333;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#divab{
+    position: relative;
+    left:-5;
+    top: 465;
+    z-index: 1000;
+
+}
+#ClapA{
+    position: relative;
+    left:0;
+    background-color:rgb(192, 192, 192);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-100;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+
+}
+#codeinput1{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    background-color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    color: rgb(48, 48, 48);
+}
+#codeinput2{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput3{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput4{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: rgb(48, 48, 48);
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+}
+#codeinput5{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput6{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput7{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput8{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput9{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput10{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput11{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput12{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput13{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput14{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput1a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    background-color:rgb(73, 73, 73);
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput2a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput3a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput4a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput5a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput6a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput7a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput8a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput9a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput10a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput11a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput12a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput13a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codeinput14a{
+    width:40;
+    height:40;
+    text-align: center;
+    font-size:20;
+    font-family:arial black;
+    text-transform: uppercase;
+    background-color:rgb(73, 73, 73);
+    border: none;
+    color: white;
+    outline: none;
+    position:relative;
+    top:50;
+    left:-616;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+}
+#codecon{
+    border:none;
+    height: 50;
+    width: 90;
+    font-size: 20;
+    background-color: rgb(95, 95, 95);
+    position: relative;
+    left:1175;
+    border-radius: 4px;
+    top:-45;
+    color:white;
+    outline: none;
+    font-family: arial black;
+}
+#Buttons{
+    position: relative;
+    top:20;
+    left:-5;
+}
+#ClapB{
+    position: relative;
+    left:84;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-95;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapBA{
+    position: relative;
+    left:-1176;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-74;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapC{
+    position: relative;
+    left:168;
+    background-color:rgb(192, 192, 192);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-90;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapCA{
+    position: relative;
+    left:-1092;
+    background-color:rgb(192, 192, 192);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-69;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapD{
+    position: relative;
+    left:252;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-85;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapDA{
+    position: relative;
+    left:-1008;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-64;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#MainTrack{
+    position: relative;
+    width:1172;
+    background-color: 	#5bff8c;
+    font-size: 15;
+    font-family:Arial;
+    top:-245;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapE{
+    position: relative;
+    left:0;
+    background-color:rgb(192, 192, 192);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-172;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapF{
+    position: relative;
+    left:84;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-167;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapFA{
+    position: relative;
+    left:-1176;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-146;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapG{
+    position: relative;
+    left:168;
+    background-color:rgb(192, 192, 192);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-161;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#ClapG2{
+    position: relative;
+    left:-1092;
+    background-color:rgb(192, 192, 192);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-140;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#buttons2{
+    position: relative;
+    top:0;
+    left:-5;
+}
+#OmTitle{
+    position: relative;
+    top:10;
+    left:1160;
+    font-family: arial black;
+    color: rgba(255, 255, 255, 0.486);
+    font-size:30;
+}
+#Play{
+    position: relative;
+    left:1188;
+    top:-40;
+}
+#Loop{
+    position: relative;
+    left:1188;
+    top:-531;
+}
+#Tunes{
+    position: relative;
+    width:612;
+    background-color: 	#5bff8c;
+    font-size: 15;
+    font-family:Arial;
+    top:-322;
+    left:-5;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+}
+#Loop2{
+    position: relative;
+    left:1188;
+    top:-752;
+}
+#Loop3{
+    position: relative;
+    left:1121;
+    top:-622;
+}
