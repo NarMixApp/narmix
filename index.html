@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OMiX</title>
+    <title>OmixApp</title>
     <link rel="shortcut icon" href="Favicon.png" />
     <audio id="Abeat"><source src="Clap.mp3" type="audio/mpeg"></audio>
     <audio id="Bbeat"><source src="Paper.mp3" type="audio/mpeg"></audio>
@@ -10,71 +10,1085 @@
     <audio id="Dbeat"><source src="Crunch.mp3" type="audio/mpeg"></audio>
     <audio id="Ebeat"><source src="Swoosh.mp3" type="audio/mpeg"></audio>
     <audio id="Fbeat"><source src="Glass.mp3" type="audio/mpeg"></audio>
-        <style>
-        .square {
-            height: 1000px;
-            width: 200px;
-            background-color: rgb(199, 199, 199);
-            position: relative;
-            left: -10;
-            top:-200;
-            z-index:-10;
-            }
-            .square2 {
-            height: 100px;
-            width: 200px;
-            background-color: rgb(65, 65, 65);
-            position: relative;
-            left: -10;
-            top:-1174;
-            z-index:-10;
-            }
-            .square3 {
-            height: 100px;
-            width: 200px;
-            background-color: rgb(65, 65, 65);
-            position: relative;
-            left: -10;
-            top:-1174;
-            z-index:-10;
-            }
-        </style>
-        <Link rel="stylesheet" href="styles.css">
+        <audio id="Gbeat"><source src="Bell.mp3" type="audio/mpeg"></audio>
+        <Link rel="stylesheet" href="stylesA.css">
 </head>
-<a href="OMiX Studio.zip" download>
-<button id="Download">Download OMiX Studio</button>
 
-</a>
-
+<!--TuneShareID TextBoxes-->
 <div id="divab">
-<input type="text" id="codeinput1" maxlength="2" placeholder="00">
-<input type="text" id="codeinput2" maxlength="2" placeholder="00">
-<input type="text" id="codeinput3" maxlength="2" placeholder="00">
-<input type="text" id="codeinput4" maxlength="2" placeholder="00">
-<input type="text" id="codeinput5" maxlength="2" placeholder="00">
-<input type="text" id="codeinput6" maxlength="2" placeholder="00">
-<input type="text" id="codeinput7" maxlength="2" placeholder="00">
-<input type="text" id="codeinput8" maxlength="2" placeholder="00">
-<input type="text" id="codeinput9" maxlength="2" placeholder="00">
-<input type="text" id="codeinput10" maxlength="2" placeholder="00">
-<input type="text" id="codeinput11" maxlength="2" placeholder="00">
-<input type="text" id="codeinput12" maxlength="2" placeholder="00">
-<input type="text" id="codeinput13" maxlength="2" placeholder="00">
-<input type="text" id="codeinput14" maxlength="2" placeholder="00">
-<button id="codecon" onclick="Wait0()">Load</button>
+    <input type="text" id="codeinput1" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput2" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput3" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput4" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput5" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput6" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput7" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput8" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput9" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput10" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput11" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput12" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput13" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput14" maxlength="2" placeholder="00">
 
+    <input type="text" id="codeinput1a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput2a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput3a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput4a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput5a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput6a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput7a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput8a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput9a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput10a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput11a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput12a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput13a" maxlength="2" placeholder="00">
+    <input type="text" id="codeinput14a" maxlength="2" placeholder="00">
+    </div>
+
+        <img src="Play.png" width="5%" alt="Play" onclick="Wait0()" id="Play">
+
+<!--Audio Input-->
+<div id=Buttons>
+<button id="ClapA" onclick="a1()">Clap</button>
+<button id="ClapA" onclick="b1()">Clap</button>
+<button id="ClapA" onclick="c1()">Clap</button>
+<button id="ClapA" onclick="d1()">Clap</button>
+<button id="ClapA" onclick="e1()">Clap</button>
+<button id="ClapA" onclick="f1()">Clap</button>
+<button id="ClapA" onclick="g1()">Clap</button>
+<button id="ClapA" onclick="h1()">Clap</button>
+<button id="ClapA" onclick="i1()">Clap</button>
+<button id="ClapA" onclick="j1()">Clap</button>
+<button id="ClapA" onclick="k1()">Clap</button>
+<button id="ClapA" onclick="l1()">Clap</button>
+<button id="ClapA" onclick="m1()">Clap</button>
+<button id="ClapA" onclick="n1()">Clap</button>
+
+<button id="ClapBA" onclick="a12()">Velcro</button>
+<button id="ClapB" onclick="b12()">Velcro</button>
+<button id="ClapB" onclick="c12()">Velcro</button>
+<button id="ClapB" onclick="d12()">Velcro</button>
+<button id="ClapB" onclick="e12()">Velcro</button>
+<button id="ClapB" onclick="f12()">Velcro</button>
+<button id="ClapB" onclick="g12()">Velcro</button>
+<button id="ClapB" onclick="h12()">Velcro</button>
+<button id="ClapB" onclick="i12()">Velcro</button>
+<button id="ClapB" onclick="j12()">Velcro</button>
+<button id="ClapB" onclick="k12()">Velcro</button>
+<button id="ClapB" onclick="l12()">Velcro</button>
+<button id="ClapB" onclick="m12()">Velcro</button>
+<button id="ClapB" onclick="n12()">Velcro</button>
+
+<button id="ClapCA" onclick="a13()">Metal</button>
+<button id="ClapCA" onclick="b13()">Metal</button>
+<button id="ClapC" onclick="c13()">Metal</button>
+<button id="ClapC" onclick="d13()">Metal</button>
+<button id="ClapC" onclick="e13()">Metal</button>
+<button id="ClapC" onclick="f13()">Metal</button>
+<button id="ClapC" onclick="g13()">Metal</button>
+<button id="ClapC" onclick="h13()">Metal</button>
+<button id="ClapC" onclick="i13()">Metal</button>
+<button id="ClapC" onclick="j13()">Metal</button>
+<button id="ClapC" onclick="k13()">Metal</button>
+<button id="ClapC" onclick="l13()">Metal</button>
+<button id="ClapC" onclick="m13()">Metal</button>
+<button id="ClapC" onclick="n13()">Metal</button>
+
+<button id="ClapDA" onclick="a14()">Crunch</button>
+<button id="ClapDA" onclick="b14()">Crunch</button>
+<button id="ClapDA" onclick="c14()">Crunch</button>
+<button id="ClapD" onclick="d14()">Crunch</button>
+<button id="ClapD" onclick="e14()">Crunch</button>
+<button id="ClapD" onclick="f14()">Crunch</button>
+<button id="ClapD" onclick="g14()">Crunch</button>
+<button id="ClapD" onclick="h14()">Crunch</button>
+<button id="ClapD" onclick="i14()">Crunch</button>
+<button id="ClapD" onclick="j14()">Crunch</button>
+<button id="ClapD" onclick="k14()">Crunch</button>
+<button id="ClapD" onclick="l14()">Crunch</button>
+<button id="ClapD" onclick="m14()">Crunch</button>
+<button id="ClapD" onclick="n14()">Crunch</button>
+
+<h6 id="MainTrack"> Track 1</h6>
+
+<button id="ClapE" onclick="a15()">Wind</button>
+<button id="ClapE" onclick="b15()">Wind</button>
+<button id="ClapE" onclick="c15()">Wind</button>
+<button id="ClapE" onclick="d15()">Wind</button>
+<button id="ClapE" onclick="e15()">Wind</button>
+<button id="ClapE" onclick="f15()">Wind</button>
+<button id="ClapE" onclick="g15()">Wind</button>
+<button id="ClapE" onclick="h15()">Wind</button>
+<button id="ClapE" onclick="i15()">Wind</button>
+<button id="ClapE" onclick="j15()">Wind</button>
+<button id="ClapE" onclick="k15()">Wind</button>
+<button id="ClapE" onclick="l15()">Wind</button>
+<button id="ClapE" onclick="m15()">Wind</button>
+<button id="ClapE" onclick="n15()">Wind</button>
+
+<button id="ClapFA" onclick="a16()">Tap</button>
+<button id="ClapF" onclick="b16()">Tap</button>
+<button id="ClapF" onclick="c16()">Tap</button>
+<button id="ClapF" onclick="d16()">Tap</button>
+<button id="ClapF" onclick="e16()">Tap</button>
+<button id="ClapF" onclick="f16()">Tap</button>
+<button id="ClapF" onclick="g16()">Tap</button>
+<button id="ClapF" onclick="h16()">Tap</button>
+<button id="ClapF" onclick="i16()">Tap</button>
+<button id="ClapF" onclick="j16()">Tap</button>
+<button id="ClapF" onclick="k16()">Tap</button>
+<button id="ClapF" onclick="l16()">Tap</button>
+<button id="ClapF" onclick="m16()">Tap</button>
+<button id="ClapF" onclick="n16()">Tap</button>
+
+<button id="ClapG2" onclick="a17()">Keys</button>
+<button id="ClapG2" onclick="b17()">Keys</button>
+<button id="ClapG" onclick="c17()">Keys</button>
+<button id="ClapG" onclick="d17()">Keys</button>
+<button id="ClapG" onclick="e17()">Keys</button>
+<button id="ClapG" onclick="f17()">Keys</button>
+<button id="ClapG" onclick="g17()">Keys</button>
+<button id="ClapG" onclick="h17()">Keys</button>
+<button id="ClapG" onclick="i17()">Keys</button>
+<button id="ClapG" onclick="j17()">Keys</button>
+<button id="ClapG" onclick="k17()">Keys</button>
+<button id="ClapG" onclick="l17()">Keys</button>
+<button id="ClapG" onclick="m17()">Keys</button>
+<button id="ClapG" onclick="n17()">Keys</button>
 </div>
-<h1 id="inst2">OMiX</h1>
-<div class="square"></div>
-<div class="square2"></div>
-<img src="Favicon.png" id="img1" width="50" height="50">
-<div class="square3"></div>
-<script>
 
+<div id=Buttons2>
+    <button id="ClapA" onclick="a1a()">Clap</button>
+    <button id="ClapA" onclick="b1a()">Clap</button>
+    <button id="ClapA" onclick="c1a()">Clap</button>
+    <button id="ClapA" onclick="d1a()">Clap</button>
+    <button id="ClapA" onclick="e1a()">Clap</button>
+    <button id="ClapA" onclick="f1a()">Clap</button>
+    <button id="ClapA" onclick="g1a()">Clap</button>
+    <button id="ClapA" onclick="h1a()">Clap</button>
+    <button id="ClapA" onclick="i1a()">Clap</button>
+    <button id="ClapA" onclick="j1a()">Clap</button>
+    <button id="ClapA" onclick="k1a()">Clap</button>
+    <button id="ClapA" onclick="l1a()">Clap</button>
+    <button id="ClapA" onclick="m1a()">Clap</button>
+    <button id="ClapA" onclick="n1a()">Clap</button>
+    
+    <button id="ClapBA" onclick="a12a()">Velcro</button>
+    <button id="ClapB" onclick="b12a()">Velcro</button>
+    <button id="ClapB" onclick="c12a()">Velcro</button>
+    <button id="ClapB" onclick="d12a()">Velcro</button>
+    <button id="ClapB" onclick="e12a()">Velcro</button>
+    <button id="ClapB" onclick="f12a()">Velcro</button>
+    <button id="ClapB" onclick="g12a()">Velcro</button>
+    <button id="ClapB" onclick="h12a()">Velcro</button>
+    <button id="ClapB" onclick="i12a()">Velcro</button>
+    <button id="ClapB" onclick="j12a()">Velcro</button>
+    <button id="ClapB" onclick="k12a()">Velcro</button>
+    <button id="ClapB" onclick="l12a()">Velcro</button>
+    <button id="ClapB" onclick="m12a()">Velcro</button>
+    <button id="ClapB" onclick="n12a()">Velcro</button>
+    
+    <button id="ClapCA" onclick="a13a()">Metal</button>
+    <button id="ClapCA" onclick="b13a()">Metal</button>
+    <button id="ClapC" onclick="c13a()">Metal</button>
+    <button id="ClapC" onclick="d13a()">Metal</button>
+    <button id="ClapC" onclick="e13a()">Metal</button>
+    <button id="ClapC" onclick="f13a()">Metal</button>
+    <button id="ClapC" onclick="g13a()">Metal</button>
+    <button id="ClapC" onclick="h13a()">Metal</button>
+    <button id="ClapC" onclick="i13a()">Metal</button>
+    <button id="ClapC" onclick="j13a()">Metal</button>
+    <button id="ClapC" onclick="k13a()">Metal</button>
+    <button id="ClapC" onclick="l13a()">Metal</button>
+    <button id="ClapC" onclick="m13a()">Metal</button>
+    <button id="ClapC" onclick="n13a()">Metal</button>
+    
+    <button id="ClapDA" onclick="a14a()">Crunch</button>
+    <button id="ClapDA" onclick="b14a()">Crunch</button>
+    <button id="ClapDA" onclick="c14a()">Crunch</button>
+    <button id="ClapD" onclick="d14a()">Crunch</button>
+    <button id="ClapD" onclick="e14a()">Crunch</button>
+    <button id="ClapD" onclick="f14a()">Crunch</button>
+    <button id="ClapD" onclick="g14a()">Crunch</button>
+    <button id="ClapD" onclick="h14a()">Crunch</button>
+    <button id="ClapD" onclick="i14a()">Crunch</button>
+    <button id="ClapD" onclick="j14a()">Crunch</button>
+    <button id="ClapD" onclick="k14a()">Crunch</button>
+    <button id="ClapD" onclick="l14a()">Crunch</button>
+    <button id="ClapD" onclick="m14a()">Crunch</button>
+    <button id="ClapD" onclick="n14a()">Crunch</button>
+    
+    <h6 id="MainTrack"> Track 2</h6>
+    
+    <button id="ClapE" onclick="a15a()">Wind</button>
+    <button id="ClapE" onclick="b15a()">Wind</button>
+    <button id="ClapE" onclick="c15a()">Wind</button>
+    <button id="ClapE" onclick="d15a()">Wind</button>
+    <button id="ClapE" onclick="e15a()">Wind</button>
+    <button id="ClapE" onclick="f15a()">Wind</button>
+    <button id="ClapE" onclick="g15a()">Wind</button>
+    <button id="ClapE" onclick="h15a()">Wind</button>
+    <button id="ClapE" onclick="i15a()">Wind</button>
+    <button id="ClapE" onclick="j15a()">Wind</button>
+    <button id="ClapE" onclick="k15a()">Wind</button>
+    <button id="ClapE" onclick="l15a()">Wind</button>
+    <button id="ClapE" onclick="m15a()">Wind</button>
+    <button id="ClapE" onclick="n15a()">Wind</button>
+    
+    <button id="ClapFA" onclick="a16a()">Tap</button>
+    <button id="ClapF" onclick="b16a()">Tap</button>
+    <button id="ClapF" onclick="c16a()">Tap</button>
+    <button id="ClapF" onclick="d16a()">Tap</button>
+    <button id="ClapF" onclick="e16a()">Tap</button>
+    <button id="ClapF" onclick="f16a()">Tap</button>
+    <button id="ClapF" onclick="g16a()">Tap</button>
+    <button id="ClapF" onclick="h16a()">Tap</button>
+    <button id="ClapF" onclick="i16a()">Tap</button>
+    <button id="ClapF" onclick="j16a()">Tap</button>
+    <button id="ClapF" onclick="k16a()">Tap</button>
+    <button id="ClapF" onclick="l16a()">Tap</button>
+    <button id="ClapF" onclick="m16a()">Tap</button>
+    <button id="ClapF" onclick="n16a()">Tap</button>
+    
+    <button id="ClapG2" onclick="a17a()">Keys</button>
+    <button id="ClapG2" onclick="b17a()">Keys</button>
+    <button id="ClapG" onclick="c17a()">Keys</button>
+    <button id="ClapG" onclick="d17a()">Keys</button>
+    <button id="ClapG" onclick="e17a()">Keys</button>
+    <button id="ClapG" onclick="f17a()">Keys</button>
+    <button id="ClapG" onclick="g17a()">Keys</button>
+    <button id="ClapG" onclick="h17a()">Keys</button>
+    <button id="ClapG" onclick="i17a()">Keys</button>
+    <button id="ClapG" onclick="j17a()">Keys</button>
+    <button id="ClapG" onclick="k17a()">Keys</button>
+    <button id="ClapG" onclick="l17a()">Keys</button>
+    <button id="ClapG" onclick="m17a()">Keys</button>
+    <button id="ClapG" onclick="n17a()">Keys</button>
+    </div>
+    <h1 id="OmTitle">OMiX</h1>
+    <img src="Loop.png" width="5%" alt="Play" onclick="LoopStart()" id="Loop">
+    <h6 id="Tunes">Tunes</h6>
+    <img src="Stop.png" width="5%" alt="Play" onclick="Stop()" id="Loop2">
+    <img src="BreakLoop.png" width="5%" alt="LoopBreak" onclick="LoopBreak()" id="Loop3">
+    <h6>OmixApp</h6>
+
+<script>
+    function a1(){
+        Abeat.play()
+        document.getElementById("codeinput1").value = "a1"
+    }
+    function b1(){
+        Abeat.play()
+        document.getElementById("codeinput2").value = "b1"
+    }
+    function c1(){
+        Abeat.play()
+        document.getElementById("codeinput3").value = "c1"
+    }
+    function d1(){       
+        Abeat.play()
+        document.getElementById("codeinput4").value = "d1"
+    }
+    function e1(){
+        Abeat.play()
+        document.getElementById("codeinput5").value = "e1"
+    }
+    function f1(){
+        Abeat.play()
+        document.getElementById("codeinput6").value = "f1"
+    }
+    function g1(){
+        Abeat.play()
+        document.getElementById("codeinput7").value = "g1"
+    }
+    function h1(){
+        Abeat.play()
+        document.getElementById("codeinput8").value = "h1"
+    }
+    function i1(){
+        Abeat.play()
+        document.getElementById("codeinput9").value = "i1"
+    }
+    function j1(){
+        Abeat.play()
+        document.getElementById("codeinput10").value = "j1"
+    }
+    function k1(){
+        Abeat.play()
+        document.getElementById("codeinput11").value = "k1"
+    }
+    function l1(){
+        Abeat.play()
+        document.getElementById("codeinput12").value = "l1"
+    }
+    function m1(){
+        Abeat.play()
+        document.getElementById("codeinput13").value = "m1"
+    }
+    function n1(){
+        Abeat.play()
+        document.getElementById("codeinput14").value = "n1"
+    }
+
+    function a12(){
+        Bbeat.play()
+        document.getElementById("codeinput1").value = "a2"
+    }
+    function b12(){
+        Bbeat.play()
+        document.getElementById("codeinput2").value = "b2"
+    }
+    function c12(){
+        Bbeat.play()
+        document.getElementById("codeinput3").value = "c2"
+    }
+    function d12(){
+        Bbeat.play()
+        document.getElementById("codeinput4").value = "d2"
+    }
+    function e12(){
+        Bbeat.play()
+        document.getElementById("codeinput5").value = "e2"
+    }
+    function f12(){
+        Bbeat.play()
+        document.getElementById("codeinput6").value = "f2"
+    }
+    function g12(){
+        Bbeat.play()
+        document.getElementById("codeinput7").value = "g2"
+    }
+    function h12(){
+        Bbeat.play()
+        document.getElementById("codeinput8").value = "h2"
+    }
+    function i12(){
+        Bbeat.play()
+        document.getElementById("codeinput9").value = "i2"
+    }
+    function j12(){
+        Bbeat.play()
+        document.getElementById("codeinput10").value = "j2"
+    }
+    function k12(){
+        Bbeat.play()
+        document.getElementById("codeinput11").value = "k2"
+    }
+    function l12(){
+        Bbeat.play()
+        document.getElementById("codeinput12").value = "l2"
+    }
+    function m12(){
+        Bbeat.play()
+        document.getElementById("codeinput13").value = "m2"
+    }
+    function n12(){
+        Bbeat.play()
+        document.getElementById("codeinput14").value = "n2"
+    }
+
+    function a13(){
+        Cbeat.play()
+        document.getElementById("codeinput1").value = "a3"
+    }
+    function b13(){
+        Cbeat.play()
+        document.getElementById("codeinput2").value = "b3"
+    }
+    function c13(){
+        Cbeat.play()
+        document.getElementById("codeinput3").value = "c3"
+    }
+    function d13(){
+        Cbeat.play()
+        document.getElementById("codeinput4").value = "d3"
+    }
+    function e13(){
+        Cbeat.play()
+        document.getElementById("codeinput5").value = "e3"
+    }
+    function f13(){
+        Cbeat.play()
+        document.getElementById("codeinput6").value = "f3"
+    }
+    function g13(){
+        Cbeat.play()
+        document.getElementById("codeinput7").value = "g3"
+    }
+    function h13(){
+        Cbeat.play()
+        document.getElementById("codeinput8").value = "h3"
+    }
+    function i13(){
+        Cbeat.play()
+        document.getElementById("codeinput9").value = "i3"
+    }
+    function j13(){
+        Cbeat.play()
+        document.getElementById("codeinput10").value = "j3"
+    }
+    function k13(){
+        Cbeat.play()
+        document.getElementById("codeinput11").value = "k3"
+    }
+    function l13(){
+        Cbeat.play()
+        document.getElementById("codeinput12").value = "l3"
+    }
+    function m13(){
+        Cbeat.play()
+        document.getElementById("codeinput13").value = "m3"
+    }
+    function n13(){
+        Cbeat.play()
+        document.getElementById("codeinput14").value = "n3"
+    }
+
+    function a14(){
+        Dbeat.play()
+        document.getElementById("codeinput1").value = "a4"
+    }
+    function b14(){
+        Dbeat.play()
+        document.getElementById("codeinput2").value = "b4"
+    }
+    function c14(){
+        Dbeat.play()
+        document.getElementById("codeinput3").value = "c4"
+    }
+    function d14(){
+        Dbeat.play()
+        document.getElementById("codeinput4").value = "d4"
+    }
+    function e14(){
+        Dbeat.play()
+        document.getElementById("codeinput5").value = "e4"
+    }
+    function f14(){
+        Dbeat.play()
+        document.getElementById("codeinput6").value = "f4"
+    }
+    function g14(){
+        Dbeat.play()
+        document.getElementById("codeinput7").value = "g4"
+    }
+    function h14(){
+        Dbeat.play()
+        document.getElementById("codeinput8").value = "h4"
+    }
+    function i14(){
+        Dbeat.play()
+        document.getElementById("codeinput9").value = "i4"
+    }
+    function j14(){
+        Dbeat.play()
+        document.getElementById("codeinput10").value = "j4"
+    }
+    function k14(){
+        Dbeat.play()
+        document.getElementById("codeinput11").value = "k4"
+    }
+    function l14(){
+        Dbeat.play()
+        document.getElementById("codeinput12").value = "l4"
+    }
+    function m14(){
+        Dbeat.play()
+        document.getElementById("codeinput13").value = "m4"
+    }
+    function n14(){
+        Dbeat.play()
+        document.getElementById("codeinput14").value = "n4"
+    }
+
+    function a15(){
+        Ebeat.play()
+        document.getElementById("codeinput1").value = "a5"
+    }
+    function b15(){
+        Ebeat.play()
+        document.getElementById("codeinput2").value = "b5"
+    }
+    function c15(){
+        Ebeat.play()
+        document.getElementById("codeinput3").value = "c5"
+    }
+    function d15(){
+        Ebeat.play()
+        document.getElementById("codeinput4").value = "d5"
+    }
+    function e15(){
+        Ebeat.play()
+        document.getElementById("codeinput5").value = "e5"
+    }
+    function f15(){
+        Ebeat.play()
+        document.getElementById("codeinput6").value = "f5"
+    }
+    function g15(){
+        Ebeat.play()
+        document.getElementById("codeinput7").value = "g5"
+    }
+    function h15(){
+        Ebeat.play()
+        document.getElementById("codeinput8").value = "h5"
+    }
+    function i15(){
+        Ebeat.play()
+        document.getElementById("codeinput9").value = "i5"
+    }
+    function j15(){
+        Ebeat.play()
+        document.getElementById("codeinput10").value = "j5"
+    }
+    function k15(){
+        Ebeat.play()
+        document.getElementById("codeinput11").value = "k5"
+    }
+    function l15(){
+        Ebeat.play()
+        document.getElementById("codeinput12").value = "l5"
+    }
+    function m15(){
+        Ebeat.play()
+        document.getElementById("codeinput13").value = "m5"
+    }
+    function n15(){
+        Ebeat.play()
+        document.getElementById("codeinput14").value = "n6"
+        }
+
+    function a16(){
+        Fbeat.play()
+    document.getElementById("codeinput1").value = "a6"
+    }
+    function b16(){
+        Fbeat.play()
+        document.getElementById("codeinput2").value = "b6"
+    }
+    function c16(){
+        Fbeat.play()
+        document.getElementById("codeinput3").value = "c6"
+    }
+    function d16(){
+        Fbeat.play()
+        document.getElementById("codeinput4").value = "d6"
+    }
+    function e16(){
+        Fbeat.play()
+        document.getElementById("codeinput5").value = "e6"
+    }
+    function f16(){
+        Fbeat.play()
+        document.getElementById("codeinput6").value = "f6"
+    }
+    function g16(){
+        Fbeat.play()
+        document.getElementById("codeinput7").value = "g6"
+    }
+    function h16(){
+        Fbeat.play()
+        document.getElementById("codeinput8").value = "h6"
+    }
+    function i16(){
+        Fbeat.play()
+        document.getElementById("codeinput9").value = "i6"
+    }
+    function j16(){
+        Fbeat.play()
+        document.getElementById("codeinput10").value = "j6"
+    }
+    function k16(){
+        Fbeat.play()
+        document.getElementById("codeinput11").value = "k6"
+    }
+    function l16(){
+        Fbeat.play()
+        document.getElementById("codeinput12").value = "l6"
+    }
+    function m16(){
+        Fbeat.play()
+        document.getElementById("codeinput13").value = "m6"
+    }
+    function n16(){
+        Fbeat.play()
+        document.getElementById("codeinput14").value = "n6"
+        }
+    
+        function a17(){
+            Gbeat.play()
+    document.getElementById("codeinput1").value = "a7"
+    }
+    function b17(){
+        Gbeat.play()
+        document.getElementById("codeinput2").value = "b7"
+    }
+    function c17(){
+        Gbeat.play()
+        document.getElementById("codeinput3").value = "c7"
+    }
+    function d17(){
+        Gbeat.play()
+        document.getElementById("codeinput4").value = "d7"
+    }
+    function e17(){
+        Gbeat.play()
+        document.getElementById("codeinput5").value = "e7"
+    }
+    function f17(){
+        Gbeat.play()
+        document.getElementById("codeinput6").value = "f7"
+    }
+    function g17(){
+        Gbeat.play()
+        document.getElementById("codeinput7").value = "g7"
+    }
+    function h17(){
+        Gbeat.play()
+        document.getElementById("codeinput8").value = "h7"
+    }
+    function i17(){
+        Gbeat.play()
+        document.getElementById("codeinput9").value = "i7"
+    }
+    function j17(){
+        Gbeat.play()
+        document.getElementById("codeinput10").value = "j7"
+    }
+    function k17(){
+        Gbeat.play()
+        document.getElementById("codeinput11").value = "k7"
+    }
+    function l17(){
+        Gbeat.play()
+        document.getElementById("codeinput12").value = "l7"
+    }
+    function m17(){
+        Gbeat.play()
+        document.getElementById("codeinput13").value = "m7"
+    }
+    function n17(){
+        Gbeat.play()
+        document.getElementById("codeinput14").value = "n7"
+        }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+        function a1a(){
+            Abeat.play()
+        document.getElementById("codeinput1a").value = "a1"
+    }
+    function b1a(){
+        Abeat.play()
+        document.getElementById("codeinput2a").value = "b1"
+    }
+    function c1a(){
+        Abeat.play()
+        document.getElementById("codeinput3a").value = "c1"
+    }
+    function d1a(){
+        Abeat.play()
+        document.getElementById("codeinput4a").value = "d1"
+    }
+    function e1a(){
+        Abeat.play()
+        document.getElementById("codeinput5a").value = "e1"
+    }
+    function f1a(){
+        Abeat.play()
+        document.getElementById("codeinput6a").value = "f1"
+    }
+    function g1a(){
+        Abeat.play()
+        document.getElementById("codeinput7a").value = "g1"
+    }
+    function h1a(){
+        Abeat.play()
+        document.getElementById("codeinput8a").value = "h1"
+    }
+    function i1a(){
+        Abeat.play()
+        document.getElementById("codeinput9a").value = "i1"
+    }
+    function j1a(){
+        Abeat.play()
+        document.getElementById("codeinput10a").value = "j1"
+    }
+    function k1a(){
+        Abeat.play()
+        document.getElementById("codeinput11a").value = "k1"
+    }
+    function l1a(){
+        Abeat.play()
+        document.getElementById("codeinput12a").value = "l1"
+    }
+    function m1a(){
+        Abeat.play()
+        document.getElementById("codeinput13a").value = "m1"
+    }
+    function n1a(){
+        Abeat.play()
+        document.getElementById("codeinput14a").value = "n1"
+    }
+
+    function a12a(){
+        Bbeat.play()
+        document.getElementById("codeinput1a").value = "a2"
+    }
+    function b12a(){
+        Bbeat.play()
+        document.getElementById("codeinput2a").value = "b2"
+    }
+    function c12a(){
+        Bbeat.play()
+        document.getElementById("codeinput3a").value = "c2"
+    }
+    function d12a(){
+        Bbeat.play()
+        document.getElementById("codeinput4a").value = "d2"
+    }
+    function e12a(){
+        Bbeat.play()
+        document.getElementById("codeinput5a").value = "e2"
+    }
+    function f12a(){
+        Bbeat.play()
+        document.getElementById("codeinput6a").value = "f2"
+    }
+    function g12a(){
+        Bbeat.play()
+        document.getElementById("codeinput7a").value = "g2"
+    }
+    function h12a(){
+        Bbeat.play()
+        document.getElementById("codeinput8a").value = "h2"
+    }
+    function i12a(){
+        Bbeat.play()
+        document.getElementById("codeinput9a").value = "i2"
+    }
+    function j12a(){
+        Bbeat.play()
+        document.getElementById("codeinput10a").value = "j2"
+    }
+    function k12a(){
+        Bbeat.play()
+        document.getElementById("codeinput11a").value = "k2"
+    }
+    function l12a(){
+        Bbeat.play()
+        document.getElementById("codeinput12a").value = "l2"
+    }
+    function m12a(){
+        Bbeat.play()
+        document.getElementById("codeinput13a").value = "m2"
+    }
+    function n12a(){
+        Bbeat.play()
+        document.getElementById("codeinput14a").value = "n2"
+    }
+
+    function a13a(){
+        Cbeat.play()
+        document.getElementById("codeinput1a").value = "a3"
+    }
+    function b13a(){
+        Cbeat.play()
+        document.getElementById("codeinput2a").value = "b3"
+    }
+    function c13a(){
+        Cbeat.play()
+        document.getElementById("codeinput3a").value = "c3"
+    }
+    function d13a(){
+        Cbeat.play()
+        document.getElementById("codeinput4a").value = "d3"
+    }
+    function e13a(){
+        Cbeat.play()
+        document.getElementById("codeinput5a").value = "e3"
+    }
+    function f13a(){
+        Cbeat.play()
+        document.getElementById("codeinput6a").value = "f3"
+    }
+    function g13a(){
+        Cbeat.play()
+        document.getElementById("codeinput7a").value = "g3"
+    }
+    function h13a(){
+        Cbeat.play()
+        document.getElementById("codeinput8a").value = "h3"
+    }
+    function i13a(){
+        Cbeat.play()
+        document.getElementById("codeinput9a").value = "i3"
+    }
+    function j13a(){
+        Cbeat.play()
+        document.getElementById("codeinput10a").value = "j3"
+    }
+    function k13a(){
+        Cbeat.play()
+        document.getElementById("codeinput11a").value = "k3"
+    }
+    function l13a(){
+        Cbeat.play()
+        document.getElementById("codeinput12a").value = "l3"
+    }
+    function m13a(){
+        Cbeat.play()
+        document.getElementById("codeinput13a").value = "m3"
+    }
+    function n13a(){
+        Cbeat.play()
+        document.getElementById("codeinput14a").value = "n3"
+    }
+
+    function a14a(){
+        Dbeat.play()
+        document.getElementById("codeinput1a").value = "a4"
+    }
+    function b14a(){
+        Dbeat.play()
+        document.getElementById("codeinput2a").value = "b4"
+    }
+    function c14a(){
+        Dbeat.play()
+        document.getElementById("codeinput3a").value = "c4"
+    }
+    function d14a(){
+        Dbeat.play()
+        document.getElementById("codeinput4a").value = "d4"
+    }
+    function e14a(){
+        Dbeat.play()
+        document.getElementById("codeinput5a").value = "e4"
+    }
+    function f14a(){
+        Dbeat.play()
+        document.getElementById("codeinput6a").value = "f4"
+    }
+    function g14a(){
+        Dbeat.play()
+        document.getElementById("codeinput7a").value = "g4"
+    }
+    function h14a(){
+        Dbeat.play()
+        document.getElementById("codeinput8a").value = "h4"
+    }
+    function i14a(){
+        Dbeat.play()
+        document.getElementById("codeinput9a").value = "i4"
+    }
+    function j14a(){
+        Dbeat.play()
+        document.getElementById("codeinput10a").value = "j4"
+    }
+    function k14a(){
+        Dbeat.play()
+        document.getElementById("codeinput11a").value = "k4"
+    }
+    function l14a(){
+        Dbeat.play()
+        document.getElementById("codeinput12a").value = "l4"
+    }
+    function m14a(){
+        Dbeat.play()
+        document.getElementById("codeinput13a").value = "m4"
+    }
+    function n14a(){
+        Dbeat.play()
+        document.getElementById("codeinput14a").value = "n4"
+    }
+
+    function a15a(){
+        Ebeat.play()
+        document.getElementById("codeinput1a").value = "a5"
+    }
+    function b15a(){
+        Ebeat.play()
+        document.getElementById("codeinput2a").value = "b5"
+    }
+    function c15a(){
+        Ebeat.play()
+        document.getElementById("codeinput3a").value = "c5"
+    }
+    function d15a(){
+        Ebeat.play()
+        document.getElementById("codeinput4a").value = "d5"
+    }
+    function e15a(){
+        Ebeat.play()
+        document.getElementById("codeinput5a").value = "e5"
+    }
+    function f15a(){
+        Ebeat.play()
+        document.getElementById("codeinput6a").value = "f5"
+    }
+    function g15a(){
+        Ebeat.play()
+        document.getElementById("codeinput7a").value = "g5"
+    }
+    function h15a(){
+        Ebeat.play()
+        document.getElementById("codeinput8a").value = "h5"
+    }
+    function i15a(){
+        Ebeat.play()
+        document.getElementById("codeinput9a").value = "i5"
+    }
+    function j15a(){
+        Ebeat.play()
+        document.getElementById("codeinput10a").value = "j5"
+    }
+    function k15a(){
+        Ebeat.play()
+        document.getElementById("codeinput11a").value = "k5"
+    }
+    function l15a(){
+        Ebeat.play()
+        document.getElementById("codeinput12a").value = "l5"
+    }
+    function m15a(){
+        Ebeat.play()
+        document.getElementById("codeinput13a").value = "m5"
+    }
+    function n15a(){
+        Ebeat.play()
+        document.getElementById("codeinput14a").value = "n6"
+        }
+
+    function a16a(){
+        Fbeat.play()
+    document.getElementById("codeinput1a").value = "a6"
+    }
+    function b16a(){
+        Fbeat.play()
+        document.getElementById("codeinput2a").value = "b6"
+    }
+    function c16a(){
+        Fbeat.play()
+        document.getElementById("codeinput3a").value = "c6"
+    }
+    function d16a(){
+        Fbeat.play()
+        document.getElementById("codeinput4a").value = "d6"
+    }
+    function e16a(){
+        Fbeat.play()
+        document.getElementById("codeinput5a").value = "e6"
+    }
+    function f16a(){
+        Fbeat.play()
+        document.getElementById("codeinput6a").value = "f6"
+    }
+    function g16a(){
+        Fbeat.play()
+        document.getElementById("codeinput7a").value = "g6"
+    }
+    function h16a(){
+        Fbeat.play()
+        document.getElementById("codeinput8a").value = "h6"
+    }
+    function i16a(){
+        Fbeat.play()
+        document.getElementById("codeinput9a").value = "i6"
+    }
+    function j16a(){
+        Fbeat.play()
+        document.getElementById("codeinput10a").value = "j6"
+    }
+    function k16a(){
+        Fbeat.play()
+        document.getElementById("codeinput11a").value = "k6"
+    }
+    function l16a(){
+        Fbeat.play()
+        document.getElementById("codeinput12a").value = "l6"
+    }
+    function m16a(){
+        Fbeat.play()
+        document.getElementById("codeinput13a").value = "m6"
+    }
+    function n16a(){
+        Fbeat.play()
+        document.getElementById("codeinput14a").value = "n6"
+        }
+    
+        function a17a(){
+            Gbeat.play()
+    document.getElementById("codeinput1a").value = "a7"
+    }
+    function b17a(){
+        Gbeat.play()
+        document.getElementById("codeinput2a").value = "b7"
+    }
+    function c17a(){
+        Gbeat.play()
+        document.getElementById("codeinput3a").value = "c7"
+    }
+    function d17a(){
+        Gbeat.play()
+        document.getElementById("codeinput4a").value = "d7"
+    }
+    function e17a(){
+        Gbeat.play()
+        document.getElementById("codeinput5a").value = "e7"
+    }
+    function f17a(){
+        Gbeat.play()
+        document.getElementById("codeinput6a").value = "f7"
+    }
+    function g17a(){
+        Gbeat.play()
+        document.getElementById("codeinput7a").value = "g7"
+    }
+    function h17a(){
+        Gbeat.play()
+        document.getElementById("codeinput8a").value = "h7"
+    }
+    function i17a(){
+        Gbeat.play()
+        document.getElementById("codeinput9a").value = "i7"
+    }
+    function j17a(){
+        Gbeat.play()
+        document.getElementById("codeinput10a").value = "j7"
+    }
+    function k17a(){
+        Gbeat.play()
+        document.getElementById("codeinput11a").value = "k7"
+    }
+    function l17a(){
+        Gbeat.play()
+        document.getElementById("codeinput12a").value = "l7"
+    }
+    function m17a(){
+        Gbeat.play()
+        document.getElementById("codeinput13a").value = "m7"
+    }
+    function n17a(){
+        Gbeat.play()
+        document.getElementById("codeinput14a").value = "n7"
+        }
 
 </script>
 
-<script src="main.js"></script>
+<script src="mainA.js"></script>
 <body>
     
 </body>
