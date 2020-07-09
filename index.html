@@ -275,18 +275,9 @@
     <h6>OmixApp</h6>
 
 <script>
-    var ba = ["X11"]
-    var b,ua = navigator.userAgent;
-    for(var i=0; i <ba.length; i++){
-        if( ua.indexOf(ba[i]) > -1 ){
-            b = ba[i];
-            break;
-
-        }
-    }
     alert(navigator.userAgent)
 
-    if (navigator.userAgent >= "Windows NT"){
+    if (navigator.userAgent >= "Linux"){
         window.location.assign("Error404.html");
     }
 
