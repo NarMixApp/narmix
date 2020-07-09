@@ -275,12 +275,12 @@
     <h6>OmixApp</h6>
 
 <script>
-    alert(navigator.userAgent)
+if (navigator.userAgent >= "Windows","CrOS"){
 
-    if (navigator.userAgent <= "Linux"){
-        window.location.assign("Error404.html");
-    }
-
+}
+else{
+    window.location.assign("Error404.html");
+}
     function a1(){
         Abeat.play()
         document.getElementById("codeinput1").value = "a1"
