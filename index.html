@@ -275,11 +275,15 @@
     <h6>OmixApp</h6>
 
 <script>
-if (navigator.userAgent.includes("Windows","CrOS")){
+if (navigator.userAgent.includes("Windows")){
 
 }
 else{
+    if (navigator.userAgent.includes("CrOS"))
+    {}
+    else{
     window.location.assign("Error404.html");
+    }
 }
     function a1(){
         Abeat.play()
