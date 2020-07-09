@@ -1,0 +1,10 @@
+body{
+    background-color: 	#333333;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#error{
+    position: relative;
+    left:150;
+    top:-40;
+}
