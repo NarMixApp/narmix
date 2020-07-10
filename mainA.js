@@ -1,3 +1,7 @@
+var ForVar
+
+document.getElementById('For').innerHTML = ForVar
+
 var LoopBooleanVAR = false
 
 function LoopBooleanCheck() {
