@@ -283,16 +283,17 @@
     <img src="BreakLoop.png" width="5%" alt="LoopBreak" onclick="LoopBreak()" id="Loop3">
     <h6>OmixApp</h6>
     <button id="App">App</button>
+    <h4 id="For"></h4>
   </div>
   <script>
     if (navigator.userAgent.includes("Windows")) {
-
+ForVar = "For Windows"
     } else {
       if (navigator.userAgent.includes("CrOS")) {
-
+        ForVar = "For ChromeOS"
       } else {
         if (navigator.userAgent.includes("Macintosh")) {
-
+          ForVar = "For MacOS"
         }
         else{
           window.location.assign("http://omixapp.github.io_");
@@ -1302,4 +1303,3 @@
   </body>
 
 </html>
-
