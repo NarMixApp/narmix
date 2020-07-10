@@ -6,6 +6,6 @@ body{
 #error{
     position: relative;
     left:-30;
-    top:500;
+    top:0;
     white-space: pre;
 }
