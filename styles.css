@@ -2,6 +2,8 @@ body{
     background-color: 	#333333;
     overflow-x: hidden;
     overflow-y: hidden;
+    white-space: nowrap;
+    width:100%;
 }
 #divab{
     position: relative;
@@ -536,12 +538,12 @@ body{
 }
 #ClapB{
     position: relative;
-    left:84;
+    left:-1176;
     background-color:rgb(255, 255, 255);
     border: none;
     width: 80;
     outline:none;
-    top:-95;
+    top:-74;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
@@ -550,7 +552,7 @@ body{
 }
 #ClapBA{
     position: relative;
-    left:-1176;
+    left:-1175;
     background-color:rgb(255, 255, 255);
     border: none;
     width: 80;
@@ -564,12 +566,12 @@ body{
 }
 #ClapC{
     position: relative;
-    left:168;
+    left:-2352;
     background-color:rgb(192, 192, 192);
     border: none;
     width: 80;
     outline:none;
-    top:-90;
+    top:-49;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
@@ -578,12 +580,26 @@ body{
 }
 #ClapCA{
     position: relative;
-    left:-1092;
+    left:-2351;
     background-color:rgb(192, 192, 192);
     border: none;
     width: 80;
     outline:none;
-    top:-69;
+    top:-49;
+    text-align: left;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+    object-fit: cover;
+}
+#ClapCB{
+    position: relative;
+    left:-2352;
+    background-color:rgb(192, 192, 192);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-49;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
@@ -592,12 +608,12 @@ body{
 }
 #ClapD{
     position: relative;
-    left:252;
+    left:-3528;
     background-color:rgb(255, 255, 255);
     border: none;
     width: 80;
     outline:none;
-    top:-85;
+    top:-24;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
@@ -606,29 +622,42 @@ body{
 }
 #ClapDA{
     position: relative;
-    left:-1008;
+    left:-3528;
     background-color:rgb(255, 255, 255);
     border: none;
     width: 80;
     outline:none;
-    top:-64;
+    top:-24;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
 }
-#MainTrack{
+#MainTrack1{
     position: relative;
     width:1172;
     background-color: 	#5bff8c;
     font-size: 15;
     font-family:Arial;
-    top:-245;
+    top:-183;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
+}
+#MainTrack2{
+    position: relative;
+    width:1172;
+    background-color: 	#5bff8c;
+    font-size: 15;
+    font-family:Arial;
+    top:-183;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(24, 24, 24);
+    object-fit: cover;
+
 }
 #ClapE{
     position: relative;
@@ -637,26 +666,28 @@ body{
     border: none;
     width: 80;
     outline:none;
-    top:-172;
+    top:-112;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
+    z-index:30000000;
 }
 #ClapF{
     position: relative;
-    left:84;
+    left:-1176;
     background-color:rgb(255, 255, 255);
     border: none;
     width: 80;
     outline:none;
-    top:-167;
+    top:-86;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
+    white-space:nowrap;
 }
 #ClapFA{
     position: relative;
@@ -665,51 +696,54 @@ body{
     border: none;
     width: 80;
     outline:none;
-    top:-146;
+    top:-86;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
+    white-space:nowrap;
 }
 #ClapG{
     position: relative;
-    left:168;
+    left:-2352;
     background-color:rgb(192, 192, 192);
     border: none;
     width: 80;
     outline:none;
-    top:-161;
+    top:-60;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
+    white-space:nowrap;
 }
 #ClapG2{
     position: relative;
-    left:-1092;
+    left:-2352;
     background-color:rgb(192, 192, 192);
     border: none;
     width: 80;
     outline:none;
-    top:-140;
+    top:-60;
     text-align: left;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
+    white-space:nowrap;
 }
 #buttons2{
     position: relative;
-    top:0;
+    top:100;
     left:-5;
     object-fit: cover;
 }
 #OmTitle{
     position: relative;
-    top:10;
-    left:1160;
+    top:50;
+    left:950;
     font-family: arial black;
     color: rgba(255, 255, 255, 0.486);
     font-size:30;
@@ -717,15 +751,18 @@ body{
 }
 #Play{
     position: relative;
-    left:1188;
-    top:-40;
+    left:620;
+    top:390;
     object-fit: cover;
+    white-space:nowrap;
+    z-index: 2000;
 }
 #Loop{
     position: relative;
-    left:1188;
-    top:-531;
+    left:760;
+    top:-22;
     object-fit: cover;
+    white-space:nowrap;
 }
 #Tunes{
     position: relative;
@@ -733,22 +770,39 @@ body{
     background-color: 	#5bff8c;
     font-size: 15;
     font-family:Arial;
-    top:-322;
+    top:-115;
     left:-5;
     border-radius: 4px;
     font-family: arial black;
     color: rgb(24, 24, 24);
-    object-fit: cover;
 }
 #Loop2{
     position: relative;
-    left:1188;
-    top:-752;
-    object-fit: cover;
+    left:690;
+    top:-177;
+    white-space:nowrap;
 }
 #Loop3{
     position: relative;
-    left:1121;
-    top:-622;
+    left:764;
+    top:-177;
+    white-space:nowrap;
+}
+#App{
+    position: relative;
+    left:1050;
+    background-color:rgb(83, 255, 98);
+    border: none;
+    width: 80;
+    outline:none;
+    top:-290;
+    text-align: center;
+    border-radius: 4px;
+    font-family: arial black;
+    color: rgb(48, 48, 48);
     object-fit: cover;
+    white-space:nowrap;
+    font-size: 20;
+    z-index: 9999999999999999999999999999;
+    background-color: rgb(78, 255, 107);
 }
