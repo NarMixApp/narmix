@@ -1,11 +1,3 @@
 body{
     background-color: 	#333333;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-#error{
-    position: relative;
-    left:-30;
-    top:0;
-    white-space: pre;
 }
