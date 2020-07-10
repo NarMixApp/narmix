@@ -17,6 +17,7 @@ function LoopBoolean(){
 }
 
 function LoopBreak(){
+    Stop()
     LoopBooleanVAR = false
 }
 function LoopStart(){
