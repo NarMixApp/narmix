@@ -19,6 +19,18 @@
       <source src="Glass.mp3" type="audio/mpeg"></audio>
     <audio id="Gbeat">
       <source src="Bell.mp3" type="audio/mpeg"></audio>
+        <style>
+        .square {
+          height: 70px;
+          width: 300px;
+          background-color: rgb(73, 73, 73);
+          position:relative;
+          top:-340;
+          left:695;
+          z-index: -20;
+          border-radius: 8px;
+        }
+      </style>
     <Link rel="stylesheet" href="styles.css">
   </head>
 
@@ -55,8 +67,9 @@
       <input type="text" id="codeinput13a" maxlength="2" placeholder="00">
       <input type="text" id="codeinput14a" maxlength="2" placeholder="00">
     </div>
-
-    <img src="Play.png" width="5%" alt="Play" onclick="Wait0()" id="Play">
+    <div id="nav">
+    <button onclick="Wait0()" id="Play">▶</button>
+    </div>
 
     <!--Audio Input-->
     <div id=Buttons>
@@ -276,15 +289,24 @@
       <button id="ClapG" onclick="m17a()">Keys</button>
       <button id="ClapG" onclick="n17a()">Keys</button>
     </div>
+    <div id="nav">
     <h1 id="OmTitle">OMiX</h1>
-    <img src="Loop.png" width="5%" alt="Play" onclick="LoopStart()" id="Loop">
+    <button onclick="LoopStart()" id="Loop">∞</button>
+  </div>
+    <div id="divab">
     <h6 id="Tunes">Tunes</h6>
-    <img src="Stop.png" width="5%" alt="Play" onclick="Stop()" id="Loop2">
-    <img src="BreakLoop.png" width="5%" alt="LoopBreak" onclick="LoopBreak()" id="Loop3">
+  </div>
+  <div id="nav">
+    <button onclick="Stop()" id="Loop2">■</button>
+    <button onclick="LoopBreak()" id="Loop3">✖</button>
+    <div id="Logo">
     <h6>OmixApp</h6>
     <button id="App">App</button>
-    <h4 id="For"></h4>
+    <button id="For"></button>
   </div>
+    </div>
+  </div>
+  <div class="square"></div>
   <script>
     if (navigator.userAgent.includes("Windows")) {
 ForVar = "For Windows"
