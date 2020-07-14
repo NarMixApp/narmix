@@ -1819,11 +1819,6 @@ function Verify(){
     document.getElementById('codeinput14a').value = "n7"
   }
 
-  if (document.getElementById('TuneShare').value.includes("bOz")){
-    LoopBooleanVAR = true
-    LoopData()
-  }
-
   setTimeout(Verify,0)
 }
 
