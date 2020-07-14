@@ -1,4 +1,5 @@
 var ForVar
+Verify()
 
 document.getElementById('For').innerHTML = ForVar
 
@@ -7,7 +8,16 @@ var LoopBooleanVAR = false
 function LoopBooleanCheck() {
   setTimeout(LoopBoolean, 4700)
 }
-
+DataDel()
+function DataDel(){
+  document.getElementById('TuneShare').value = ""
+  setTimeout(DataDel,20)
+}
+function LoopData(){
+LoopBooleanVAR = false
+LoopBooleanVAR = true
+setTimeout(LoopBoolean, 0)
+}
 function LoopBooleanCheckStartUp() {
   setTimeout(LoopBoolean, 0)
 }
@@ -23,11 +33,13 @@ function LoopBoolean() {
 }
 
 function LoopBreak() {
+  bOz15 = "zOb"
   Stop()
   LoopBooleanVAR = false
 }
 
 function LoopStart() {
+  bOz15 = "bOz"
   LoopBooleanCheckStartUp()
   LoopBooleanVAR = true
 }
@@ -974,4 +986,1190 @@ function Wait13a() {
     Gbeat.play()
     nn = "N7"
   }
+}
+function Verify(){
+
+  if (document.getElementById('TuneShare').value.includes("a1")) {
+    document.getElementById('codeinput1').value = "a1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("a2")) {
+    document.getElementById('codeinput1').value = "a2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("a3")) {
+    document.getElementById('codeinput1').value = "a3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("a4")) {
+    document.getElementById('codeinput1').value = "a4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("a5")) {
+    document.getElementById('codeinput1').value = "a5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("a6")) {
+    document.getElementById('codeinput1').value = "a6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("a7")) {
+    document.getElementById('codeinput1').value = "a7"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("a7")) {
+    document.getElementById('codeinput1').value = "a7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("b1")) {
+    document.getElementById('codeinput2').value = "b1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("b2")) {
+    document.getElementById('codeinput2').value = "b2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("b3")) {
+    document.getElementById('codeinput2').value = "b3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("b4")) {
+    document.getElementById('codeinput2').value = "b4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("b5")) {
+    document.getElementById('codeinput2').value = "b5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("b6")) {
+    document.getElementById('codeinput2').value = "b6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("b7")) {
+    document.getElementById('codeinput2').value = "b7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("c1")) {
+    document.getElementById('codeinput3').value = "c1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("c2")) {
+    document.getElementById('codeinput3').value = "c2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("c3")) {
+    document.getElementById('codeinput3').value = "c3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("c4")) {
+    document.getElementById('codeinput3').value = "c4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("c5")) {
+    document.getElementById('codeinput3').value = "c5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("c6")) {
+    document.getElementById('codeinput3').value = "c6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("c7")) {
+    document.getElementById('codeinput3').value = "c7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("d1")) {
+    document.getElementById('codeinput4').value = "d1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("d2")) {
+    document.getElementById('codeinput4').value = "d2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("d3")) {
+    document.getElementById('codeinput4').value = "d3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("d4")) {
+    document.getElementById('codeinput4').value = "d4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("d5")) {
+    document.getElementById('codeinput4').value = "d5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("d6")) {
+    document.getElementById('codeinput4').value = "d6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("d7")) {
+    document.getElementById('codeinput4').value = "d7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("e1")) {
+    document.getElementById('codeinput5').value = "e1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("e2")) {
+    document.getElementById('codeinput5').value = "e2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("e3")) {
+    document.getElementById('codeinput5').value = "e3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("e4")) {
+    document.getElementById('codeinput5').value = "e4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("e5")) {
+    document.getElementById('codeinput5').value = "e5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("e6")) {
+    document.getElementById('codeinput5').value = "e6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("e7")) {
+    document.getElementById('codeinput5').value = "e7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("f1")) {
+    document.getElementById('codeinput6').value = "f1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("f2")) {
+    document.getElementById('codeinput6').value = "f2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("f3")) {
+    document.getElementById('codeinput6').value = "f3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("f4")) {
+    document.getElementById('codeinput6').value = "f4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("f5")) {
+    document.getElementById('codeinput6').value = "f5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("f6")) {
+    document.getElementById('codeinput6').value = "f6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("f7")) {
+    document.getElementById('codeinput6').value = "f7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("g1")) {
+    document.getElementById('codeinput7').value = "g1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("g2")) {
+    document.getElementById('codeinput7').value = "g2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("g3")) {
+    document.getElementById('codeinput7').value = "g3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("g4")) {
+    document.getElementById('codeinput7').value = "g4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("g5")) {
+    document.getElementById('codeinput7').value = "g5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("g6")) {
+    document.getElementById('codeinput7').value = "g6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("g7")) {
+    document.getElementById('codeinput7').value = "g7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("h1")) {
+    document.getElementById('codeinput8').value = "h1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("h2")) {
+    document.getElementById('codeinput8').value = "h2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("h3")) {
+    document.getElementById('codeinput8').value = "h3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("h4")) {
+    document.getElementById('codeinput8').value = "h4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("h5")) {
+    document.getElementById('codeinput8').value = "h5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("h6")) {
+    document.getElementById('codeinput8').value = "h6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("h7")) {
+    document.getElementById('codeinput8').value = "h7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("i1")) {
+    document.getElementById('codeinput9').value = "i1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("i2")) {
+    document.getElementById('codeinput9').value = "i2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("i3")) {
+    document.getElementById('codeinput9').value = "i3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("i4")) {
+    document.getElementById('codeinput9').value = "i4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("i5")) {
+    document.getElementById('codeinput9').value = "i5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("i6")) {
+    document.getElementById('codeinput9').value = "i6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("i7")) {
+    document.getElementById('codeinput9').value = "i7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("j1")) {
+    document.getElementById('codeinput10').value = "j1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("j2")) {
+    document.getElementById('codeinput10').value = "j2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("j3")) {
+    document.getElementById('codeinput10').value = "j3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("j4")) {
+    document.getElementById('codeinput10').value = "j4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("j5")) {
+    document.getElementById('codeinput10').value = "j5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("j6")) {
+    document.getElementById('codeinput10').value = "j6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("j7")) {
+    document.getElementById('codeinput10').value = "j7"
+  }
+
+
+
+  if (document.getElementById('TuneShare').value.includes("k1")) {
+    document.getElementById('codeinput11').value = "k1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("k2")) {
+    document.getElementById('codeinput11').value = "k2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("k3")) {
+    document.getElementById('codeinput11').value = "k3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("k4")) {
+    document.getElementById('codeinput11').value = "k4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("k5")) {
+    document.getElementById('codeinput11').value = "k5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("k6")) {
+    document.getElementById('codeinput11').value = "k6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("k7")) {
+    document.getElementById('codeinput11').value = "k7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("l1")) {
+    document.getElementById('codeinput12').value = "l1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("l2")) {
+    document.getElementById('codeinput12').value = "l2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("l3")) {
+    document.getElementById('codeinput12').value = "l3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("l4")) {
+    document.getElementById('codeinput12').value = "l4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("l5")) {
+    document.getElementById('codeinput12').value = "l5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("l6")) {
+    document.getElementById('codeinput12').value = "l6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("l7")) {
+    document.getElementById('codeinput12').value = "l7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("m1")) {
+    document.getElementById('codeinput13').value = "m1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("m2")) {
+    document.getElementById('codeinput13').value = "m2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("m3")) {
+    document.getElementById('codeinput13').value = "m3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("m4")) {
+    document.getElementById('codeinput13').value = "m4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("m5")) {
+    document.getElementById('codeinput13').value = "m5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("m6")) {
+    document.getElementById('codeinput13').value = "m6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("m7")) {
+    document.getElementById('codeinput13').value = "m7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("n1")) {
+    document.getElementById('codeinput14').value = "n1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("n2")) {
+    document.getElementById('codeinput14').value = "n2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("n3")) {
+    document.getElementById('codeinput14').value = "n3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("n4")) {
+    document.getElementById('codeinput14').value = "n4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("n5")) {
+    document.getElementById('codeinput14').value = "n5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("n6")) {
+    document.getElementById('codeinput14').value = "n6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("n7")) {
+    document.getElementById('codeinput14').value = "n7"
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  if (document.getElementById('TuneShare').value.includes("az1")) {
+    document.getElementById('codeinput1a').value = "a1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("az2")) {
+    document.getElementById('codeinput1a').value = "a2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("az3")) {
+    document.getElementById('codeinput1a').value = "a3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("az4")) {
+    document.getElementById('codeinput1a').value = "a4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("az5")) {
+    document.getElementById('codeinput1a').value = "a5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("az6")) {
+    document.getElementById('codeinput1a').value = "a6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("az7")) {
+    document.getElementById('codeinput1a').value = "a7"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("az7")) {
+    document.getElementById('codeinput1a').value = "a7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("bz1")) {
+    document.getElementById('codeinput2a').value = "b1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("bz2")) {
+    document.getElementById('codeinput2a').value = "b2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("bz3")) {
+    document.getElementById('codeinput2a').value = "b3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("bz4")) {
+    document.getElementById('codeinput2a').value = "b4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("bz5")) {
+    document.getElementById('codeinput2a').value = "b5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("bz6")) {
+    document.getElementById('codeinput2a').value = "b6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("bz7")) {
+    document.getElementById('codeinput2a').value = "b7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("cz1")) {
+    document.getElementById('codeinput3a').value = "c1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("cz2")) {
+    document.getElementById('codeinput3a').value = "c2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("cz3")) {
+    document.getElementById('codeinput3a').value = "c3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("cz4")) {
+    document.getElementById('codeinput3a').value = "c4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("cz5")) {
+    document.getElementById('codeinput3a').value = "c5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("cz6")) {
+    document.getElementById('codeinput3a').value = "c6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("cz7")) {
+    document.getElementById('codeinput3a').value = "c7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("dz1")) {
+    document.getElementById('codeinput4a').value = "d1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("dz2")) {
+    document.getElementById('codeinput4a').value = "d2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("dz3")) {
+    document.getElementById('codeinput4a').value = "d3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("dz4")) {
+    document.getElementById('codeinput4a').value = "d4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("dz5")) {
+    document.getElementById('codeinput4a').value = "d5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("dz6")) {
+    document.getElementById('codeinput4a').value = "d6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("dz7")) {
+    document.getElementById('codeinput4a').value = "d7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("ez1")) {
+    document.getElementById('codeinput5a').value = "e1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("ez2")) {
+    document.getElementById('codeinput5a').value = "e2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("ez3")) {
+    document.getElementById('codeinput5a').value = "e3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("ez4")) {
+    document.getElementById('codeinput5a').value = "e4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("ez5")) {
+    document.getElementById('codeinput5a').value = "e5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("ez6")) {
+    document.getElementById('codeinput5a').value = "e6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("ez7")) {
+    document.getElementById('codeinput5a').value = "e7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("fz1")) {
+    document.getElementById('codeinput6a').value = "f1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("fz2")) {
+    document.getElementById('codeinput6a').value = "f2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("fz3")) {
+    document.getElementById('codeinput6a').value = "f3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("fz4")) {
+    document.getElementById('codeinput6a').value = "f4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("fz5")) {
+    document.getElementById('codeinput6a').value = "f5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("fz6")) {
+    document.getElementById('codeinput6a').value = "f6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("fz7")) {
+    document.getElementById('codeinput6a').value = "f7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("gz1")) {
+    document.getElementById('codeinput7a').value = "g1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("gz2")) {
+    document.getElementById('codeinput7a').value = "g2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("gz3")) {
+    document.getElementById('codeinput7a').value = "g3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("gz4")) {
+    document.getElementById('codeinput7a').value = "g4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("gz5")) {
+    document.getElementById('codeinput7a').value = "g5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("gz6")) {
+    document.getElementById('codeinput7a').value = "g6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("gz7")) {
+    document.getElementById('codeinput7a').value = "g7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("hz1")) {
+    document.getElementById('codeinput8a').value = "h1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("hz2")) {
+    document.getElementById('codeinput8a').value = "h2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("hz3")) {
+    document.getElementById('codeinput8a').value = "h3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("hz4")) {
+    document.getElementById('codeinput8a').value = "h4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("hz5")) {
+    document.getElementById('codeinput8a').value = "h5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("hz6")) {
+    document.getElementById('codeinput8a').value = "h6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("hz7")) {
+    document.getElementById('codeinput8a').value = "h7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("iz1")) {
+    document.getElementById('codeinput9a').value = "i1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("iz2")) {
+    document.getElementById('codeinput9a').value = "i2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("iz3")) {
+    document.getElementById('codeinput9a').value = "i3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("iz4")) {
+    document.getElementById('codeinput9a').value = "i4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("iz5")) {
+    document.getElementById('codeinput9a').value = "i5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("iz6")) {
+    document.getElementById('codeinput9a').value = "i6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("iz7")) {
+    document.getElementById('codeinput9a').value = "i7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("jz1")) {
+    document.getElementById('codeinput10a').value = "j1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("jz2")) {
+    document.getElementById('codeinput10a').value = "j2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("jz3")) {
+    document.getElementById('codeinput10a').value = "j3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("jz4")) {
+    document.getElementById('codeinput10a').value = "j4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("jz5")) {
+    document.getElementById('codeinput10a').value = "j5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("jz6")) {
+    document.getElementById('codeinput10a').value = "j6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("jz7")) {
+    document.getElementById('codeinput10a').value = "j7"
+  }
+
+
+
+  if (document.getElementById('TuneShare').value.includes("kz1")) {
+    document.getElementById('codeinput11a').value = "k1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("kz2")) {
+    document.getElementById('codeinput11a').value = "k2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("kz3")) {
+    document.getElementById('codeinput11a').value = "k3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("kz4")) {
+    document.getElementById('codeinput11a').value = "k4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("kz5")) {
+    document.getElementById('codeinput11a').value = "k5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("kz6")) {
+    document.getElementById('codeinput11a').value = "k6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("kz7")) {
+    document.getElementById('codeinput11a').value = "k7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("lz1")) {
+    document.getElementById('codeinput12a').value = "l1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("lz2")) {
+    document.getElementById('codeinput12a').value = "l2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("lz3")) {
+    document.getElementById('codeinput12a').value = "l3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("lz4")) {
+    document.getElementById('codeinput12a').value = "l4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("lz5")) {
+    document.getElementById('codeinput12a').value = "l5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("lz6")) {
+    document.getElementById('codeinput12a').value = "l6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("lz7")) {
+    document.getElementById('codeinput12a').value = "l7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("mz1")) {
+    document.getElementById('codeinput13a').value = "m1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("mz2")) {
+    document.getElementById('codeinput13a').value = "m2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("mz3")) {
+    document.getElementById('codeinput13a').value = "m3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("mz4")) {
+    document.getElementById('codeinput13a').value = "m4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("mz5")) {
+    document.getElementById('codeinput13a').value = "m5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("mz6")) {
+    document.getElementById('codeinput13a').value = "m6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("mz7")) {
+    document.getElementById('codeinput13a').value = "m7"
+  }
+
+
+  if (document.getElementById('TuneShare').value.includes("nz1")) {
+    document.getElementById('codeinput14a').value = "n1"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("nz2")) {
+    document.getElementById('codeinput14a').value = "n2"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("nz3")) {
+    document.getElementById('codeinput14a').value = "n3"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("nz4")) {
+    document.getElementById('codeinput14a').value = "n4"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("nz5")) {
+    document.getElementById('codeinput14a').value = "n5"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("nz6")) {
+    document.getElementById('codeinput14a').value = "n6"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("nz7")) {
+    document.getElementById('codeinput14a').value = "n7"
+  }
+
+  if (document.getElementById('TuneShare').value.includes("bOz")){
+    LoopBooleanVAR = true
+    LoopData()
+  }
+
+  setTimeout(Verify,0)
+}
+
+var aaa1 ="r1"
+var aaa2 ="s6"
+var aaa3 ="z1"
+var aaa4 ="ro"
+var aaa5 ="s6"
+var aaa6 ="xq"
+var aaa7 ="sp"
+var aaa8 ="r1"
+var aaa9 ="xw"
+var aaa10 ="qo"
+var aaa11 ="r3"
+var aaa12="4q"
+var aaa13="r5"
+var aaa14 ="zx"
+var bOz15 ="wv"
+BgTrackData()
+function BgTrackData(){
+  if (document.getElementById('codeinput1a').value == "a1") {
+    aaa1 = "az1"
+  }
+  if (document.getElementById('codeinput1a').value == "a2") {
+    aaa1 = "az2"
+  }
+  if (document.getElementById('codeinput1a').value == "a3") {
+    aaa1 = "az3"
+  }
+  if (document.getElementById('codeinput1a').value == "a4") {
+    aaa1 = "az4"
+  }
+  if (document.getElementById('codeinput1a').value == "a5") {
+    aaa1 = "az5"
+  }
+  if (document.getElementById('codeinput1a').value == "a6") {
+    aaa1 = "az6"
+  }
+  if (document.getElementById('codeinput1a').value == "a7") {
+    aaa1 = "az7"
+  }
+
+  if (document.getElementById('codeinput2a').value == "b1") {
+    aaa2 = "bz1"
+  }
+  if (document.getElementById('codeinput2a').value == "b2") {
+    aaa2 = "bz2"
+  }
+  if (document.getElementById('codeinput2a').value == "b3") {
+    aaa2 = "bz3"
+  }
+  if (document.getElementById('codeinput2a').value == "b4") {
+    aaa2 = "bz4"
+  }
+  if (document.getElementById('codeinput2a').value == "b5") {
+    aaa2 = "bz5"
+  }
+  if (document.getElementById('codeinput2a').value == "b6") {
+    aaa2 = "bz6"
+  }
+  if (document.getElementById('codeinput2a').value == "b7") {
+    aaa2 = "bz7"
+  }
+
+  if (document.getElementById('codeinput3a').value == "c1") {
+    aaa3 = "cz1"
+  }
+  if (document.getElementById('codeinput3a').value == "c2") {
+    aaa3 = "cz2"
+  }
+  if (document.getElementById('codeinput3a').value == "c3") {
+    aaa3 = "cz3"
+  }
+  if (document.getElementById('codeinput3a').value == "c4") {
+    aaa3 = "cz4"
+  }
+  if (document.getElementById('codeinput3a').value == "c5") {
+    aaa3 = "cz5"
+  }
+  if (document.getElementById('codeinput3a').value == "c6") {
+    aaa3 = "cz6"
+  }
+  if (document.getElementById('codeinput3a').value == "c7") {
+    aaa3 = "cz7"
+  }
+
+  if (document.getElementById('codeinput4a').value == "d1") {
+    aaa4 = "dz1"
+  }
+  if (document.getElementById('codeinput4a').value == "d2") {
+    aaa4 = "dz2"
+  }
+  if (document.getElementById('codeinput4a').value == "d3") {
+    aaa4 = "dz3"
+  }
+  if (document.getElementById('codeinput4a').value == "d4") {
+    aaa4 = "dz4"
+  }
+  if (document.getElementById('codeinput4a').value == "d5") {
+    aaa4 = "dz5"
+  }
+  if (document.getElementById('codeinput4a').value == "d6") {
+    aaa4 = "dz6"
+  }
+  if (document.getElementById('codeinput4a').value == "d7") {
+    aaa4 = "dz7"
+  }
+
+  if (document.getElementById('codeinput5a').value == "e1") {
+    aaa5 = "ez1"
+  }
+  if (document.getElementById('codeinput5a').value == "e2") {
+    aaa5 = "ez2"
+  }
+  if (document.getElementById('codeinput5a').value == "e3") {
+    aaa5 = "ez3"
+  }
+  if (document.getElementById('codeinput5a').value == "e4") {
+    aaa5 = "ez4"
+  }
+  if (document.getElementById('codeinput5a').value == "e5") {
+    aaa5 = "ez5"
+  }
+  if (document.getElementById('codeinput5a').value == "e6") {
+    aaa5 = "ez6"
+  }
+  if (document.getElementById('codeinput5a').value == "e7") {
+    aaa5 = "ez7"
+  }
+
+  if (document.getElementById('codeinput6a').value == "f1") {
+    aaa6 = "fz1"
+  }
+  if (document.getElementById('codeinput6a').value == "f2") {
+    aaa6 = "fz2"
+  }
+  if (document.getElementById('codeinput6a').value == "f3") {
+    aaa6 = "fz3"
+  }
+  if (document.getElementById('codeinput6a').value == "f4") {
+    aaa6 = "fz4"
+  }
+  if (document.getElementById('codeinput6a').value == "f5") {
+    aaa6 = "fz5"
+  }
+  if (document.getElementById('codeinput6a').value == "f6") {
+    aaa6 = "fz6"
+  }
+  if (document.getElementById('codeinput6a').value == "f7") {
+    aaa6 = "fz7"
+  }
+
+  if (document.getElementById('codeinput7a').value == "g1") {
+    aaa7 = "gz1"
+  }
+  if (document.getElementById('codeinput7a').value == "g2") {
+    aaa7 = "gz2"
+  }
+  if (document.getElementById('codeinput7a').value == "g3") {
+    aaa7 = "gz3"
+  }
+  if (document.getElementById('codeinput7a').value == "g4") {
+    aaa7 = "gz4"
+  }
+  if (document.getElementById('codeinput7a').value == "g5") {
+    aaa7 = "gz5"
+  }
+  if (document.getElementById('codeinput7a').value == "g6") {
+    aaa7 = "gz6"
+  }
+  if (document.getElementById('codeinput7a').value == "g7") {
+    aaa7 = "gz7"
+  }
+
+
+  if (document.getElementById('codeinput8a').value == "h1") {
+    aaa8 = "hz1"
+  }
+  if (document.getElementById('codeinput8a').value == "h2") {
+    aaa8 = "hz2"
+  }
+  if (document.getElementById('codeinput8a').value == "h3") {
+    aaa8 = "hz3"
+  }
+  if (document.getElementById('codeinput8a').value == "h4") {
+    aaa8 = "hz4"
+  }
+  if (document.getElementById('codeinput8a').value == "h5") {
+    aaa8 = "hz5"
+  }
+  if (document.getElementById('codeinput8a').value == "h6") {
+    aaa8 = "hz6"
+  }
+  if (document.getElementById('codeinput8a').value == "h7") {
+    aaa8 = "hz7"
+  }
+
+  if (document.getElementById('codeinput9a').value == "i1") {
+    aaa9 = "iz1"
+  }
+  if (document.getElementById('codeinput9a').value == "i2") {
+    aaa9 = "iz2"
+  }
+  if (document.getElementById('codeinput9a').value == "i3") {
+    aaa9 = "iz3"
+  }
+  if (document.getElementById('codeinput9a').value == "i4") {
+    aaa9 = "iz4"
+  }
+  if (document.getElementById('codeinput9a').value == "i5") {
+    aaa9 = "iz5"
+  }
+  if (document.getElementById('codeinput9a').value == "i6") {
+    aaa9 = "iz6"
+  }
+  if (document.getElementById('codeinput9a').value == "i7") {
+    aaa9 = "iz7"
+  }
+
+  if (document.getElementById('codeinput10a').value == "j1") {
+    aaa10 = "jz1"
+  }
+  if (document.getElementById('codeinput10a').value == "j2") {
+    aaa10 = "jz2"
+  }
+  if (document.getElementById('codeinput10a').value == "j3") {
+    aaa10 = "jz3"
+  }
+  if (document.getElementById('codeinput10a').value == "j4") {
+    aaa10 = "jz4"
+  }
+  if (document.getElementById('codeinput10a').value == "j5") {
+    aaa10 = "jz5"
+  }
+  if (document.getElementById('codeinput10a').value == "j6") {
+    aaa10 = "jz6"
+  }
+  if (document.getElementById('codeinput10a').value == "j7") {
+    aaa10 = "jz7"
+  }
+
+  if (document.getElementById('codeinput11a').value == "k1") {
+    aaa11 = "kz1"
+  }
+  if (document.getElementById('codeinput11a').value == "k2") {
+    aaa11 = "kz2"
+  }
+  if (document.getElementById('codeinput11a').value == "k3") {
+    aaa11 = "kz3"
+  }
+  if (document.getElementById('codeinput11a').value == "k4") {
+    aaa11 = "kz4"
+  }
+  if (document.getElementById('codeinput11a').value == "k5") {
+    aaa11 = "kz5"
+  }
+  if (document.getElementById('codeinput11a').value == "k6") {
+    aaa11 = "kz6"
+  }
+  if (document.getElementById('codeinput11a').value == "k7") {
+    aaa11 = "kz7"
+  }
+
+  if (document.getElementById('codeinput12a').value == "l1") {
+    aaa12 = "lz1"
+  }
+  if (document.getElementById('codeinput12a').value == "l2") {
+    aaa12 = "lz2"
+  }
+  if (document.getElementById('codeinput12a').value == "l3") {
+    aaa12 = "lz3"
+  }
+  if (document.getElementById('codeinput12a').value == "l4") {
+    aaa12 = "lz4"
+  }
+  if (document.getElementById('codeinput12a').value == "l5") {
+    aaa12 = "lz5"
+  }
+  if (document.getElementById('codeinput12a').value == "l6") {
+    aaa12 = "lz6"
+  }
+  if (document.getElementById('codeinput12a').value == "l7") {
+    aaa12 = "lz7"
+  }
+
+  if (document.getElementById('codeinput13a').value == "m1") {
+    aaa13 = "mz1"
+  }
+  if (document.getElementById('codeinput13a').value == "m2") {
+    aaa13 = "mz2"
+  }
+  if (document.getElementById('codeinput13a').value == "m3") {
+    aaa13 = "mz3"
+  }
+  if (document.getElementById('codeinput13a').value == "m4") {
+    aaa13 = "mz4"
+  }
+  if (document.getElementById('codeinput13a').value == "m5") {
+    aaa13 = "mz5"
+  }
+  if (document.getElementById('codeinput13a').value == "m6") {
+    aaa13 = "mz6"
+  }
+  if (document.getElementById('codeinput13a').value == "m7") {
+    aaa13 = "mz7"
+  }
+
+  if (document.getElementById('codeinput14a').value == "n1") {
+    aaa14 = "nz1"
+  }
+  if (document.getElementById('codeinput14a').value == "n2") {
+    aaa14 = "nz2"
+  }
+  if (document.getElementById('codeinput14a').value == "n3") {
+    aaa14 = "nz3"
+  }
+  if (document.getElementById('codeinput14a').value == "n4") {
+    aaa14 = "nz4"
+  }
+  if (document.getElementById('codeinput14a').value == "n5") {
+    aaa14 = "nz5"
+  }
+  if (document.getElementById('codeinput14a').value == "n6") {
+    aaa14 = "nz6"
+  }
+  if (document.getElementById('codeinput14a').value == "n7") {
+    aaa14 = "nz7"
+  }
+}
+
+var ci1
+
+var ci2 = ["q2x","s6p","v1v","r1o","xwq","Q2X","S6P","V1V","R1O","XWQ"]
+function Share() {
+  BgTrackData()
+  ci1 = "nXqWzYN"+document.getElementById('codeinput1').value + document.getElementById('codeinput3').value+ci2[Math.floor(Math.random()*ci2.length)]+
+  document.getElementById('codeinput2').value + document.getElementById('codeinput4').value+
+  document.getElementById('codeinput6').value + document.getElementById('codeinput5').value+
+  document.getElementById('codeinput8').value + document.getElementById('codeinput7').value+ci2[Math.floor(Math.random()*ci2.length)]+
+  document.getElementById('codeinput9').value + document.getElementById('codeinput10').value+
+  document.getElementById('codeinput3').value + document.getElementById('codeinput11').value+
+  document.getElementById('codeinput13').value + document.getElementById('codeinput12').value+document.getElementById('codeinput14').value
++aaa1+aaa2+aaa3+aaa4+aaa5+aaa6+aaa7+aaa8+aaa9+aaa10+aaa11+bOz15+aaa12+aaa13+aaa14
+  document.getElementById('TuneShareID').value = ci1
+  var copyText = document.getElementById("TuneShareID");
+  copyText.select();
+  document.execCommand("copy");
+  alert("Copied Token To Clipboard");
 }
