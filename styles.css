@@ -627,6 +627,7 @@ body {
     font-family: arial black;
     color: rgb(24, 24, 24);
     object-fit: cover;
+
   }
   
   #ClapCB {
@@ -789,7 +790,7 @@ body {
   
   #OmTitle {
     position: relative;
-    top: 60;
+    top: 40;
     left: 950;
     font-family: arial black;
     color: rgba(255, 255, 255, 0.486);
@@ -812,6 +813,7 @@ body {
     font-size:70;
     background:none;
     outline:none;
+    color: #5bff8c;
   }
   
   #Loop {
@@ -830,6 +832,7 @@ body {
     background:none;
     color:rgb(87, 255, 101);
     outline:none;
+    color: #5bff8c;
   }
   
   #Tunes {
@@ -863,6 +866,7 @@ body {
     background:none;
     color:rgb(87, 255, 101);
     outline:none;
+    color: #5bff8c;
   }
   
   #Loop3 {
@@ -881,6 +885,7 @@ body {
     background:none;
     color:rgb(87, 255, 101);
     outline:none;
+    color: #5bff8c;
   }
   
   #App {
@@ -890,7 +895,7 @@ body {
     border: none;
     width: 50;
     outline: none;
-    top: -329;
+    top: -349;
     text-align: center;
     border-radius: 4px;
     font-family: arial black;
@@ -898,13 +903,14 @@ body {
     font-size: 13;
     z-index: 9999999999999999999999999999;
     background-color: rgb(78, 255, 107);
+    background-color: #5bff8c;
   }
   #For {
     position: relative;
     left: 925;
     border: none;
     outline: none;
-    top: -305;
+    top: -325;
     text-align: center;
     border-radius: 4px;
     font-family: arial black;
@@ -916,5 +922,65 @@ body {
   #nav{
     position: relative;
     left:80;
-    top:30;
+    top:40;
   }
+  #TuneShare{
+    position: relative;
+    left: 702;
+    border-radius: 4px;
+    border:none;
+    top: -482;
+    width:155;
+    background-color:rgb(78, 255, 107);
+    outline:none;
+    z-index:999999999999999999999999999999999999999999999999999999;
+    font-family: arial black;
+    text-align: center;
+        height: 30;
+    font-size: 12;
+    background-color: #5bff8c;
+  }
+  #TuneShareID{
+    position: relative;
+    left: -3000000000;
+    border-radius: 4px;
+    border:none;
+    top: -425;
+    width:280;
+    background-color:rgb(73, 255, 134);
+    outline:none;
+    z-index:999999999999999999999999999999999999999999999999999999;
+    background-color: #5bff8c;
+  }
+  #ShareTune{
+    position: relative;
+    left: 418;
+    top: -481;
+    height: 30;
+    z-index:999999999999999999999999999999999999999999999999999999;
+    border-radius: 4px;
+    border:none;
+    color:rgb(51, 51, 51);
+    background-color:rgb(78, 255, 107);
+    font-family: arial black;
+    font-size:15;
+    outline: none; 
+    background-color: #5bff8c;
+  }
+  ::placeholder {
+    color:    rgb(68, 68, 68);
+ }
+ ::-ms-input-placeholder {
+  color:     rgb(68, 68, 68);
+}
+::-webkit-input-placeholder { 
+  color:     rgb(68, 68, 68);
+}
+:-moz-placeholder { 
+ color:     rgb(68, 68, 68);
+ opacity:  1;
+}
+::-moz-placeholder { 
+ color:     rgb(68, 68, 68);
+ opacity:  1;
+}
