@@ -19,16 +19,31 @@
       <source src="Glass.mp3" type="audio/mpeg"></audio>
     <audio id="Gbeat">
       <source src="Bell.mp3" type="audio/mpeg"></audio>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
         <style>
-        .square {
-          height: 70px;
+
+        .squarea {
+          height: 117px;
           width: 280px;
-          background-color: rgb(73, 73, 73);
+          background-color: #535353;
           position:relative;
-          top:-340;
+          top:-370;
           left:695;
           z-index: -20;
           border-radius: 8px;
+        }
+        
+        .square2 {
+          height: 570px;
+          width: 1215px;
+          background-color: rgb(71, 71, 71);
+          position:relative;
+          top:-960;
+          left:20;
+          z-index: -20;
+          border-radius: 8px;
+          z-index:-100;
         }
       </style>
     <Link rel="stylesheet" href="styles.css">
@@ -306,7 +321,11 @@
   </div>
     </div>
   </div>
-  <div class="square"></div>
+  <div class="squarea"></div>
+  <input type="text" id="TuneShare" placeholder="Paste Token Here">
+  <input type="text" id="TuneShareID">
+  <button onclick="Share()" id="ShareTune">Copy Token</button>
+  <div class="square2"></div>
   <script>
     if (navigator.userAgent.includes("Windows")) {
 ForVar = "For Windows"
@@ -1317,6 +1336,7 @@ ForVar = "For Windows"
     }
 
   </script>
+
 
   <script src="mainA.js"></script>
 
