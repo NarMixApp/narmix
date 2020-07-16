@@ -1,3 +1,4 @@
+
 var ForVar
 Verify()
 
@@ -21,8 +22,16 @@ setTimeout(LoopBoolean, 0)
 function LoopBooleanCheckStartUp() {
   setTimeout(LoopBoolean, 0)
 }
-
 function LoopBoolean() {
+  PlaybackSpeed = document.getElementById('Speedid').value
+  PBS = document.getElementById('Speedid2').value
+  Abeat.playbackRate = PBS
+  Bbeat.playbackRate = PBS
+  Cbeat.playbackRate = PBS
+  Dbeat.playbackRate = PBS
+  Ebeat.playbackRate = PBS
+  Fbeat.playbackRate = PBS
+  Gbeat.playbackRate = PBS
   if (LoopBooleanVAR == true) {
     if (LoopBooleanVAR == true) {
       Wait0()
@@ -39,6 +48,15 @@ function LoopBreak() {
 }
 
 function LoopStart() {
+  PlaybackSpeed = document.getElementById('Speedid').value
+  PBS = document.getElementById('Speedid2').value
+  Abeat.playbackRate = PBS
+  Bbeat.playbackRate = PBS
+  Cbeat.playbackRate = PBS
+  Dbeat.playbackRate = PBS
+  Ebeat.playbackRate = PBS
+  Fbeat.playbackRate = PBS
+  Gbeat.playbackRate = PBS
   bOz15 = "bOz"
   LoopBooleanCheckStartUp()
   LoopBooleanVAR = true
@@ -89,8 +107,22 @@ var ll = "00"
 var mm = "00"
 var nn = "00"
 
+var PBS
+var PlaybackSpeed
+document.getElementById('Speedid').value = 330
+document.getElementById('Speedid2').value = 1
+
 function Wait0() {
-  setTimeout(Wait0a, 220)
+  PlaybackSpeed = document.getElementById('Speedid').value
+  PBS = document.getElementById('Speedid2').value
+  Abeat.playbackRate = PBS
+  Bbeat.playbackRate = PBS
+  Cbeat.playbackRate = PBS
+  Dbeat.playbackRate = PBS
+  Ebeat.playbackRate = PBS
+  Fbeat.playbackRate = PBS
+  Gbeat.playbackRate = PBS
+  setTimeout(Wait0a, PlaybackSpeed)
   if (document.getElementById('codeinput1').value == "a1") {
     Abeat.play()
     aa = "A1"
@@ -119,7 +151,7 @@ function Wait0() {
     Gbeat.play()
     aa = "A7"
   }
-  setTimeout(Wait1, 330)
+  setTimeout(Wait1, PlaybackSpeed)
 }
 
 function Wait1() {
@@ -151,7 +183,7 @@ function Wait1() {
     Gbeat.play()
     bb = "B7"
   }
-  setTimeout(Wait2, 330)
+  setTimeout(Wait2, PlaybackSpeed)
 }
 
 function Wait2() {
@@ -184,7 +216,7 @@ function Wait2() {
     aa = "C7"
   }
 
-  setTimeout(Wait3, 330)
+  setTimeout(Wait3, PlaybackSpeed)
 }
 
 function Wait3() {
@@ -218,7 +250,7 @@ function Wait3() {
     Gbeat.play()
     aa = "B7"
   }
-  setTimeout(Wait4, 330)
+  setTimeout(Wait4,PlaybackSpeed)
 }
 
 function Wait4() {
@@ -249,7 +281,7 @@ function Wait4() {
     Gbeat.play()
     ee = "E7"
   }
-  setTimeout(Wait5, 330)
+  setTimeout(Wait5,PlaybackSpeed)
 }
 
 function Wait5() {
@@ -281,7 +313,7 @@ function Wait5() {
     Gbeat.play()
     ff = "F7"
   }
-  setTimeout(Wait6, 330)
+  setTimeout(Wait6,PlaybackSpeed)
 }
 
 function Wait6() {
@@ -313,7 +345,7 @@ function Wait6() {
     Gbeat.play()
     gg = "G7"
   }
-  setTimeout(Wait7, 330)
+  setTimeout(Wait7,PlaybackSpeed)
 }
 
 function Wait7() {
@@ -345,7 +377,7 @@ function Wait7() {
     Gbeat.play()
     hh = "H7"
   }
-  setTimeout(Wait8, 330)
+  setTimeout(Wait8,PlaybackSpeed)
 }
 
 function Wait8() {
@@ -377,7 +409,7 @@ function Wait8() {
     Gbeat.play()
     ii = "I7"
   }
-  setTimeout(Wait9, 330)
+  setTimeout(Wait9,PlaybackSpeed)
 }
 
 function Wait9() {
@@ -409,7 +441,7 @@ function Wait9() {
     Gbeat.play()
     jj = "J7"
   }
-  setTimeout(Wait10, 330)
+  setTimeout(Wait10,PlaybackSpeed)
 }
 
 function Wait10() {
@@ -441,7 +473,7 @@ function Wait10() {
     Gbeat.play()
     kk = "K7"
   }
-  setTimeout(Wait11, 330)
+  setTimeout(Wait11,PlaybackSpeed)
 }
 
 function Wait11() {
@@ -473,7 +505,7 @@ function Wait11() {
     Gbeat.play()
     ll = "L7"
   }
-  setTimeout(Wait12, 330)
+  setTimeout(Wait12,PlaybackSpeed)
 }
 
 function Wait12() {
@@ -505,7 +537,7 @@ function Wait12() {
     Gbeat.play()
     mm = "M7"
   }
-  setTimeout(Wait13, 330)
+  setTimeout(Wait13,PlaybackSpeed)
 }
 
 function Wait13() {
@@ -568,7 +600,7 @@ function Wait0a() {
     Gbeat.play()
     aa = "A7"
   }
-  setTimeout(Wait1a, 330)
+  setTimeout(Wait1a, PlaybackSpeed)
 }
 
 function Wait1a() {
@@ -600,7 +632,7 @@ function Wait1a() {
     Gbeat.play()
     bb = "B7"
   }
-  setTimeout(Wait2a, 330)
+  setTimeout(Wait2a, PlaybackSpeed)
 }
 
 function Wait2a() {
@@ -633,7 +665,7 @@ function Wait2a() {
     aa = "C7"
   }
 
-  setTimeout(Wait3a, 330)
+  setTimeout(Wait3a, PlaybackSpeed)
 }
 
 function Wait3a() {
@@ -667,7 +699,7 @@ function Wait3a() {
     Gbeat.play()
     aa = "B7"
   }
-  setTimeout(Wait4a, 330)
+  setTimeout(Wait4a, PlaybackSpeed)
 }
 
 function Wait4a() {
@@ -698,7 +730,7 @@ function Wait4a() {
     Gbeat.play()
     ee = "E7"
   }
-  setTimeout(Wait5a, 330)
+  setTimeout(Wait5a, PlaybackSpeed)
 }
 
 function Wait5a() {
@@ -730,7 +762,7 @@ function Wait5a() {
     Gbeat.play()
     ff = "F7"
   }
-  setTimeout(Wait6a, 330)
+  setTimeout(Wait6a, PlaybackSpeed)
 }
 
 function Wait6a() {
@@ -762,7 +794,7 @@ function Wait6a() {
     Gbeat.play()
     gg = "G7"
   }
-  setTimeout(Wait7a, 330)
+  setTimeout(Wait7a, PlaybackSpeed)
 }
 
 function Wait7a() {
@@ -794,7 +826,7 @@ function Wait7a() {
     Gbeat.play()
     hh = "H7"
   }
-  setTimeout(Wait8a, 330)
+  setTimeout(Wait8a, PlaybackSpeed)
 }
 
 function Wait8a() {
@@ -826,7 +858,7 @@ function Wait8a() {
     Gbeat.play()
     ii = "I7"
   }
-  setTimeout(Wait9a, 330)
+  setTimeout(Wait9a, PlaybackSpeed)
 }
 
 function Wait9a() {
@@ -858,7 +890,7 @@ function Wait9a() {
     Gbeat.play()
     jj = "J7"
   }
-  setTimeout(Wait10a, 330)
+  setTimeout(Wait10a, PlaybackSpeed)
 }
 
 function Wait10a() {
@@ -890,7 +922,7 @@ function Wait10a() {
     Gbeat.play()
     kk = "K7"
   }
-  setTimeout(Wait11a, 330)
+  setTimeout(Wait11a, PlaybackSpeed)
 }
 
 function Wait11a() {
@@ -922,7 +954,7 @@ function Wait11a() {
     Gbeat.play()
     ll = "L7"
   }
-  setTimeout(Wait12a, 330)
+  setTimeout(Wait12a, PlaybackSpeed)
 }
 
 function Wait12a() {
@@ -954,7 +986,7 @@ function Wait12a() {
     Gbeat.play()
     mm = "M7"
   }
-  setTimeout(Wait13a, 330)
+  setTimeout(Wait13a, PlaybackSpeed)
 }
 
 function Wait13a() {
