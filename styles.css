@@ -790,8 +790,8 @@ body {
   
   #OmTitle {
     position: relative;
-    top: 40;
-    left: 950;
+    top: 60;
+    left: 960;
     font-family: arial black;
     color: rgba(255, 255, 255, 0.486);
     font-size: 30;
@@ -890,12 +890,12 @@ body {
   
   #App {
     position: relative;
-    left: 1045;
+    left: 1055;
     background-color: rgb(83, 255, 98);
     border: none;
     width: 50;
     outline: none;
-    top: -349;
+    top: -329;
     text-align: center;
     border-radius: 4px;
     font-family: arial black;
@@ -907,10 +907,10 @@ body {
   }
   #For {
     position: relative;
-    left: 925;
+    left: 935;
     border: none;
     outline: none;
-    top: -325;
+    top: -305;
     text-align: center;
     border-radius: 4px;
     font-family: arial black;
@@ -921,15 +921,15 @@ body {
   }
   #nav{
     position: relative;
-    left:80;
+    left:45;
     top:40;
   }
   #TuneShare{
     position: relative;
-    left: 702;
+    left: 665;
     border-radius: 4px;
     border:none;
-    top: -482;
+    top: -487;
     width:155;
     background-color:rgb(78, 255, 107);
     outline:none;
@@ -945,7 +945,7 @@ body {
     left: -3000000000;
     border-radius: 4px;
     border:none;
-    top: -425;
+    top: -440;
     width:280;
     background-color:rgb(73, 255, 134);
     outline:none;
@@ -954,8 +954,8 @@ body {
   }
   #ShareTune{
     position: relative;
-    left: 418;
-    top: -481;
+    left: 384;
+    top: -486;
     height: 30;
     z-index:999999999999999999999999999999999999999999999999999999;
     border-radius: 4px;
@@ -966,6 +966,82 @@ body {
     font-size:15;
     outline: none; 
     background-color: #5bff8c;
+  }
+
+  #Speedid{
+    position: relative;
+    left: 960;
+    top: -1087;
+    height: 30;
+    z-index:999999999999999999999999999999999999999999999999999999;
+    border-radius: 4px;
+    border:none;
+    width:36;
+    color:rgb(51, 51, 51);
+    background-color:rgb(116, 255, 139);
+    font-family: arial black;
+    font-size:15;
+    outline: none; 
+    background-color: #8affad;
+  }
+
+  #SpeedidLabel{
+    position: relative;
+    left: 960;
+    top: -1087;
+    height: 30;
+    z-index:999999999999999999999999999999999999999999999999999999;
+    border-radius: 4px;
+    border:none;
+    width:69;
+    color:rgb(51, 51, 51);
+    background-color:rgb(78, 255, 107);
+    font-family: arial black;
+    font-size:15;
+    outline: none; 
+    background-color: #5bff8c;
+  }
+
+  #Speedid2{
+    position: relative;
+    left: 964;
+    top: -1080;
+    height: 30;
+    left: 1084;
+    top: -1159;
+    z-index:999999999999999999999999999999999999999999999999999999;
+    border-radius: 4px;
+    border:none;
+    width:36;
+    color:rgb(51, 51, 51);
+    background-color:rgb(116, 255, 139);
+    font-family: arial black;
+    font-size:15;
+    outline: none; 
+    background-color: #8affad;
+  }
+
+  #SpeedidLabel2{
+    position: relative;
+    left: 1084;
+    top: -1162;
+    height: 30;
+    z-index:999999999999999999999999999999999999999999999999999999;
+    border-radius: 4px;
+    border:none;
+    width:69;
+    color:rgb(51, 51, 51);
+    background-color:rgb(78, 255, 107);
+    font-family: arial black;
+    font-size:15;
+    outline: none; 
+    background-color: #5bff8c;
+    top: -1159;
+  }
+
+  #trec{
+    position: relative;
+    top:-235090000000000000000000000;
   }
   ::placeholder {
     color:    rgb(68, 68, 68);
