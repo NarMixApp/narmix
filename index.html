@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OmixApp</title>
+    <title>OMiXApp</title>
     <link rel="shortcut icon" href="favicon.png" />
     <audio id="Abeat">
       <source src="Clap.mp3" type="audio/mpeg"></audio>
@@ -22,14 +22,22 @@
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
         <style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
         .squarea {
-          height: 117px;
+          height: 119px;
           width: 280px;
           background-color: #535353;
           position:relative;
-          top:-370;
-          left:695;
+          top:-373;
+          left:660;
           z-index: -20;
           border-radius: 8px;
         }
@@ -44,6 +52,16 @@
           z-index: -20;
           border-radius: 8px;
           z-index:-100;
+        }
+        .squareb {
+          height: 42px;
+          width: 245px;
+          background-color: #535353;
+          position:relative;
+          left: 954;
+          top: -1123;
+          z-index: -20;
+          border-radius: 8px;
         }
       </style>
     <Link rel="stylesheet" href="styles.css">
@@ -315,7 +333,7 @@
     <button onclick="Stop()" id="Loop2">■</button>
     <button onclick="LoopBreak()" id="Loop3">x</button>
     <div id="Logo">
-    <h6>OmixApp</h6>
+    <h6 id="trec">OmixApp</h6>
     <button id="App">App</button>
     <button id="For"></button>
   </div>
@@ -326,6 +344,11 @@
   <input type="text" id="TuneShareID">
   <button onclick="Share()" id="ShareTune">Copy Token</button>
   <div class="square2"></div>
+  <button id="SpeedidLabel">Tempo:</button>
+  <input type="text" maxlength="3" id="Speedid">
+  <div class="squareb"></div>
+  <button id="SpeedidLabel2">Pitch:</button>
+  <input type="text" maxlength="3" id="Speedid2">
   <script>
     if (navigator.userAgent.includes("Windows")) {
 ForVar = "For Windows"
@@ -341,6 +364,7 @@ ForVar = "For Windows"
         }
       }
     }
+
 
     function a1() {
       Abeat.play()
@@ -1338,7 +1362,7 @@ ForVar = "For Windows"
   </script>
 
 
-  <script src="main.js"></script>
+  <script src="mainA.js"></script>
 
   <body>
 
