@@ -1,4 +1,98 @@
+var sw1 = false
+var sw2 = false
+var sw3 = false
+var sw4 = false
+var sw5 = false
+var sw6 = false
+var sw7 = false
 
+var sw1a = false
+var sw2a = false
+var sw3a = false
+var sw4a = false
+var sw5a = false
+var sw6a = false
+var sw7a = false
+
+var zs1 = "zz1t"
+var zs2 = "zz2t"
+var zs3 = "zz3t"
+var zs4 = "zz4t"
+var zs5 = "zz5t"
+var zs6 = "zz6t"
+var zs7 = "zz7t"
+
+var zs1a = "zz1ta"
+var zs2a = "zz2ta"
+var zs3a = "zz3ta"
+var zs4a = "zz4ta"
+var zs5a = "zz5ta"
+var zs6a = "zz6ta"
+var zs7a = "zz7ta"
+
+Check()
+function Check(){
+if (document.getElementById('TuneShare').value.includes("zz1t2")) {
+  sw1 = false
+  swa1()
+}
+if (document.getElementById('TuneShare').value.includes("zz2t2")) {
+  sw2 = false
+  swa2()
+}
+if (document.getElementById('TuneShare').value.includes("zz3t2")) {
+  sw3 = false
+  swa3()
+}
+if (document.getElementById('TuneShare').value.includes("zz4t2")) {
+  sw4 = false
+  swa4()
+}
+if (document.getElementById('TuneShare').value.includes("zz5t2")) {
+  sw5 = false
+  swa5()
+}
+if (document.getElementById('TuneShare').value.includes("zz6t2")) {
+  sw6 = false
+  swa6()
+}
+if (document.getElementById('TuneShare').value.includes("zz7t2")) {
+  sw7 = false
+  swa7()
+}
+
+
+if (document.getElementById('TuneShare').value.includes("zx1t2a")) {
+  sw1a = false
+  swa12()
+}
+if (document.getElementById('TuneShare').value.includes("zx2t2a")) {
+  sw2a = false
+  swa22()
+}
+if (document.getElementById('TuneShare').value.includes("zx3t2a")) {
+  sw3a = false
+  swa32()
+}
+if (document.getElementById('TuneShare').value.includes("zx4t2a")) {
+  sw4a = false
+  swa42()
+}
+if (document.getElementById('TuneShare').value.includes("zx5t2a")) {
+  sw5a = false
+  swa52()
+}
+if (document.getElementById('TuneShare').value.includes("zx6t2a")) {
+  sw6a = false
+  swa62()
+}
+if (document.getElementById('TuneShare').value.includes("zx7t2a")) {
+  sw7a = false
+  swa72()
+}
+
+setTimeout(Check,0)
+}
 var ForVar
 Verify()
 
@@ -109,7 +203,7 @@ var nn = "00"
 
 var PBS
 var PlaybackSpeed
-document.getElementById('Speedid').value = 330
+document.getElementById('Speedid').value = 300
 document.getElementById('Speedid2').value = 1
 
 function Wait0() {
@@ -573,31 +667,31 @@ function Wait13() {
 
 function Wait0a() {
   if (document.getElementById('codeinput1a').value == "a1") {
-    Abeat.play()
+    Abeata.play()
     aa = "A1"
   }
   if (document.getElementById('codeinput1a').value == "a2") {
-    Bbeat.play()
+    Bbeata.play()
     aa = "A2"
   }
   if (document.getElementById('codeinput1a').value == "a3") {
-    Cbeat.play()
+    Cbeata.play()
     aa = "A3"
   }
   if (document.getElementById('codeinput1a').value == "a4") {
-    Dbeat.play()
+    Dbeata.play()
     aa = "A4"
   }
   if (document.getElementById('codeinput1a').value == "a5") {
-    Ebeat.play()
+    Ebeata.play()
     aa = "A5"
   }
   if (document.getElementById('codeinput1a').value == "a6") {
-    Fbeat.play()
+    Fbeata.play()
     aa = "A6"
   }
   if (document.getElementById('codeinput1a').value == "a7") {
-    Gbeat.play()
+    Gbeata.play()
     aa = "A7"
   }
   setTimeout(Wait1a, PlaybackSpeed)
@@ -605,31 +699,31 @@ function Wait0a() {
 
 function Wait1a() {
   if (document.getElementById('codeinput2a').value == "b1") {
-    Abeat.play()
+    Abeata.play()
     bb = "B1"
   }
   if (document.getElementById('codeinput2a').value == "b2") {
-    Bbeat.play()
+    Bbeata.play()
     bb = "B2"
   }
   if (document.getElementById('codeinput2a').value == "b3") {
-    Cbeat.play()
+    Cbeata.play()
     bb = "B3"
   }
   if (document.getElementById('codeinput2a').value == "b4") {
-    Dbeat.play()
+    Dbeata.play()
     bb = "B4"
   }
   if (document.getElementById('codeinput2a').value == "b5") {
-    Ebeat.play()
+    Ebeata.play()
     bb = "B5"
   }
   if (document.getElementById('codeinput2a').value == "b6") {
-    Fbeat.play()
+    Fbeata.play()
     bb = "B6"
   }
   if (document.getElementById('codeinput2a').value == "b7") {
-    Gbeat.play()
+    Gbeata.play()
     bb = "B7"
   }
   setTimeout(Wait2a, PlaybackSpeed)
@@ -637,31 +731,31 @@ function Wait1a() {
 
 function Wait2a() {
   if (document.getElementById('codeinput3a').value == "c1") {
-    Abeat.play()
+    Abeata.play()
     cc = "C1"
   }
   if (document.getElementById('codeinput3a').value == "c2") {
-    Bbeat.play()
+    Bbeata.play()
     cc = "C2"
   }
   if (document.getElementById('codeinput3a').value == "c3") {
-    Cbeat.play()
+    Cbeata.play()
     cc = "C3"
   }
   if (document.getElementById('codeinput3a').value == "c4") {
-    Dbeat.play()
+    Dbeata.play()
     cc = "C4"
   }
   if (document.getElementById('codeinput3a').value == "c5") {
-    Ebeat.play()
+    Ebeata.play()
     cc = "C5"
   }
   if (document.getElementById('codeinput3a').value == "c6") {
-    Fbeat.play()
+    Fbeata.play()
     cc = "C6"
   }
   if (document.getElementById('codeinput3a').value == "c7") {
-    Gbeat.play()
+    Gbeata.play()
     aa = "C7"
   }
 
@@ -670,33 +764,33 @@ function Wait2a() {
 
 function Wait3a() {
   if (document.getElementById('codeinput4a').value == "d1") {
-    Abeat.play()
+    Abeata.play()
     dd = "D1"
   }
   if (document.getElementById('codeinput4a').value == "d2") {
-    Bbeat.play()
+    Bbeata.play()
     dd = "D2"
   }
   if (document.getElementById('codeinput4a').value == "d3") {
-    Cbeat.play()
+    Cbeata.play()
     dd = "D3"
   }
   if (document.getElementById('codeinput4a').value == "d4") {
-    Dbeat.play()
+    Dbeata.play()
     dd = "D4"
   }
   if (document.getElementById('codeinput4a').value == "d5") {
-    Ebeat.play()
+    Ebeata.play()
     dd = "D5"
 
   }
   if (document.getElementById('codeinput4a').value == "d6") {
-    Fbeat.play()
+    Fbeata.play()
     dd = "D6"
 
   }
   if (document.getElementById('codeinput4a').value == "d7") {
-    Gbeat.play()
+    Gbeata.play()
     aa = "B7"
   }
   setTimeout(Wait4a, PlaybackSpeed)
@@ -704,30 +798,31 @@ function Wait3a() {
 
 function Wait4a() {
   if (document.getElementById('codeinput5a').value == "e1") {
-    Abeat.play()
+    Abeata.play()
     ee = "E1"
   }
   if (document.getElementById('codeinput5a').value == "e2") {
-    Bbeat.play()
+    Bbeata.play()
     ee = "E2"
   }
   if (document.getElementById('codeinput5a').value == "e3") {
+    Cbeata.play()
     ee = "E3"
   }
   if (document.getElementById('codeinput5a').value == "e4") {
-    Dbeat.play()
+    Dbeata.play()
     ee = "E4"
   }
   if (document.getElementById('codeinput5a').value == "e5") {
-    Ebeat.play()
+    Ebeata.play()
     ee = "E5"
   }
   if (document.getElementById('codeinput5a').value == "e6") {
-    Fbeat.play()
+    Fbeata.play()
     ee = "E6"
   }
   if (document.getElementById('codeinput5a').value == "e7") {
-    Gbeat.play()
+    Gbeata.play()
     ee = "E7"
   }
   setTimeout(Wait5a, PlaybackSpeed)
@@ -735,31 +830,31 @@ function Wait4a() {
 
 function Wait5a() {
   if (document.getElementById('codeinput6a').value == "f1") {
-    Abeat.play()
+    Abeata.play()
     ff = "F1"
   }
   if (document.getElementById('codeinput6a').value == "f2") {
-    Bbeat.play()
+    Bbeata.play()
     ff = "F2"
   }
   if (document.getElementById('codeinput6a').value == "f3") {
-    Cbeat.play()
+    Cbeata.play()
     ff = "F3"
   }
   if (document.getElementById('codeinput6a').value == "f4") {
-    Dbeat.play()
+    Dbeata.play()
     ff = "F4"
   }
   if (document.getElementById('codeinput6a').value == "f5") {
-    Ebeat.play()
+    Ebeata.play()
     ff = "F5"
   }
   if (document.getElementById('codeinput6a').value == "f6") {
-    Fbeat.play()
+    Fbeata.play()
     ff = "F6"
   }
   if (document.getElementById('codeinput6a').value == "f7") {
-    Gbeat.play()
+    Gbeata.play()
     ff = "F7"
   }
   setTimeout(Wait6a, PlaybackSpeed)
@@ -767,31 +862,31 @@ function Wait5a() {
 
 function Wait6a() {
   if (document.getElementById('codeinput7a').value == "g1") {
-    Abeat.play()
+    Abeata.play()
     gg = "G1"
   }
   if (document.getElementById('codeinput7a').value == "g2") {
-    Bbeat.play()
+    Bbeata.play()
     gg = "G2"
   }
   if (document.getElementById('codeinput7a').value == "g3") {
-    Cbeat.play()
+    Cbeata.play()
     gg = "G3"
   }
   if (document.getElementById('codeinput7a').value == "g4") {
-    Dbeat.play()
+    Dbeata.play()
     gg = "G4"
   }
   if (document.getElementById('codeinput7a').value == "g5") {
-    Ebeat.play()
+    Ebeata.play()
     gg = "G5"
   }
   if (document.getElementById('codeinput7a').value == "g6") {
-    Fbeat.play()
+    Fbeata.play()
     gg = "G6"
   }
   if (document.getElementById('codeinput7a').value == "g7") {
-    Gbeat.play()
+    Gbeata.play()
     gg = "G7"
   }
   setTimeout(Wait7a, PlaybackSpeed)
@@ -799,31 +894,31 @@ function Wait6a() {
 
 function Wait7a() {
   if (document.getElementById('codeinput8a').value == "h1") {
-    Abeat.play()
+    Abeata.play()
     hh = "H1"
   }
   if (document.getElementById('codeinput8a').value == "h2") {
-    Bbeat.play()
+    Bbeata.play()
     hh = "H2"
   }
   if (document.getElementById('codeinput8a').value == "h3") {
-    Cbeat.play()
+    Cbeata.play()
     hh = "H3"
   }
   if (document.getElementById('codeinput8a').value == "h4") {
-    Dbeat.play()
+    Dbeata.play()
     hh = "H4"
   }
   if (document.getElementById('codeinput8a').value == "h5") {
-    Ebeat.play()
+    Ebeata.play()
     hh = "H5"
   }
   if (document.getElementById('codeinput8a').value == "h6") {
-    Fbeat.play()
+    Fbeata.play()
     hh = "H6"
   }
   if (document.getElementById('codeinput8a').value == "h7") {
-    Gbeat.play()
+    Gbeata.play()
     hh = "H7"
   }
   setTimeout(Wait8a, PlaybackSpeed)
@@ -831,31 +926,31 @@ function Wait7a() {
 
 function Wait8a() {
   if (document.getElementById('codeinput9a').value == "i1") {
-    Abeat.play()
+    Abeata.play()
     ii = "I1"
   }
   if (document.getElementById('codeinput9a').value == "i2") {
-    Bbeat.play()
+    Bbeata.play()
     ii = "I2"
   }
   if (document.getElementById('codeinput9a').value == "i3") {
-    Cbeat.play()
+    Cbeata.play()
     ii = "I3"
   }
   if (document.getElementById('codeinput9a').value == "i4") {
-    Dbeat.play()
+    Dbeata.play()
     ii = "I4"
   }
   if (document.getElementById('codeinput9a').value == "i5") {
-    Ebeat.play()
+    Ebeata.play()
     ii = "I5"
   }
   if (document.getElementById('codeinput9a').value == "i6") {
-    Fbeat.play()
+    Fbeata.play()
     ii = "I6"
   }
   if (document.getElementById('codeinput9a').value == "i7") {
-    Gbeat.play()
+    Gbeata.play()
     ii = "I7"
   }
   setTimeout(Wait9a, PlaybackSpeed)
@@ -863,31 +958,31 @@ function Wait8a() {
 
 function Wait9a() {
   if (document.getElementById('codeinput10a').value == "j1") {
-    Abeat.play()
+    Abeata.play()
     jj = "J1"
   }
   if (document.getElementById('codeinput10a').value == "j2") {
-    Bbeat.play()
+    Bbeata.play()
     jj = "J2"
   }
   if (document.getElementById('codeinput10a').value == "j3") {
-    Cbeat.play()
+    Cbeata.play()
     jj = "J3"
   }
   if (document.getElementById('codeinput10a').value == "j4") {
-    Dbeat.play()
+    Dbeata.play()
     jj = "J4"
   }
   if (document.getElementById('codeinput10a').value == "j5") {
-    Ebeat.play()
+    Ebeata.play()
     jj = "J5"
   }
   if (document.getElementById('codeinput10a').value == "j6") {
-    Fbeat.play()
+    Fbeata.play()
     jj = "J6"
   }
   if (document.getElementById('codeinput10a').value == "j7") {
-    Gbeat.play()
+    Gbeata.play()
     jj = "J7"
   }
   setTimeout(Wait10a, PlaybackSpeed)
@@ -895,31 +990,31 @@ function Wait9a() {
 
 function Wait10a() {
   if (document.getElementById('codeinput11a').value == "k1") {
-    Abeat.play()
+    Abeata.play()
     kk = "K1"
   }
   if (document.getElementById('codeinput11a').value == "k2") {
-    Bbeat.play()
+    Bbeata.play()
     kk = "K2"
   }
   if (document.getElementById('codeinput11a').value == "k3") {
-    Cbeat.play()
+    Cbeata.play()
     kk = "K3"
   }
   if (document.getElementById('codeinput11a').value == "k4") {
-    Dbeat.play()
+    Dbeata.play()
     kk = "K4"
   }
   if (document.getElementById('codeinput11a').value == "k5") {
-    Ebeat.play()
+    Ebeata.play()
     kk = "K5"
   }
   if (document.getElementById('codeinput11a').value == "k6") {
-    Fbeat.play()
+    Fbeata.play()
     kk = "K6"
   }
   if (document.getElementById('codeinput11a').value == "k7") {
-    Gbeat.play()
+    Gbeata.play()
     kk = "K7"
   }
   setTimeout(Wait11a, PlaybackSpeed)
@@ -927,31 +1022,31 @@ function Wait10a() {
 
 function Wait11a() {
   if (document.getElementById('codeinput12a').value == "l1") {
-    Abeat.play()
+    Abeata.play()
     ll = "L1"
   }
   if (document.getElementById('codeinput12a').value == "l2") {
-    Bbeat.play()
+    Bbeata.play()
     ll = "L2"
   }
   if (document.getElementById('codeinput12a').value == "l3") {
-    Cbeat.play()
+    Cbeata.play()
     ll = "L3"
   }
   if (document.getElementById('codeinput12a').value == "l4") {
-    Dbeat.play()
+    Dbeata.play()
     ll = "L4"
   }
   if (document.getElementById('codeinput12a').value == "l5") {
-    Ebeat.play()
+    Ebeata.play()
     ll = "L5"
   }
   if (document.getElementById('codeinput12a').value == "l6") {
-    Fbeat.play()
+    Fbeata.play()
     ll = "L6"
   }
   if (document.getElementById('codeinput12a').value == "l7") {
-    Gbeat.play()
+    Gbeata.play()
     ll = "L7"
   }
   setTimeout(Wait12a, PlaybackSpeed)
@@ -959,31 +1054,31 @@ function Wait11a() {
 
 function Wait12a() {
   if (document.getElementById('codeinput13a').value == "m1") {
-    Abeat.play()
+    Abeata.play()
     mm = "M1"
   }
   if (document.getElementById('codeinput13a').value == "m2") {
-    Bbeat.play()
+    Bbeata.play()
     mm = "M2"
   }
   if (document.getElementById('codeinput13a').value == "m3") {
-    Cbeat.play()
+    Cbeata.play()
     mm = "M3"
   }
   if (document.getElementById('codeinput13a').value == "m4") {
-    Dbeat.play()
+    Dbeata.play()
     mm = "M4"
   }
   if (document.getElementById('codeinput13a').value == "m5") {
-    Ebeat.play()
+    Ebeata.play()
     mm = "M5"
   }
   if (document.getElementById('codeinput13a').value == "m6") {
-    Fbeat.play()
+    Fbeata.play()
     mm = "M6"
   }
   if (document.getElementById('codeinput13a').value == "m7") {
-    Gbeat.play()
+    Gbeata.play()
     mm = "M7"
   }
   setTimeout(Wait13a, PlaybackSpeed)
@@ -991,31 +1086,31 @@ function Wait12a() {
 
 function Wait13a() {
   if (document.getElementById('codeinput14a').value == "n1") {
-    Abeat.play()
+    Abeata.play()
     nn = "N1"
   }
   if (document.getElementById('codeinput14a').value == "n2") {
-    Bbeat.play()
+    Bbeata.play()
     nn = "N2"
   }
   if (document.getElementById('codeinput14a').value == "n3") {
-    Cbeat.play()
+    Cbeata.play()
     nn = "N3"
   }
   if (document.getElementById('codeinput14a').value == "n4") {
-    Dbeat.play()
+    Dbeata.play()
     nn = "N4"
   }
   if (document.getElementById('codeinput14a').value == "n5") {
-    Ebeat.play()
+    Ebeata.play()
     nn = "N5"
   }
   if (document.getElementById('codeinput14a').value == "n6") {
-    Fbeat.play()
+    Fbeata.play()
     nn = "N6"
   }
   if (document.getElementById('codeinput14a').value == "n7") {
-    Gbeat.play()
+    Gbeata.play()
     nn = "N7"
   }
 }
@@ -2193,7 +2288,7 @@ function Share() {
   document.getElementById('codeinput9').value + document.getElementById('codeinput10').value+
   document.getElementById('codeinput3').value + document.getElementById('codeinput11').value+
   document.getElementById('codeinput13').value + document.getElementById('codeinput12').value+document.getElementById('codeinput14').value
-+aaa1+aaa2+aaa3+aaa4+aaa5+aaa6+aaa7+aaa8+aaa9+aaa10+aaa11+bOz15+aaa12+aaa13+aaa14
++aaa1+aaa2+aaa3+aaa4+aaa5+aaa6+aaa7+aaa8+aaa9+aaa10+aaa11+bOz15+aaa12+aaa13+aaa14+zs1+zs2+zs3+zs4+zs5+zs6+zs7+zs1a+zs2a+zs3a+zs4a+zs5a+zs6a+zs7a
   document.getElementById('TuneShareID').value = ci1
   var copyText = document.getElementById("TuneShareID");
   copyText.select();
