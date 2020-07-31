@@ -565,7 +565,7 @@ body {
   #Buttons {
     position: relative;
     top: 40;
-    left: 40;
+    left: 50;
     object-fit: cover;
   }
   
@@ -677,7 +677,8 @@ body {
   
   #MainTrack1 {
     position: relative;
-    width: 1172;
+    left:-26;
+    width: 1198;
     background-color: #5bff8c;
     font-size: 15;
     font-family: Arial;
@@ -690,10 +691,11 @@ body {
   
   #MainTrack2 {
     position: relative;
-    width: 1172;
+    width: 1197;
     background-color: #5bff8c;
     font-size: 15;
     font-family: Arial;
+    left:-25;
     top: -183;
     border-radius: 4px;
     font-family: arial black;
@@ -785,13 +787,13 @@ body {
   #buttons2 {
     position: relative;
     top: 120;
-    left: 40;
+    left: 50;
   }
   
   #OmTitle {
     position: relative;
     top: 60;
-    left: 960;
+    left: 940;
     font-family: arial black;
     color: rgba(255, 255, 255, 0.486);
     font-size: 30;
@@ -890,7 +892,7 @@ body {
   
   #App {
     position: relative;
-    left: 1055;
+    left: 1068;
     background-color: rgb(83, 255, 98);
     border: none;
     width: 50;
@@ -1060,3 +1062,270 @@ body {
  color:     rgb(68, 68, 68);
  opacity:  1;
 }
+#s1{
+  position: relative;
+  left: -89;
+  top: -1566;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s2{
+  position: relative;
+  left: -116;
+  top: -1540;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s3{
+  position: relative;
+  left: -143;
+  top: -1514;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+
+#s4{
+  position: relative;
+  left: -89;
+  top: -1566;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s5{
+  position: relative;
+  left: -116;
+  top: -1540;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s6{
+  position: relative;
+  left: -143;
+  top: -1514;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#asdf{
+  position: relative;
+  left:113;
+  top:50;
+}
+#s7{
+  position: relative;
+  left: -170;
+  top: -1489;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#codac2{
+  position: relative;
+  left:32;
+  top:241;
+}
+#s1a{
+  position: relative;
+  left: -8;
+  top: -1645;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s2a{
+  position: relative;
+  left: -35;
+  top: -1618;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s3a{
+  position: relative;
+  left: -62;
+  top: -1592;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+
+#s4a{
+  position: relative;
+  left: -89;
+  top: -1566;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s5a{
+  position: relative;
+  left: -116;
+  top: -1540;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s6a{
+  position: relative;
+  left: -143;
+  top: -1514;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+#s7a{
+  position: relative;
+  left: -170;
+  top: -1489;
+  height: 23;
+  width:23;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  text-align: center;
+  font-style:bold;
+}
+
+
+
