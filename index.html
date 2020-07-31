@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OMiXApp</title>
+    <title>NarmixApp</title>
     <link rel="shortcut icon" href="favicon.png" />
     <audio id="Abeat">
       <source src="Clap.mp3" type="audio/mpeg"></audio>
@@ -19,6 +19,21 @@
       <source src="Glass.mp3" type="audio/mpeg"></audio>
     <audio id="Gbeat">
       <source src="Bell.mp3" type="audio/mpeg"></audio>
+
+        <audio id="Abeata">
+          <source src="Clap.mp3" type="audio/mpeg"></audio>
+        <audio id="Bbeata">
+          <source src="Paper.mp3" type="audio/mpeg"></audio>
+        <audio id="Cbeata">
+          <source src="Metal.mp3" type="audio/mpeg"></audio>
+        <audio id="Dbeata">
+          <source src="Crunch.mp3" type="audio/mpeg"></audio>
+        <audio id="Ebeata">
+          <source src="Swoosh.mp3" type="audio/mpeg"></audio>
+        <audio id="Fbeata">
+          <source src="Glass.mp3" type="audio/mpeg"></audio>
+        <audio id="Gbeata">
+          <source src="Bell.mp3" type="audio/mpeg"></audio>
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
         <style>
@@ -48,7 +63,7 @@ input[type=number] {
           background-color: rgb(71, 71, 71);
           position:relative;
           top:-960;
-          left:20;
+          left:15;
           z-index: -20;
           border-radius: 8px;
           z-index:-100;
@@ -66,9 +81,8 @@ input[type=number] {
       </style>
     <Link rel="stylesheet" href="styles.css">
   </head>
-
+  <div id="Pagea">
   <!--TuneShareID TextBoxes-->
-  <div class="Page">
     <div id="divab">
       <input type="text" id="codeinput1" maxlength="2" placeholder="00">
       <input type="text" id="codeinput2" maxlength="2" placeholder="00">
@@ -106,7 +120,7 @@ input[type=number] {
 
     <!--Audio Input-->
     <div id=Buttons>
-      <button id="ClapA" onclick="a1()">Clap</button>
+      <button id="ClapA" onclick="a1()" class="Clap1">Clap</button>
       <button id="ClapA" onclick="b1()">Clap</button>
       <button id="ClapA" onclick="c1()">Clap</button>
       <button id="ClapA" onclick="d1()">Clap</button>
@@ -323,7 +337,7 @@ input[type=number] {
       <button id="ClapG" onclick="n17a()">Keys</button>
     </div>
     <div id="nav">
-    <h1 id="OmTitle">OMiX</h1>
+    <h1 id="OmTitle">Narmix</h1>
     <button onclick="LoopStart()" id="Loop">∞</button>
   </div>
     <div id="divab">
@@ -333,7 +347,7 @@ input[type=number] {
     <button onclick="Stop()" id="Loop2">■</button>
     <button onclick="LoopBreak()" id="Loop3">x</button>
     <div id="Logo">
-    <h6 id="trec">OmixApp</h6>
+    <h6 id="trec">Narmix</h6>
     <button id="App">App</button>
     <button id="For"></button>
   </div>
@@ -349,6 +363,26 @@ input[type=number] {
   <div class="squareb"></div>
   <button id="SpeedidLabel2">Pitch:</button>
   <input type="text" maxlength="3" id="Speedid2">
+
+  <button id="s1" onclick="swa1()">1</button>
+  <button id="s2" onclick="swa2()">1</button>
+  <button id="s3" onclick="swa3()">1</button>
+  <div id="asdf">
+  <button id="s4" onclick="swa4()">1</button>
+  <button id="s5" onclick="swa5()">1</button>
+  <button id="s6" onclick="swa6()">1</button>
+  <button id="s7" onclick="swa7()">1</button>
+</div>
+<div id="codac2">
+<button id="s1a" onclick="swa12()">1</button>
+<button id="s2a" onclick="swa22()">1</button>
+<button id="s3a" onclick="swa32()">1</button>
+<button id="s4a" onclick="swa42()">1</button>
+<button id="s5a" onclick="swa52()">1</button>
+<button id="s6a" onclick="swa62()">1</button>
+<button id="s7a" onclick="swa72()">1</button>
+</div>
+
   <script>
     if (navigator.userAgent.includes("Windows")) {
 ForVar = "For Windows"
@@ -360,11 +394,251 @@ ForVar = "For Windows"
           ForVar = "For MacOS"
         }
         else{
-          window.location.assign("http://omixapp.github.io_");
+          window.location.assign("http://narmixapp.github.io_");
         }
       }
     }
+    function ks(){
+      sw1 = false
+    }
+function swa1(){
 
+if (sw1 == true){
+  
+  document.getElementById("Abeat").src = "Clap.mp3";
+  document.getElementById("s1").innerHTML = "1";
+  Abeat.play()
+  sw1 = false
+  zs1 = "zz1t"
+  }
+  else {
+    document.getElementById("Abeat").src = "Clap2.mp3";
+    document.getElementById("s1").innerHTML = "2";
+     Abeat.play()
+     sw1 = true
+     zs1 = "zz1t2"
+  }
+
+}
+function swa2(){
+  if (sw2 == true){
+  document.getElementById("Bbeat").src = "Paper.mp3";
+  document.getElementById("s2").innerHTML = "1";
+  Bbeat.play()
+  sw2 = false
+  zs2 = "zz2t"
+  }
+  else {
+    document.getElementById("Bbeat").src = "Paper2.mp3";
+    document.getElementById("s2").innerHTML = "2";
+     Bbeat.play()
+     sw2 = true
+     zs2 = "zz2t2"
+  }
+}
+function swa3(){
+  if (sw3 == true){
+  document.getElementById("Cbeat").src = "Metal.mp3";
+  document.getElementById("s3").innerHTML = "1";
+  Cbeat.play()
+  sw3 = false
+  zs3 = "zz3t"
+  }
+  else {
+    document.getElementById("Cbeat").src = "Metal2.mp3";
+    document.getElementById("s3").innerHTML = "2";
+     Cbeat.play()
+     sw3 = true
+     zs3 = "zz3t2"
+  }
+}
+
+function swa4(){
+  if (sw4 == true){
+  document.getElementById("Dbeat").src = "Crunch.mp3";
+  document.getElementById("s4").innerHTML = "1";
+  Dbeat.play()
+  sw4 = false
+  zs4 = "zz4t"
+  }
+  else {
+    document.getElementById("Dbeat").src = "Crunch2.mp3";
+    document.getElementById("s4").innerHTML = "2";
+     Dbeat.play()
+     sw4 = true
+     zs4 = "zz4t2"
+  }
+}
+
+function swa5(){
+  if (sw5 == true){
+  document.getElementById("Ebeat").src = "Swoosh.mp3";
+  document.getElementById("s5").innerHTML = "1";
+  Ebeat.play()
+  sw5 = false
+  zs5 = "zz5t"
+  }
+  else {
+    document.getElementById("Ebeat").src = "Swoosh2.mp3";
+    document.getElementById("s5").innerHTML = "2";
+     Ebeat.play()
+     sw5 = true
+     zs5 = "zz5t2"
+  }
+}
+function swa6(){
+  if (sw6 == true){
+  document.getElementById("Fbeat").src = "Glass.mp3";
+  document.getElementById("s6").innerHTML = "1";
+  Fbeat.play()
+  sw6 = false
+  zs6 = "zz6t2"
+  }
+  else {
+    document.getElementById("Fbeat").src = "Glass2.mp3";
+    document.getElementById("s6").innerHTML = "2";
+     Fbeat.play()
+     sw6 = true
+     zs6 = "zz6t2"
+  }
+}
+
+function swa7(){
+  if (sw7 == true){
+  document.getElementById("Gbeat").src = "Bell.mp3";
+  document.getElementById("s7").innerHTML = "1";
+  Gbeat.play()
+  sw7 = false
+  zs7 = "zz7t"
+  }
+  else {
+    document.getElementById("Gbeat").src = "Bell2.mp3";
+    document.getElementById("s7").innerHTML = "2";
+     Gbeat.play()
+     sw7 = true
+     zs7 = "zz7t2"
+  }
+}
+
+
+
+function swa12(){
+if (sw1a == true){
+  
+  document.getElementById("Abeata").src = "Clap.mp3";
+  document.getElementById("s1a").innerHTML = "1";
+  Abeata.play()
+  sw1a = false
+  zs1a = "zx1ta"
+  }
+  else {
+    document.getElementById("Abeata").src = "Clap2.mp3";
+    document.getElementById("s1a").innerHTML = "2";
+     Abeata.play()
+     sw1a = true
+     zs1a = "zx7t2a"
+  }
+
+}
+function swa22(){
+  if (sw2a == true){
+  document.getElementById("Bbeata").src = "Paper.mp3";
+  document.getElementById("s2a").innerHTML = "1";
+  Bbeata.play()
+  sw2a = false
+  zs2a = "zx2ta"
+  }
+  else {
+    document.getElementById("Bbeata").src = "Paper2.mp3";
+    document.getElementById("s2a").innerHTML = "2";
+     Bbeata.play()
+     sw2a = true
+     zs2a = "zx2t2a"
+  }
+}
+function swa32(){
+  if (sw3a == true){
+  document.getElementById("Cbeata").src = "Metal.mp3";
+  document.getElementById("s3a").innerHTML = "1";
+  Cbeata.play()
+  sw3a = false
+  zs3a = "zx3ta"
+  }
+  else {
+    document.getElementById("Cbeata").src = "Metal2.mp3";
+    document.getElementById("s3a").innerHTML = "2";
+     Cbeata.play()
+     sw3a = true
+     zs3a = "zx3t2a"
+  }
+}
+
+function swa42(){
+  if (sw4a == true){
+  document.getElementById("Dbeata").src = "Crunch.mp3";
+  document.getElementById("s4a").innerHTML = "1";
+  Dbeata.play()
+  sw4a = false
+  zs4a = "zx4ta"
+  }
+  else {
+    document.getElementById("Dbeata").src = "Crunch2.mp3";
+    document.getElementById("s4a").innerHTML = "2";
+     Dbeata.play()
+     sw4a = true
+     zs4a = "zx4t2a"
+  }
+}
+
+function swa52(){
+  if (sw5a == true){
+  document.getElementById("Ebeata").src = "Swoosh.mp3";
+  document.getElementById("s5a").innerHTML = "1";
+  Ebeata.play()
+  sw5a = false
+  zs5a = "zx5ta"
+  }
+  else {
+    document.getElementById("Ebeata").src = "Swoosh2.mp3";
+    document.getElementById("s5a").innerHTML = "2";
+     Ebeata.play()
+     sw5a = true
+     zs4a = "zx5t2a"
+  }
+}
+function swa62(){
+  if (sw6a == true){
+  document.getElementById("Fbeata").src = "Glass.mp3";
+  document.getElementById("s6a").innerHTML = "1";
+  Fbeata.play()
+  sw6a = false
+  zs6a = "zx6ta"
+  }
+  else {
+    document.getElementById("Fbeata").src = "Glass2.mp3";
+    document.getElementById("s6a").innerHTML = "2";
+     Fbeata.play()
+     sw6a = true
+     zs6a = "zx6t2a"
+  }
+}
+
+function swa72(){
+  if (sw7a == true){
+  document.getElementById("Gbeata").src = "Bell.mp3";
+  document.getElementById("s7a").innerHTML = "1";
+  Gbeata.play()
+  sw7a = false
+  zs7a = "zx7ta"
+  }
+  else {
+    document.getElementById("Gbeata").src = "Bell2.mp3";
+    document.getElementById("s7a").innerHTML = "2";
+     Gbeata.play()
+     sw7a = true
+     zs7a = "zx7t2a"
+  }
+}
 
     function a1() {
       Abeat.play()
@@ -870,492 +1144,492 @@ ForVar = "For Windows"
 
 
     function a1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput1a").value = "a1"
     }
 
     function b1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput2a").value = "b1"
     }
 
     function c1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput3a").value = "c1"
     }
 
     function d1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput4a").value = "d1"
     }
 
     function e1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput5a").value = "e1"
     }
 
     function f1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput6a").value = "f1"
     }
 
     function g1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput7a").value = "g1"
     }
 
     function h1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput8a").value = "h1"
     }
 
     function i1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput9a").value = "i1"
     }
 
     function j1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput10a").value = "j1"
     }
 
     function k1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput11a").value = "k1"
     }
 
     function l1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput12a").value = "l1"
     }
 
     function m1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput13a").value = "m1"
     }
 
     function n1a() {
-      Abeat.play()
+      Abeata.play()
       document.getElementById("codeinput14a").value = "n1"
     }
 
     function a12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput1a").value = "a2"
     }
 
     function b12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput2a").value = "b2"
     }
 
     function c12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput3a").value = "c2"
     }
 
     function d12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput4a").value = "d2"
     }
 
     function e12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput5a").value = "e2"
     }
 
     function f12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput6a").value = "f2"
     }
 
     function g12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput7a").value = "g2"
     }
 
     function h12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput8a").value = "h2"
     }
 
     function i12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput9a").value = "i2"
     }
 
     function j12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput10a").value = "j2"
     }
 
     function k12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput11a").value = "k2"
     }
 
     function l12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput12a").value = "l2"
     }
 
     function m12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput13a").value = "m2"
     }
 
     function n12a() {
-      Bbeat.play()
+      Bbeata.play()
       document.getElementById("codeinput14a").value = "n2"
     }
 
     function a13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput1a").value = "a3"
     }
 
     function b13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput2a").value = "b3"
     }
 
     function c13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput3a").value = "c3"
     }
 
     function d13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput4a").value = "d3"
     }
 
     function e13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput5a").value = "e3"
     }
 
     function f13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput6a").value = "f3"
     }
 
     function g13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput7a").value = "g3"
     }
 
     function h13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput8a").value = "h3"
     }
 
     function i13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput9a").value = "i3"
     }
 
     function j13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput10a").value = "j3"
     }
 
     function k13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput11a").value = "k3"
     }
 
     function l13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput12a").value = "l3"
     }
 
     function m13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput13a").value = "m3"
     }
 
     function n13a() {
-      Cbeat.play()
+      Cbeata.play()
       document.getElementById("codeinput14a").value = "n3"
     }
 
     function a14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput1a").value = "a4"
     }
 
     function b14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput2a").value = "b4"
     }
 
     function c14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput3a").value = "c4"
     }
 
     function d14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput4a").value = "d4"
     }
 
     function e14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput5a").value = "e4"
     }
 
     function f14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput6a").value = "f4"
     }
 
     function g14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput7a").value = "g4"
     }
 
     function h14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput8a").value = "h4"
     }
 
     function i14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput9a").value = "i4"
     }
 
     function j14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput10a").value = "j4"
     }
 
     function k14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput11a").value = "k4"
     }
 
     function l14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput12a").value = "l4"
     }
 
     function m14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput13a").value = "m4"
     }
 
     function n14a() {
-      Dbeat.play()
+      Dbeata.play()
       document.getElementById("codeinput14a").value = "n4"
     }
 
     function a15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput1a").value = "a5"
     }
 
     function b15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput2a").value = "b5"
     }
 
     function c15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput3a").value = "c5"
     }
 
     function d15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput4a").value = "d5"
     }
 
     function e15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput5a").value = "e5"
     }
 
     function f15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput6a").value = "f5"
     }
 
     function g15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput7a").value = "g5"
     }
 
     function h15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput8a").value = "h5"
     }
 
     function i15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput9a").value = "i5"
     }
 
     function j15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput10a").value = "j5"
     }
 
     function k15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput11a").value = "k5"
     }
 
     function l15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput12a").value = "l5"
     }
 
     function m15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput13a").value = "m5"
     }
 
     function n15a() {
-      Ebeat.play()
+      Ebeata.play()
       document.getElementById("codeinput14a").value = "n6"
     }
 
     function a16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput1a").value = "a6"
     }
 
     function b16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput2a").value = "b6"
     }
 
     function c16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput3a").value = "c6"
     }
 
     function d16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput4a").value = "d6"
     }
 
     function e16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput5a").value = "e6"
     }
 
     function f16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput6a").value = "f6"
     }
 
     function g16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput7a").value = "g6"
     }
 
     function h16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput8a").value = "h6"
     }
 
     function i16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput9a").value = "i6"
     }
 
     function j16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput10a").value = "j6"
     }
 
     function k16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput11a").value = "k6"
     }
 
     function l16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput12a").value = "l6"
     }
 
     function m16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput13a").value = "m6"
     }
 
     function n16a() {
-      Fbeat.play()
+      Fbeata.play()
       document.getElementById("codeinput14a").value = "n6"
     }
 
     function a17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput1a").value = "a7"
     }
 
     function b17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput2a").value = "b7"
     }
 
     function c17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput3a").value = "c7"
     }
 
     function d17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput4a").value = "d7"
     }
 
     function e17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput5a").value = "e7"
     }
 
     function f17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput6a").value = "f7"
     }
 
     function g17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput7a").value = "g7"
     }
 
     function h17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput8a").value = "h7"
     }
 
     function i17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput9a").value = "i7"
     }
 
     function j17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput10a").value = "j7"
     }
 
     function k17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput11a").value = "k7"
     }
 
     function l17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput12a").value = "l7"
     }
 
     function m17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput13a").value = "m7"
     }
 
     function n17a() {
-      Gbeat.play()
+      Gbeata.play()
       document.getElementById("codeinput14a").value = "n7"
     }
 
