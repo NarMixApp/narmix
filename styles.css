@@ -793,7 +793,7 @@ body {
   #OmTitle {
     position: relative;
     top: 60;
-    left: 940;
+    left: 956;
     font-family: arial black;
     color: rgba(255, 255, 255, 0.486);
     font-size: 30;
@@ -893,6 +893,7 @@ body {
   #App {
     position: relative;
     left: 1068;
+    left: 1048;
     background-color: rgb(83, 255, 98);
     border: none;
     width: 50;
@@ -1326,5 +1327,10 @@ body {
   text-align: center;
   font-style:bold;
 }
+#Pageb{
+  position: relative;
+  left:10;
+}
+
 
 
