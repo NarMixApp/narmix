@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(46, 46, 46);
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+#Studio{
+    position: relative;
+    background-color: rgb(71, 255, 117);
+    width:300;
+    height:70;
+    border: none;
+    border-radius:10px;
+    font-family: arial black;
+    font-size:27;
+    color:rgb(34, 34, 34);
+    left:480;
+    top:320;
+    outline: none;
+}
+#Titles{
+    color: white;
+    font-family: arial black;
+    font-size:30;
+    position: relative;
+    top:-87;
+    left:20;
+}
+#mme{
+    color: white;
+    font-family: arial black;
+    font-size:50;
+    position: relative;
+    top:20;
+    left:390;
+}
+#What{
+    color: white;
+    font-family: arial black;
+    font-size:30;
+    position: relative;
+    top:400;
+    left:480;
+}
+#What2{
+    color: white;
+    font-family: arial black;
+    position: relative;
+    top:400;
+    left:285;
+}
+#What3{
+    color: white;
+    font-family: arial black;
+    position: relative;
+    top:400;
+    left:250;
+}
+#What4{
+    color: white;
+    font-family: arial black;
+    font-size:30;
+    position: relative;
+    top:400;
+    left:570;
+}
+#What5{
+    color: white;
+    font-family: arial black;
+    position: relative;
+    top:400;
+    left:250;
+}
+#What3a{
+    color: white;
+    font-family: arial black;
+    position: relative;
+    top:400;
+    left:330;
+}

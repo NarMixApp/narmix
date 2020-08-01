@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMiXApp | Music Made Easy</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <Link rel="stylesheet" href="homepage.css">
+        <style>
+          .square {
+          height: 70px;
+          width: 1265px;
+          background-color: #53535300;
+          position:relative;
+          top:-663;
+          left:-8;
+          z-index: -20;
+        }
+        .square2 {
+          height: 450px;
+          width: 1080px;
+          background-color: #414141;
+          position:relative;
+          top:-80;
+          left:80;
+          z-index: -20;
+          border-radius: 8px;
+        }
+        </style>
+</head>
+<body>
+    <button id="Studio" onclick="Open()">Open OMiXApp</button>
+    <h1 id="Titles">OMiXApp</h1>
+    <h1 id="mme">Music Made Easy</h1>
+    <h3 id="What">What Is OMiXApp?</h3>
+    <h3 id="What2">OMiXApp is a web application which allows you to create short music</h3>
+    <h3 id="What3">segments without any experience and for free. To use OMiXApp, all you have</h3>
+    <h3 id="What3"> to do is click the sounds you choose in chronological order, then press play.</h3>
+    <h3 id="What4">Privacy</h3>
+    <h3 id="What3">The only data being used by OMiXApp is your browser's useragent, we use</h3>
+    <h3 id="What3a">to provide you the best experience possible for your device.</h3>
+    <div class="square"></div>
+    <div class="square2"></div>
+
+   <script>
+        function Open(){
+            window.location.assign("editor.html")
+        }
+    </script>
+</body>
+</html>
