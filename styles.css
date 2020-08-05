@@ -1,1333 +1,1342 @@
 body {
-    background-color: #333333;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    white-space: nowrap;
-    width: 100%;
-  }
-  
-  #divab {
-    position: relative;
-    left: 40;
-    top: 475;
-    z-index: 1000;
-  
-  }
-  
-  #ClapA {
-    position: relative;
-    left: 0;
-    background-color: rgb(192, 192, 192);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -100;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  
-  }
-  
-  #codeinput1 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    background-color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput2 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput3 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput4 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: rgb(48, 48, 48);
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    object-fit: cover;
-  }
-  
-  #codeinput5 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput6 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput7 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput8 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput9 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput10 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput11 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput12 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput13 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput14 {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput1a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    background-color: rgb(73, 73, 73);
-    text-transform: uppercase;
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput2a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput3a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput4a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput5a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput6a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput7a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput8a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput9a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput10a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput11a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput12a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput13a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codeinput14a {
-    width: 40;
-    height: 40;
-    text-align: center;
-    font-size: 20;
-    font-family: arial black;
-    text-transform: uppercase;
-    background-color: rgb(73, 73, 73);
-    border: none;
-    color: white;
-    outline: none;
-    position: relative;
-    top: 50;
-    left: -616;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(48, 48, 48);
-    object-fit: cover;
-  }
-  
-  #codecon {
-    border: none;
-    height: 50;
-    width: 90;
-    font-size: 20;
-    background-color: rgb(95, 95, 95);
-    position: relative;
-    left: 1175;
-    border-radius: 4px;
-    top: -45;
-    color: white;
-    outline: none;
-    font-family: arial black;
-    object-fit: cover;
-  }
-  
-  #Buttons {
-    position: relative;
-    top: 40;
-    left: 50;
-    object-fit: cover;
-  }
-  
-  #ClapB {
-    position: relative;
-    left: -1176;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -74;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  }
-  
-  #ClapBA {
-    position: relative;
-    left: -1175;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -74;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  }
-  
-  #ClapC {
-    position: relative;
-    left: -2352;
-    background-color: rgb(192, 192, 192);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -49;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  }
-  
-  #ClapCA {
-    position: relative;
-    left: -2351;
-    background-color: rgb(192, 192, 192);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -49;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
+  background-color: #333333;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
 
-  }
-  
-  #ClapCB {
-    position: relative;
-    left: -2352;
-    background-color: rgb(192, 192, 192);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -49;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  }
-  
-  #ClapD {
-    position: relative;
-    left: -3528;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -24;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  }
-  
-  #ClapDA {
-    position: relative;
-    left: -3528;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -24;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  }
-  
-  #MainTrack1 {
-    position: relative;
-    left:-26;
-    width: 1198;
-    background-color: #5bff8c;
-    font-size: 15;
-    font-family: Arial;
-    top: -183;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  }
-  
-  #MainTrack2 {
-    position: relative;
-    width: 1197;
-    background-color: #5bff8c;
-    font-size: 15;
-    font-family: Arial;
-    left:-25;
-    top: -183;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-  
-  }
-  
-  #ClapE {
-    position: relative;
-    left: 0;
-    background-color: rgb(192, 192, 192);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -112;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-    z-index: 30000000;
-  }
-  
-  #ClapF {
-    position: relative;
-    left: -1176;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -86;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-    white-space: nowrap;
-  }
-  
-  #ClapFA {
-    position: relative;
-    left: -1176;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -86;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-    white-space: nowrap;
-  }
-  
-  #ClapG {
-    position: relative;
-    left: -2352;
-    background-color: rgb(192, 192, 192);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -60;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-    white-space: nowrap;
-  }
-  
-  #ClapG2 {
-    position: relative;
-    left: -2352;
-    background-color: rgb(192, 192, 192);
-    border: none;
-    width: 80;
-    outline: none;
-    top: -60;
-    text-align: left;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-    object-fit: cover;
-    white-space: nowrap;
-  }
-  
-  #buttons2 {
-    position: relative;
-    top: 120;
-    left: 50;
-  }
-  
-  #OmTitle {
-    position: relative;
-    top: 60;
-    left: 956;
-    font-family: arial black;
-    color: rgba(255, 255, 255, 0.486);
-    font-size: 30;
-  }
-  
-  #Play {
-    position: relative;
-    left: 620;
-    top: 390;
-    z-index: 2000;
-    object-fit: cover;
-    background-color:rgb(59, 255, 108);
-    height: 70;
-    width:70;
-    border: none;
-    border-radius: 100px;
-    font-family:arial black;
-    color:rgb(87, 255, 101);
-    font-size:70;
-    background:none;
-    outline:none;
-    color: #5bff8c;
-  }
-  
-  #Loop {
-    position: relative;
-    left: 760;
-    top: -47;
-    object-fit: cover;
-    background-color:rgb(59, 255, 108);
-    height: 70;
-    width:70;
-    border: none;
-    border-radius: 100px;
-    font-family:arial black;
-    color:rgb(58, 58, 58);
-    font-size:100;
-    background:none;
-    color:rgb(87, 255, 101);
-    outline:none;
-    color: #5bff8c;
-  }
-  
-  #Tunes {
-    position: relative;
-    width: 612;
-    background-color: #5bff8c;
-    font-size: 15;
-    font-family: Arial;
-    top: -593;
-    left: 0;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(24, 24, 24);
-  }
-  
-  #Loop2 {
-    position: relative;
-    left: 690;
-    top: -224;
-    object-fit: cover;
-    background-color:rgb(59, 255, 108);
-    height: 70;
-    width:70;
-    border: none;
-    border-radius: 100px;
-    font-family:arial black;
-    color:rgb(58, 58, 58);
-    font-size:22;
-    text-align:middle;
-    font-size:100;
-    background:none;
-    color:rgb(87, 255, 101);
-    outline:none;
-    color: #5bff8c;
-  }
-  
-  #Loop3 {
-    position: relative;
-    left: 754;
-    font-style: bold;
-    top: -227;
-    object-fit: cover;
-    background-color:rgb(59, 255, 108);
-    height: 70;
-    width:70;
-    border: none;
-    border-radius: 100px;
-    background:none;
-    font-size:70;
-    background:none;
-    color:rgb(87, 255, 101);
-    outline:none;
-    color: #5bff8c;
-  }
-  
-  #App {
-    position: relative;
-    left: 1068;
-    left: 1048;
-    background-color: rgb(83, 255, 98);
-    border: none;
-    width: 50;
-    outline: none;
-    top: -329;
-    text-align: center;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(48, 48, 48);
-    font-size: 13;
-    z-index: 9999999999999999999999999999;
-    background-color: rgb(78, 255, 107);
-    background-color: #5bff8c;
-  }
-  #For {
-    position: relative;
-    left: 935;
-    border: none;
-    outline: none;
-    top: -305;
-    text-align: center;
-    border-radius: 4px;
-    font-family: arial black;
-    color: rgb(255, 255, 255);
-    font-size: 11;
-    z-index: 9999999999999999999999999999;
-    background:none;
-  }
-  #nav{
-    position: relative;
-    left:45;
-    top:40;
-  }
-  #TuneShare{
-    position: relative;
-    left: 665;
-    border-radius: 4px;
-    border:none;
-    top: -487;
-    width:155;
-    background-color:rgb(78, 255, 107);
-    outline:none;
-    z-index:999999999999999999999999999999999999999999999999999999;
-    font-family: arial black;
-    text-align: center;
-        height: 30;
-    font-size: 12;
-    background-color: #5bff8c;
-  }
-  #TuneShareID{
-    position: relative;
-    left: -3000000000;
-    border-radius: 4px;
-    border:none;
-    top: -440;
-    width:280;
-    background-color:rgb(73, 255, 134);
-    outline:none;
-    z-index:999999999999999999999999999999999999999999999999999999;
-    background-color: #5bff8c;
-  }
-  #ShareTune{
-    position: relative;
-    left: 384;
-    top: -486;
-    height: 30;
-    z-index:999999999999999999999999999999999999999999999999999999;
-    border-radius: 4px;
-    border:none;
-    color:rgb(51, 51, 51);
-    background-color:rgb(78, 255, 107);
-    font-family: arial black;
-    font-size:15;
-    outline: none; 
-    background-color: #5bff8c;
-  }
+#divab {
+  position: relative;
+  left: 40;
+  top: 475;
+  z-index: 1000;
 
-  #Speedid{
-    position: relative;
-    left: 960;
-    top: -1087;
-    height: 30;
-    z-index:999999999999999999999999999999999999999999999999999999;
-    border-radius: 4px;
-    border:none;
-    width:36;
-    color:rgb(51, 51, 51);
-    background-color:rgb(116, 255, 139);
-    font-family: arial black;
-    font-size:15;
-    outline: none; 
-    background-color: #8affad;
-  }
+}
 
-  #SpeedidLabel{
-    position: relative;
-    left: 960;
-    top: -1087;
-    height: 30;
-    z-index:999999999999999999999999999999999999999999999999999999;
-    border-radius: 4px;
-    border:none;
-    width:69;
-    color:rgb(51, 51, 51);
-    background-color:rgb(78, 255, 107);
-    font-family: arial black;
-    font-size:15;
-    outline: none; 
-    background-color: #5bff8c;
-  }
+#ClapA {
+  position: relative;
+  left: 0;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -100;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
 
-  #Speedid2{
-    position: relative;
-    left: 964;
-    top: -1080;
-    height: 30;
-    left: 1084;
-    top: -1159;
-    z-index:999999999999999999999999999999999999999999999999999999;
-    border-radius: 4px;
-    border:none;
-    width:36;
-    color:rgb(51, 51, 51);
-    background-color:rgb(116, 255, 139);
-    font-family: arial black;
-    font-size:15;
-    outline: none; 
-    background-color: #8affad;
-  }
+}
 
-  #SpeedidLabel2{
-    position: relative;
-    left: 1084;
-    top: -1162;
-    height: 30;
-    z-index:999999999999999999999999999999999999999999999999999999;
-    border-radius: 4px;
-    border:none;
-    width:69;
-    color:rgb(51, 51, 51);
-    background-color:rgb(78, 255, 107);
-    font-family: arial black;
-    font-size:15;
-    outline: none; 
-    background-color: #5bff8c;
-    top: -1159;
-  }
+#codeinput1 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
 
-  #trec{
-    position: relative;
-    top:-235090000000000000000000000;
-  }
-  ::placeholder {
-    color:    rgb(68, 68, 68);
- }
- ::-ms-input-placeholder {
-  color:     rgb(68, 68, 68);
+#codeinput2 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput3 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput4 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: rgb(48, 48, 48);
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  object-fit: cover;
+}
+
+#codeinput5 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput6 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput7 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput8 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput9 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput10 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput11 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput12 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput13 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput14 {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput1a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  background-color: rgb(73, 73, 73);
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput2a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput3a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput4a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput5a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput6a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput7a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput8a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput9a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput10a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput11a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput12a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput13a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codeinput14a {
+  width: 40;
+  height: 40;
+  text-align: center;
+  font-size: 20;
+  font-family: arial black;
+  text-transform: uppercase;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  color: white;
+  outline: none;
+  position: relative;
+  top: 50;
+  left: -616;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 48, 48);
+  object-fit: cover;
+}
+
+#codecon {
+  border: none;
+  height: 50;
+  width: 90;
+  font-size: 20;
+  background-color: rgb(95, 95, 95);
+  position: relative;
+  left: 1175;
+  border-radius: 4px;
+  top: -45;
+  color: white;
+  outline: none;
+  font-family: arial black;
+  object-fit: cover;
+}
+
+#Buttons {
+  position: relative;
+  top: 40;
+  left: 50;
+  object-fit: cover;
+}
+
+#ClapB {
+  position: relative;
+  left: -1176;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -74;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+}
+
+#ClapBA {
+  position: relative;
+  left: -1175;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -74;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+}
+
+#ClapC {
+  position: relative;
+  left: -2352;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -49;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+}
+
+#ClapCA {
+  position: relative;
+  left: -2351;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -49;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+
+}
+
+#ClapCB {
+  position: relative;
+  left: -2352;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -49;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+}
+
+#ClapD {
+  position: relative;
+  left: -3528;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -24;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+}
+
+#ClapDA {
+  position: relative;
+  left: -3528;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -24;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+}
+
+#MainTrack1 {
+  position: relative;
+  left:-26;
+  width: 1198;
+  background-color: #5bff8c;
+  font-size: 15;
+  font-family: Arial;
+  top: -183;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+}
+
+#MainTrack2 {
+  position: relative;
+  width: 1197;
+  background-color: #5bff8c;
+  font-size: 15;
+  font-family: Arial;
+  left:-25;
+  top: -183;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+
+}
+
+#ClapE {
+  position: relative;
+  left: 0;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -112;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+  z-index: 30000000;
+}
+
+#ClapF {
+  position: relative;
+  left: -1176;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -86;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+  white-space: nowrap;
+}
+
+#ClapFA {
+  position: relative;
+  left: -1176;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -86;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+  white-space: nowrap;
+}
+
+#ClapG {
+  position: relative;
+  left: -2352;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -60;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+  white-space: nowrap;
+}
+
+#ClapG2 {
+  position: relative;
+  left: -2352;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  width: 80;
+  outline: none;
+  top: -60;
+  text-align: left;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+  object-fit: cover;
+  white-space: nowrap;
+}
+
+#buttons2 {
+  position: relative;
+  top: 120;
+  left: 50;
+}
+
+#OmTitle {
+  position: relative;
+  top: 60;
+  left: 956;
+  font-family: arial black;
+  color: rgba(255, 255, 255, 0.486);
+  font-size: 30;
+}
+
+#Play {
+  position: relative;
+  left: 620;
+  top: 390;
+  z-index: 2000;
+  object-fit: cover;
+  background-color:rgb(59, 255, 108);
+  height: 70;
+  width:70;
+  border: none;
+  border-radius: 100px;
+  font-family:arial black;
+  color:rgb(87, 255, 101);
+  font-size:70;
+  background:none;
+  outline:none;
+  color: #5bff8c;
+}
+
+#Loop {
+  position: relative;
+  left: 760;
+  top: -47;
+  object-fit: cover;
+  background-color:rgb(59, 255, 108);
+  height: 70;
+  width:70;
+  border: none;
+  border-radius: 100px;
+  font-family:arial black;
+  color:rgb(58, 58, 58);
+  font-size:100;
+  background:none;
+  color:rgb(87, 255, 101);
+  outline:none;
+  color: #5bff8c;
+}
+
+#Tunes {
+  position: relative;
+  width: 612;
+  background-color: #5bff8c;
+  font-size: 15;
+  font-family: Arial;
+  top: -593;
+  left: 0;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(24, 24, 24);
+}
+
+#Loop2 {
+  position: relative;
+  left: 690;
+  top: -224;
+  object-fit: cover;
+  background-color:rgb(59, 255, 108);
+  height: 70;
+  width:70;
+  border: none;
+  border-radius: 100px;
+  font-family:arial black;
+  color:rgb(58, 58, 58);
+  font-size:22;
+  text-align:middle;
+  font-size:100;
+  background:none;
+  color:rgb(87, 255, 101);
+  outline:none;
+  color: #5bff8c;
+}
+
+#Loop3 {
+  position: relative;
+  left: 754;
+  font-style: bold;
+  top: -227;
+  object-fit: cover;
+  background-color:rgb(59, 255, 108);
+  height: 70;
+  width:70;
+  border: none;
+  border-radius: 100px;
+  background:none;
+  font-size:70;
+  background:none;
+  color:rgb(87, 255, 101);
+  outline:none;
+  color: #5bff8c;
+}
+
+#App {
+  position: relative;
+  left: 1068;
+  left: 1048;
+  background-color: rgb(83, 255, 98);
+  border: none;
+  width: 50;
+  outline: none;
+  top: -329;
+  text-align: center;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(48, 48, 48);
+  font-size: 13;
+  z-index: 9999999999999999999999999999;
+  background-color: rgb(78, 255, 107);
+  background-color: #5bff8c;
+}
+#For {
+  position: relative;
+  left: 935;
+  border: none;
+  outline: none;
+  top: -305;
+  text-align: center;
+  border-radius: 4px;
+  font-family: arial black;
+  color: rgb(255, 255, 255);
+  font-size: 11;
+  z-index: 9999999999999999999999999999;
+  background:none;
+}
+#nav{
+  position: relative;
+  left:45;
+  top:40;
+}
+#TuneShare{
+  position: relative;
+  left: 665;
+  border-radius: 4px;
+  border:none;
+  top: -487;
+  width:155;
+  background-color:rgb(78, 255, 107);
+  outline:none;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  font-family: arial black;
+  text-align: center;
+      height: 30;
+  font-size: 12;
+  background-color: #5bff8c;
+}
+#TuneShareID{
+  position: relative;
+  left: -3000000000;
+  border-radius: 4px;
+  border:none;
+  top: -440;
+  width:280;
+  background-color:rgb(73, 255, 134);
+  outline:none;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  background-color: #5bff8c;
+}
+#ShareTune{
+  position: relative;
+  left: 384;
+  top: -486;
+  height: 30;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+}
+
+#Speedid{
+  position: relative;
+  left: 960;
+  top: -1087;
+  height: 30;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  width:36;
+  color:rgb(51, 51, 51);
+  background-color:rgb(116, 255, 139);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #8affad;
+}
+
+#SpeedidLabel{
+  position: relative;
+  left: 960;
+  top: -1087;
+  height: 30;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  width:69;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+}
+
+#Speedid2{
+  position: relative;
+  left: 964;
+  top: -1080;
+  height: 30;
+  left: 1084;
+  top: -1159;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  width:36;
+  color:rgb(51, 51, 51);
+  background-color:rgb(116, 255, 139);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #8affad;
+}
+
+#SpeedidLabel2{
+  position: relative;
+  left: 1084;
+  top: -1162;
+  height: 30;
+  z-index:999999999999999999999999999999999999999999999999999999;
+  border-radius: 4px;
+  border:none;
+  width:69;
+  color:rgb(51, 51, 51);
+  background-color:rgb(78, 255, 107);
+  font-family: arial black;
+  font-size:15;
+  outline: none; 
+  background-color: #5bff8c;
+  top: -1159;
+}
+
+#trec{
+  position: relative;
+  top:-235090000000000000000000000;
+}
+::placeholder {
+  color:    rgb(68, 68, 68);
+}
+::-ms-input-placeholder {
+color:     rgb(68, 68, 68);
 }
 ::-webkit-input-placeholder { 
-  color:     rgb(68, 68, 68);
+color:     rgb(68, 68, 68);
 }
 :-moz-placeholder { 
- color:     rgb(68, 68, 68);
- opacity:  1;
+color:     rgb(68, 68, 68);
+opacity:  1;
 }
 ::-moz-placeholder { 
- color:     rgb(68, 68, 68);
- opacity:  1;
+color:     rgb(68, 68, 68);
+opacity:  1;
 }
 #s1{
-  position: relative;
-  left: -89;
-  top: -1566;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -89;
+top: -1566;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s2{
-  position: relative;
-  left: -116;
-  top: -1540;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -116;
+top: -1540;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s3{
-  position: relative;
-  left: -143;
-  top: -1514;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -143;
+top: -1514;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 
 #s4{
-  position: relative;
-  left: -89;
-  top: -1566;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -89;
+top: -1566;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s5{
-  position: relative;
-  left: -116;
-  top: -1540;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -116;
+top: -1540;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s6{
-  position: relative;
-  left: -143;
-  top: -1514;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -143;
+top: -1514;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #asdf{
-  position: relative;
-  left:113;
-  top:50;
+position: relative;
+left:113;
+top:50;
 }
 #s7{
-  position: relative;
-  left: -170;
-  top: -1489;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -170;
+top: -1489;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #codac2{
-  position: relative;
-  left:32;
-  top:241;
+position: relative;
+left:32;
+top:241;
 }
 #s1a{
-  position: relative;
-  left: -8;
-  top: -1645;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -8;
+top: -1645;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s2a{
-  position: relative;
-  left: -35;
-  top: -1618;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -35;
+top: -1618;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s3a{
-  position: relative;
-  left: -62;
-  top: -1592;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -62;
+top: -1592;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 
 #s4a{
-  position: relative;
-  left: -89;
-  top: -1566;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -89;
+top: -1566;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s5a{
-  position: relative;
-  left: -116;
-  top: -1540;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -116;
+top: -1540;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s6a{
-  position: relative;
-  left: -143;
-  top: -1514;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -143;
+top: -1514;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #s7a{
-  position: relative;
-  left: -170;
-  top: -1489;
-  height: 23;
-  width:23;
-  z-index:999999999999999999999999999999999999999999999999999999;
-  border-radius: 4px;
-  border:none;
-  color:rgb(51, 51, 51);
-  background-color:rgb(78, 255, 107);
-  font-family: arial black;
-  font-size:15;
-  outline: none; 
-  background-color: #5bff8c;
-  text-align: center;
-  font-style:bold;
+position: relative;
+left: -170;
+top: -1489;
+height: 23;
+width:23;
+z-index:999999999999999999999999999999999999999999999999999999;
+border-radius: 4px;
+border:none;
+color:rgb(51, 51, 51);
+background-color:rgb(78, 255, 107);
+font-family: arial black;
+font-size:15;
+outline: none; 
+background-color: #5bff8c;
+text-align: center;
+font-style:bold;
 }
 #Pageb{
+position: relative;
+left:10;
+top:15;
+}
+#pfptxt{
   position: relative;
-  left:10;
+  z-index:1000000000000000000000000000000000000000000000000;
+  top:-1852;
+  left:73;
+  font-family: arial;
+  color:white;
 }
