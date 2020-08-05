@@ -203,7 +203,7 @@ var nn = "00"
 
 var PBS
 var PlaybackSpeed
-document.getElementById('Speedid').value = 300
+document.getElementById('Speedid').value = 220
 document.getElementById('Speedid2').value = 1
 
 function Wait0() {
@@ -2275,9 +2275,68 @@ function BgTrackData(){
     aaa14 = "nz7"
   }
 }
-
+var pfpby
+var profile = null
+profile = Math.floor((Math.random() * 6) + 1);
+if (profile == 1){
+document.getElementById("profilepic").src = "AnonymousBird.png";
+document.getElementById("pfptxt").innerHTML = "UnknownBird";
+pfpby = "p0p"
+}
+if (profile == 2){
+document.getElementById("profilepic").src = "UnknownSquid.jpg";
+document.getElementById("pfptxt").innerHTML = "UnknownSquid";
+pfpby = "p1p"
+}
+if (profile == 3){
+  document.getElementById("profilepic").src = "UnknownHousecat.jpg";
+  document.getElementById("pfptxt").innerHTML = "UnknownHousecat";
+  pfpby = "p3p"
+  }
+  if (profile == 4){
+    document.getElementById("profilepic").src = "UnknownGiraffe.jpg";
+    document.getElementById("pfptxt").innerHTML = "UnknownGiraffe";
+    pfpby = "p4p"
+    }
+    if (profile == 5){
+      document.getElementById("profilepic").src = "UnknownRabbit.jpg";
+      document.getElementById("pfptxt").innerHTML = "UnknownRabbit";
+      pfpby = "p5p"
+      }
+      if (profile == 6){
+        document.getElementById("profilepic").src = "UnknownGoose.jpg";
+        document.getElementById("pfptxt").innerHTML = "UnknownGoose";
+        pfpby = "p6p"
+        }
+crtby()
+function crtby(){
+if (document.getElementById('TuneShare').value.includes("p0p")) {
+  document.getElementById("profilepic").src = "AnonymousBird.png";
+document.getElementById("pfptxt").innerHTML = "Created By: UnknownBird";
+}
+if (document.getElementById('TuneShare').value.includes("p1p")) {
+  document.getElementById("profilepic").src = "UnknownSquid.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: UnknownSquid";
+}
+if (document.getElementById('TuneShare').value.includes("p3p")) {
+  document.getElementById("profilepic").src = "UnknownHousecat.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: UnknownHousecat";
+}
+if (document.getElementById('TuneShare').value.includes("p4p")) {
+  document.getElementById("profilepic").src = "UnknownGiraffe.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: UnknownGiraffe";
+}
+if (document.getElementById('TuneShare').value.includes("p5p")) {
+  document.getElementById("profilepic").src = "UnknownRabbit.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: UnknownRabbit";
+}
+if (document.getElementById('TuneShare').value.includes("p6p")) {
+  document.getElementById("profilepic").src = "UnknownGoose.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: UnknownGoose";
+}
+setTimeout(crtby,0)
+}
 var ci1
-
 var ci2 = ["q2x","s6p","v1v","r1o","xwq","Q2X","S6P","V1V","R1O","XWQ"]
 function Share() {
   BgTrackData()
@@ -2288,7 +2347,7 @@ function Share() {
   document.getElementById('codeinput9').value + document.getElementById('codeinput10').value+
   document.getElementById('codeinput3').value + document.getElementById('codeinput11').value+
   document.getElementById('codeinput13').value + document.getElementById('codeinput12').value+document.getElementById('codeinput14').value
-+aaa1+aaa2+aaa3+aaa4+aaa5+aaa6+aaa7+aaa8+aaa9+aaa10+aaa11+bOz15+aaa12+aaa13+aaa14+zs1+zs2+zs3+zs4+zs5+zs6+zs7+zs1a+zs2a+zs3a+zs4a+zs5a+zs6a+zs7a
++aaa1+aaa2+aaa3+aaa4+aaa5+aaa6+aaa7+aaa8+aaa9+aaa10+aaa11+bOz15+aaa12+aaa13+aaa14+zs1+pfpby+zs2+zs3+zs4+zs5+zs6+zs7+zs1a+zs2a+zs3a+zs4a+zs5a+zs6a+zs7a
   document.getElementById('TuneShareID').value = ci1
   var copyText = document.getElementById("TuneShareID");
   copyText.select();
