@@ -412,7 +412,11 @@ input[type=number] {
 </div>
 
   <script>
-    if (navigator.userAgent.includes("Windows")) {
+    if (navigator.userAgent.includes("Firefox")){
+      window.location.assign("Error404.html");
+    }
+    else{
+if (navigator.userAgent.includes("Windows")) {
 ForVar = "For Windows"
     } else {
       if (navigator.userAgent.includes("CrOS")) {
@@ -422,10 +426,11 @@ ForVar = "For Windows"
           ForVar = "For MacOS"
         }
         else{
-          window.location.assign("http://omixapp.github.io_");
+          window.location.assign("Error404.html");
         }
       }
     }
+  }
     function ks(){
       sw1 = false
     }
@@ -564,7 +569,7 @@ if (sw1a == true){
     document.getElementById("s1a").innerHTML = "2";
      Abeata.play()
      sw1a = true
-     zs1a = "zx7t2a"
+     zs1a = "zx1t2a"
   }
 
 }
@@ -631,7 +636,7 @@ function swa52(){
     document.getElementById("s5a").innerHTML = "2";
      Ebeata.play()
      sw5a = true
-     zs4a = "zx5t2a"
+     zs5a = "zx5t2a"
   }
 }
 function swa62(){
