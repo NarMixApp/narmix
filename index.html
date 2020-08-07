@@ -25,6 +25,28 @@
           z-index: -20;
           border-radius: 8px;
         }
+  #Brand{
+  padding: 20px;
+  color: rgba(255,255,255,.9);
+  position: fixed;
+  bottom: -16;
+  left: 40;
+  opacity:90%;
+  font-family: arial black;
+  font-size:16;
+  right: 0;
+  }
+  #Branding{
+  padding: 20px;
+  color: rgba(255,255,255,.9);
+  position: fixed;
+  bottom: -10;
+  left: -10;
+  opacity:90%;
+  font-family: arial black;
+  font-size:17;
+  right: 0;
+  }
         </style>
 </head>
 <body>
@@ -40,10 +62,14 @@
     <h3 id="What3a">to provide you the best experience possible for your device.</h3>
     <div class="square"></div>
     <div class="square2"></div>
-
+    <h3 id="Brand" >SmixzolApps</h3>
+    <img id="Branding" src="Branding.png" alt="Logo" width="40" onclick="YT()">
    <script>
         function Open(){
             window.location.assign("editor.html")
+        }
+        function YT(){
+          window.location.assign("https://www.youtube.com/channel/UCIo6_kjGjRrQovwoGZ9LpsQ?view_as=subscriber")
         }
     </script>
 </body>
