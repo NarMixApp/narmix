@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(46, 46, 46);
+    background-image: url("BG.jpg");
+    background-size: 100%;
     overflow-x: hidden;
     white-space: nowrap;
     width: 100%;
