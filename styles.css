@@ -4,6 +4,12 @@ body {
   overflow-y: hidden;
   white-space: nowrap;
   width: 100%;
+  zoom: 95%;
+  position: relative;
+  top:15;
+  left:30;
+  background-image: url("BG.jpg");
+  background-size: 100%;
 }
 
 #divab {
@@ -711,7 +717,7 @@ body {
   border: none;
   width: 80;
   outline: none;
-  top: -112;
+  top: -110;
   text-align: left;
   border-radius: 4px;
   font-family: arial black;
@@ -1330,7 +1336,7 @@ font-style:bold;
 #Pageb{
 position: relative;
 left:10;
-top:15;
+top:17;
 }
 #pfptxt{
   position: relative;
