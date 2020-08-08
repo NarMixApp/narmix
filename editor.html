@@ -97,9 +97,22 @@ input[type=number] {
           top:-1806;
           border-radius: 8px;
           left:23;
-  
-
         }
+@keyframes Fall {
+  0%   {top:-1000;-webkit-transform: rotate(6deg);}
+  25%  {-webkit-transform: rotate(-8deg); }
+  50%  {-webkit-transform: rotate(6deg);}
+  75%  {-webkit-transform: rotate(-3deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+body{
+  position: relative;
+  animation-name: Fall;
+  animation-duration: .8s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+}
+        
       </style>
     <Link rel="stylesheet" href="styles.css">
   </head>
