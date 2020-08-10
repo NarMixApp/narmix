@@ -1340,6 +1340,7 @@ top:17;
 max-width: 500px;
 left:-415;
 margin: auto;
+  vertical-align: middle
 }
 #pfptxt{
   position: relative;
