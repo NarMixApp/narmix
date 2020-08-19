@@ -11,7 +11,18 @@ body {
   background-image: url("BG.jpg");
   background-size: 100%;
 }
-
+.bodya {
+  background-color: #333333;
+  white-space: nowrap;
+  width: 100%;
+  zoom: 55%;
+  position: relative;
+  top:1%;
+  left:1.5%;
+  background-size: 100%;
+  position:fixed;
+  padding:1%;
+}
 #divab {
   position: relative;
   left: 40;
