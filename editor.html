@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OMiXApp | Music Made Easy</title>
+    <title>OMiXApp | Audio Editor</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="OMiXApp | Create Music For Free" />
+    <meta property="og:description" content="OMiXApp is a web tool that allows you to create short music clips for free." />
+    <meta property="og:url" content="https://omixapp.github.io/OMiX/" />
+    <meta property="og:image" content="Thumbnail.png" />
     <link rel="shortcut icon" href="favicona.png" />
     <audio id="Abeat">
       <source src="Clap.mp3" type="audio/mpeg"></audio>
@@ -19,671 +24,692 @@
       <source src="Glass.mp3" type="audio/mpeg"></audio>
     <audio id="Gbeat">
       <source src="Bell.mp3" type="audio/mpeg"></audio>
+    <audio id="ss1">
+      <source src="Plyxlsol.mp3" type="audio/mpeg"></audio>
 
-        <audio id="Abeata">
-          <source src="Clap.mp3" type="audio/mpeg"></audio>
-        <audio id="Bbeata">
-          <source src="Paper.mp3" type="audio/mpeg"></audio>
-        <audio id="Cbeata">
-          <source src="Metal.mp3" type="audio/mpeg"></audio>
-        <audio id="Dbeata">
-          <source src="Crunch.mp3" type="audio/mpeg"></audio>
-        <audio id="Ebeata">
-          <source src="Swoosh.mp3" type="audio/mpeg"></audio>
-        <audio id="Fbeata">
-          <source src="Glass.mp3" type="audio/mpeg"></audio>
-        <audio id="Gbeata">
-          <source src="Bell.mp3" type="audio/mpeg"></audio>
-        <style>
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type=number] {
-  -moz-appearance: textfield;
-}
+    <audio id="Abeata">
+      <source src="Clap.mp3" type="audio/mpeg"></audio>
+    <audio id="Bbeata">
+      <source src="Paper.mp3" type="audio/mpeg"></audio>
+    <audio id="Cbeata">
+      <source src="Metal.mp3" type="audio/mpeg"></audio>
+    <audio id="Dbeata">
+      <source src="Crunch.mp3" type="audio/mpeg"></audio>
+    <audio id="Ebeata">
+      <source src="Swoosh.mp3" type="audio/mpeg"></audio>
+    <audio id="Fbeata">
+      <source src="Glass.mp3" type="audio/mpeg"></audio>
+    <audio id="Gbeata">
+      <source src="Bell.mp3" type="audio/mpeg"></audio>
+    <style>
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
 
-        .squarea {
-          height: 119px;
-          width: 280px;
-          background-color: #535353;
-          position:relative;
-          top:-373;
-          left:660;
-          z-index: -20;
-          border-radius: 8px;
-        }
-        
-        .square2 {
-          height: 570px;
-          width: 1215px;
-          background-color: rgb(71, 71, 71);
-          position:relative;
-          top:-960;
-          left:15;
-          z-index: -20;
-          border-radius: 8px;
-          z-index:-100;
-        }
-        .squareb {
-          height: 42px;
-          width: 245px;
-          background-color: #535353;
-          position:relative;
-          left: 954;
-          top: -1123;
-          z-index: -20;
-          border-radius: 8px;
-        }
-        .userprofile{
-          background-color: rgb(71, 71, 71);
-          width:350;
-          height:100 ;
-          position: relative;
-          z-index:-10000;
-          top:-1710;
-          border-radius: 8px;
-          left:15;
-  
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
 
-        }
-        #profilepic{
-          background-color: rgb(71, 71, 71);
-          position: relative;
-          z-index:1000000000000000000000000000000000000000000000000;
-          top:-1806;
-          border-radius: 8px;
-          left:23;
-        }
-@keyframes Fall {
-  0%   {top:-1000;-webkit-transform: rotate(6deg);}
-  25%  {-webkit-transform: rotate(-8deg); }
-  50%  {-webkit-transform: rotate(6deg);}
-  75%  {-webkit-transform: rotate(-3deg);}
-  100% {-webkit-transform: rotate(0deg);}
-}
-body{
-  position: relative;
-  animation-name: Fall;
-  animation-duration: .8s;
-  animation-direction: alternate;
-  animation-iteration-count: 1;
-}
-  
+      .squarea {
+        height: 119px;
+        width: 280px;
+        background-color: #535353;
+        position: relative;
+        top: -373;
+        left: 660;
+        z-index: -20;
+        border-radius: 8px;
+      }
 
-      </style>
+      .square2 {
+        height: 570px;
+        width: 1215px;
+        background-color: rgb(71, 71, 71);
+        position: relative;
+        top: -960;
+        left: 15;
+        z-index: -20;
+        border-radius: 8px;
+        z-index: -100;
+      }
+
+      .squareb {
+        height: 42px;
+        width: 245px;
+        background-color: #535353;
+        position: relative;
+        left: 954;
+        top: -1123;
+        z-index: -20;
+        border-radius: 8px;
+      }
+
+      .userprofile {
+        background-color: rgb(71, 71, 71);
+        width: 800;
+        height: 100;
+        position: relative;
+        z-index: -10000;
+        top: -1710;
+        border-radius: 8px;
+        left: 15;
+
+
+      }
+
+      #profilepic {
+        background-color: rgb(71, 71, 71);
+        position: relative;
+        z-index: 1000000000000000000000000000000000000000000000000;
+        top: -1806;
+        border-radius: 8px;
+        left: 23;
+      }
+
+      @keyframes Fall {
+        0% {
+          top: -1000;
+          -webkit-transform: rotate(6deg);
+        }
+
+        25% {
+          -webkit-transform: rotate(-8deg);
+        }
+
+        50% {
+          -webkit-transform: rotate(6deg);
+        }
+
+        75% {
+          -webkit-transform: rotate(-3deg);
+        }
+
+        100% {
+          -webkit-transform: rotate(0deg);
+        }
+      }
+
+      body {
+        position: relative;
+        animation-name: Fall;
+        animation-duration: .8s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+
+      }
+
+    </style>
     <Link rel="stylesheet" href="styles.css">
   </head>
   <div id="Pageb">
-  <div id="Pagea">
-  <!--TuneShareID TextBoxes-->
-    <div id="divab">
-      <input type="text" id="codeinput1" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput2" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput3" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput4" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput5" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput6" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput7" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput8" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput9" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput10" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput11" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput12" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput13" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput14" maxlength="2" placeholder="00">
+    <div id="Pagea">
+      <!--TuneShareID TextBoxes-->
+      <div id="divab">
+        <input type="text" id="codeinput1" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput2" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput3" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput4" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput5" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput6" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput7" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput8" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput9" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput10" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput11" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput12" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput13" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput14" maxlength="2" placeholder="00">
 
-      <input type="text" id="codeinput1a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput2a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput3a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput4a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput5a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput6a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput7a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput8a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput9a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput10a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput11a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput12a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput13a" maxlength="2" placeholder="00">
-      <input type="text" id="codeinput14a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput1a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput2a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput3a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput4a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput5a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput6a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput7a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput8a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput9a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput10a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput11a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput12a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput13a" maxlength="2" placeholder="00">
+        <input type="text" id="codeinput14a" maxlength="2" placeholder="00">
+      </div>
+      <div id="nav">
+        <button onclick="Wait0()" id="Play">▶</button>
+      </div>
+
+      <!--Audio Input-->
+      <div id=Buttons>
+        <button id="ClapA" onclick="a1()" class="Clap1">SFX-1</button>
+        <button id="ClapA" onclick="b1()">SFX-1</button>
+        <button id="ClapA" onclick="c1()">SFX-1</button>
+        <button id="ClapA" onclick="d1()">SFX-1</button>
+        <button id="ClapA" onclick="e1()">SFX-1</button>
+        <button id="ClapA" onclick="f1()">SFX-1</button>
+        <button id="ClapA" onclick="g1()">SFX-1</button>
+        <button id="ClapA" onclick="h1()">SFX-1</button>
+        <button id="ClapA" onclick="i1()">SFX-1</button>
+        <button id="ClapA" onclick="j1()">SFX-1</button>
+        <button id="ClapA" onclick="k1()">SFX-1</button>
+        <button id="ClapA" onclick="l1()">SFX-1</button>
+        <button id="ClapA" onclick="m1()">SFX-1</button>
+        <button id="ClapA" onclick="n1()">SFX-1</button>
+
+        <button id="ClapBA" onclick="a12()">SFX-2</button>
+        <button id="ClapB" onclick="b12()">SFX-2</button>
+        <button id="ClapB" onclick="c12()">SFX-2</button>
+        <button id="ClapB" onclick="d12()">SFX-2</button>
+        <button id="ClapB" onclick="e12()">SFX-2</button>
+        <button id="ClapB" onclick="f12()">SFX-2</button>
+        <button id="ClapB" onclick="g12()">SFX-2</button>
+        <button id="ClapB" onclick="h12()">SFX-2</button>
+        <button id="ClapB" onclick="i12()">SFX-2</button>
+        <button id="ClapB" onclick="j12()">SFX-2</button>
+        <button id="ClapB" onclick="k12()">SFX-2</button>
+        <button id="ClapB" onclick="l12()">SFX-2</button>
+        <button id="ClapB" onclick="m12()">SFX-2</button>
+        <button id="ClapB" onclick="n12()">SFX-2</button>
+
+        <button id="ClapCA" onclick="a13()">SFX-3</button>
+        <button id="ClapCB" onclick="b13()">SFX-3</button>
+        <button id="ClapC" onclick="c13()">SFX-3</button>
+        <button id="ClapC" onclick="d13()">SFX-3</button>
+        <button id="ClapC" onclick="e13()">SFX-3</button>
+        <button id="ClapC" onclick="f13()">SFX-3</button>
+        <button id="ClapC" onclick="g13()">SFX-3</button>
+        <button id="ClapC" onclick="h13()">SFX-3</button>
+        <button id="ClapC" onclick="i13()">SFX-3</button>
+        <button id="ClapC" onclick="j13()">SFX-3</button>
+        <button id="ClapC" onclick="k13()">SFX-3</button>
+        <button id="ClapC" onclick="l13()">SFX-3</button>
+        <button id="ClapC" onclick="m13()">SFX-3</button>
+        <button id="ClapC" onclick="n13()">SFX-3</button>
+
+        <button id="ClapDA" onclick="a14()">SFX-4</button>
+        <button id="ClapDA" onclick="b14()">SFX-4</button>
+        <button id="ClapDA" onclick="c14()">SFX-4</button>
+        <button id="ClapD" onclick="d14()">SFX-4</button>
+        <button id="ClapD" onclick="e14()">SFX-4</button>
+        <button id="ClapD" onclick="f14()">SFX-4</button>
+        <button id="ClapD" onclick="g14()">SFX-4</button>
+        <button id="ClapD" onclick="h14()">SFX-4</button>
+        <button id="ClapD" onclick="i14()">SFX-4</button>
+        <button id="ClapD" onclick="j14()">SFX-4</button>
+        <button id="ClapD" onclick="k14()">SFX-4</button>
+        <button id="ClapD" onclick="l14()">SFX-4</button>
+        <button id="ClapD" onclick="m14()">SFX-4</button>
+        <button id="ClapD" onclick="n14()">SFX-4</button>
+
+        <h6 id="MainTrack1"> Track 1</h6>
+
+        <button id="ClapE" onclick="a15()">SFX-5</button>
+        <button id="ClapE" onclick="b15()">SFX-5</button>
+        <button id="ClapE" onclick="c15()">SFX-5</button>
+        <button id="ClapE" onclick="d15()">SFX-5</button>
+        <button id="ClapE" onclick="e15()">SFX-5</button>
+        <button id="ClapE" onclick="f15()">SFX-5</button>
+        <button id="ClapE" onclick="g15()">SFX-5</button>
+        <button id="ClapE" onclick="h15()">SFX-5</button>
+        <button id="ClapE" onclick="i15()">SFX-5</button>
+        <button id="ClapE" onclick="j15()">SFX-5</button>
+        <button id="ClapE" onclick="k15()">SFX-5</button>
+        <button id="ClapE" onclick="l15()">SFX-5</button>
+        <button id="ClapE" onclick="m15()">SFX-5</button>
+        <button id="ClapE" onclick="n15()">SFX-5</button>
+
+        <button id="ClapFA" onclick="a16()">SFX-6</button>
+        <button id="ClapF" onclick="b16()">SFX-6</button>
+        <button id="ClapF" onclick="c16()">SFX-6</button>
+        <button id="ClapF" onclick="d16()">SFX-6</button>
+        <button id="ClapF" onclick="e16()">SFX-6</button>
+        <button id="ClapF" onclick="f16()">SFX-6</button>
+        <button id="ClapF" onclick="g16()">SFX-6</button>
+        <button id="ClapF" onclick="h16()">SFX-6</button>
+        <button id="ClapF" onclick="i16()">SFX-6</button>
+        <button id="ClapF" onclick="j16()">SFX-6</button>
+        <button id="ClapF" onclick="k16()">SFX-6</button>
+        <button id="ClapF" onclick="l16()">SFX-6</button>
+        <button id="ClapF" onclick="m16()">SFX-6</button>
+        <button id="ClapF" onclick="n16()">SFX-6</button>
+
+        <button id="ClapG2" onclick="a17()">SFX-7</button>
+        <button id="ClapG2" onclick="b17()">SFX-7</button>
+        <button id="ClapG" onclick="c17()">SFX-7</button>
+        <button id="ClapG" onclick="d17()">SFX-7</button>
+        <button id="ClapG" onclick="e17()">SFX-7</button>
+        <button id="ClapG" onclick="f17()">SFX-7</button>
+        <button id="ClapG" onclick="g17()">SFX-7</button>
+        <button id="ClapG" onclick="h17()">SFX-7</button>
+        <button id="ClapG" onclick="i17()">SFX-7</button>
+        <button id="ClapG" onclick="j17()">SFX-7</button>
+        <button id="ClapG" onclick="k17()">SFX-7</button>
+        <button id="ClapG" onclick="l17()">SFX-7</button>
+        <button id="ClapG" onclick="m17()">SFX-7</button>
+        <button id="ClapG" onclick="n17()">SFX-7</button>
+      </div>
+
+      <div id=Buttons2>
+        <button id="ClapA" onclick="a1a()">SFX-1</button>
+        <button id="ClapA" onclick="b1a()">SFX-1</button>
+        <button id="ClapA" onclick="c1a()">SFX-1</button>
+        <button id="ClapA" onclick="d1a()">SFX-1</button>
+        <button id="ClapA" onclick="e1a()">SFX-1</button>
+        <button id="ClapA" onclick="f1a()">SFX-1</button>
+        <button id="ClapA" onclick="g1a()">SFX-1</button>
+        <button id="ClapA" onclick="h1a()">SFX-1</button>
+        <button id="ClapA" onclick="i1a()">SFX-1</button>
+        <button id="ClapA" onclick="j1a()">SFX-1</button>
+        <button id="ClapA" onclick="k1a()">SFX-1</button>
+        <button id="ClapA" onclick="l1a()">SFX-1</button>
+        <button id="ClapA" onclick="m1a()">SFX-1</button>
+        <button id="ClapA" onclick="n1a()">SFX-1</button>
+
+        <button id="ClapBA" onclick="a12a()">SFX-2</button>
+        <button id="ClapB" onclick="b12a()">SFX-2</button>
+        <button id="ClapB" onclick="c12a()">SFX-2</button>
+        <button id="ClapB" onclick="d12a()">SFX-2</button>
+        <button id="ClapB" onclick="e12a()">SFX-2</button>
+        <button id="ClapB" onclick="f12a()">SFX-2</button>
+        <button id="ClapB" onclick="g12a()">SFX-2</button>
+        <button id="ClapB" onclick="h12a()">SFX-2</button>
+        <button id="ClapB" onclick="i12a()">SFX-2</button>
+        <button id="ClapB" onclick="j12a()">SFX-2</button>
+        <button id="ClapB" onclick="k12a()">SFX-2</button>
+        <button id="ClapB" onclick="l12a()">SFX-2</button>
+        <button id="ClapB" onclick="m12a()">SFX-2</button>
+        <button id="ClapB" onclick="n12a()">SFX-2</button>
+
+        <button id="ClapCA" onclick="a13a()">SFX-3</button>
+        <button id="ClapCB" onclick="b13a()">SFX-3</button>
+        <button id="ClapC" onclick="c13a()">SFX-3</button>
+        <button id="ClapC" onclick="d13a()">SFX-3</button>
+        <button id="ClapC" onclick="e13a()">SFX-3</button>
+        <button id="ClapC" onclick="f13a()">SFX-3</button>
+        <button id="ClapC" onclick="g13a()">SFX-3</button>
+        <button id="ClapC" onclick="h13a()">SFX-3</button>
+        <button id="ClapC" onclick="i13a()">SFX-3</button>
+        <button id="ClapC" onclick="j13a()">SFX-3</button>
+        <button id="ClapC" onclick="k13a()">SFX-3</button>
+        <button id="ClapC" onclick="l13a()">SFX-3</button>
+        <button id="ClapC" onclick="m13a()">SFX-3</button>
+        <button id="ClapC" onclick="n13a()">SFX-3</button>
+
+        <button id="ClapDA" onclick="a14a()">SFX-4</button>
+        <button id="ClapDA" onclick="b14a()">SFX-4</button>
+        <button id="ClapDA" onclick="c14a()">SFX-4</button>
+        <button id="ClapD" onclick="d14a()">SFX-4</button>
+        <button id="ClapD" onclick="e14a()">SFX-4</button>
+        <button id="ClapD" onclick="f14a()">SFX-4</button>
+        <button id="ClapD" onclick="g14a()">SFX-4</button>
+        <button id="ClapD" onclick="h14a()">SFX-4</button>
+        <button id="ClapD" onclick="i14a()">SFX-4</button>
+        <button id="ClapD" onclick="j14a()">SFX-4</button>
+        <button id="ClapD" onclick="k14a()">SFX-4</button>
+        <button id="ClapD" onclick="l14a()">SFX-4</button>
+        <button id="ClapD" onclick="m14a()">SFX-4</button>
+        <button id="ClapD" onclick="n14a()">SFX-4</button>
+
+        <h6 id="MainTrack2"> Track 2</h6>
+
+        <button id="ClapE" onclick="a15a()">SFX-5</button>
+        <button id="ClapE" onclick="b15a()">SFX-5</button>
+        <button id="ClapE" onclick="c15a()">SFX-5</button>
+        <button id="ClapE" onclick="d15a()">SFX-5</button>
+        <button id="ClapE" onclick="e15a()">SFX-5</button>
+        <button id="ClapE" onclick="f15a()">SFX-5</button>
+        <button id="ClapE" onclick="g15a()">SFX-5</button>
+        <button id="ClapE" onclick="h15a()">SFX-5</button>
+        <button id="ClapE" onclick="i15a()">SFX-5</button>
+        <button id="ClapE" onclick="j15a()">SFX-5</button>
+        <button id="ClapE" onclick="k15a()">SFX-5</button>
+        <button id="ClapE" onclick="l15a()">SFX-5</button>
+        <button id="ClapE" onclick="m15a()">SFX-5</button>
+        <button id="ClapE" onclick="n15a()">SFX-5</button>
+
+        <button id="ClapFA" onclick="a16a()">SFX-6</button>
+        <button id="ClapF" onclick="b16a()">SFX-6</button>
+        <button id="ClapF" onclick="c16a()">SFX-6</button>
+        <button id="ClapF" onclick="d16a()">SFX-6</button>
+        <button id="ClapF" onclick="e16a()">SFX-6</button>
+        <button id="ClapF" onclick="f16a()">SFX-6</button>
+        <button id="ClapF" onclick="g16a()">SFX-6</button>
+        <button id="ClapF" onclick="h16a()">SFX-6</button>
+        <button id="ClapF" onclick="i16a()">SFX-6</button>
+        <button id="ClapF" onclick="j16a()">SFX-6</button>
+        <button id="ClapF" onclick="k16a()">SFX-6</button>
+        <button id="ClapF" onclick="l16a()">SFX-6</button>
+        <button id="ClapF" onclick="m16a()">SFX-6</button>
+        <button id="ClapF" onclick="n16a()">SFX-6</button>
+
+        <button id="ClapG2" onclick="a17a()">SFX-7</button>
+        <button id="ClapG2" onclick="b17a()">SFX-7</button>
+        <button id="ClapG" onclick="c17a()">SFX-7</button>
+        <button id="ClapG" onclick="d17a()">SFX-7</button>
+        <button id="ClapG" onclick="e17a()">SFX-7</button>
+        <button id="ClapG" onclick="f17a()">SFX-7</button>
+        <button id="ClapG" onclick="g17a()">SFX-7</button>
+        <button id="ClapG" onclick="h17a()">SFX-7</button>
+        <button id="ClapG" onclick="i17a()">SFX-7</button>
+        <button id="ClapG" onclick="j17a()">SFX-7</button>
+        <button id="ClapG" onclick="k17a()">SFX-7</button>
+        <button id="ClapG" onclick="l17a()">SFX-7</button>
+        <button id="ClapG" onclick="m17a()">SFX-7</button>
+        <button id="ClapG" onclick="n17a()">SFX-7</button>
+      </div>
+      <div id="nav">
+        <h1 id="OmTitle">OMiX</h1>
+        <button onclick="LoopStart()" id="Loop">∞</button>
+      </div>
+      <div id="divab">
+        <h6 id="Tunes">Tunes</h6>
+      </div>
+      <div id="nav">
+        <button onclick="Stop()" id="Loop2">■</button>
+        <button onclick="LoopBreak()" id="Loop3">x</button>
+        <div id="Logo">
+          <h6 id="trec">OMiX</h6>
+          <button id="App">App</button>
+          <button id="For"></button>
+        </div>
+      </div>
     </div>
-    <div id="nav">
-    <button onclick="Wait0()" id="Play">▶</button>
+    <div class="squarea"></div>
+    <input type="text" id="TuneShare" placeholder="Paste Token Here">
+    <input type="text" id="TuneShareID">
+    <button onclick="Share()" id="ShareTune">Copy Token</button>
+    <div class="square2"></div>
+    <button id="SpeedidLabel">Tempo:</button>
+    <input type="text" maxlength="3" id="Speedid">
+    <div class="squareb"></div>
+    <button id="SpeedidLabel2">Pitch:</button>
+    <input type="text" maxlength="3" id="Speedid2">
+
+    <button id="s1" onclick="swa1()">1</button>
+    <button id="s2" onclick="swa2()">1</button>
+    <button id="s3" onclick="swa3()">1</button>
+    <div id="asdf">
+      <button id="s4" onclick="swa4()">1</button>
+      <button id="s5" onclick="swa5()">1</button>
+      <button id="s6" onclick="swa6()">1</button>
+      <button id="s7" onclick="swa7()">1</button>
     </div>
+    <div id="codac2">
+      <button id="s1a" onclick="swa12()">1</button>
+      <button id="s2a" onclick="swa22()">1</button>
+      <button id="s3a" onclick="swa32()">1</button>
+      <button id="s4a" onclick="swa42()">1</button>
+      <button id="s5a" onclick="swa52()">1</button>
+      <button id="s6a" onclick="swa62()">1</button>
+      <button id="s7a" onclick="swa72()">1</button>
 
-    <!--Audio Input-->
-    <div id=Buttons>
-      <button id="ClapA" onclick="a1()" class="Clap1">SFX-1</button>
-      <button id="ClapA" onclick="b1()">SFX-1</button>
-      <button id="ClapA" onclick="c1()">SFX-1</button>
-      <button id="ClapA" onclick="d1()">SFX-1</button>
-      <button id="ClapA" onclick="e1()">SFX-1</button>
-      <button id="ClapA" onclick="f1()">SFX-1</button>
-      <button id="ClapA" onclick="g1()">SFX-1</button>
-      <button id="ClapA" onclick="h1()">SFX-1</button>
-      <button id="ClapA" onclick="i1()">SFX-1</button>
-      <button id="ClapA" onclick="j1()">SFX-1</button>
-      <button id="ClapA" onclick="k1()">SFX-1</button>
-      <button id="ClapA" onclick="l1()">SFX-1</button>
-      <button id="ClapA" onclick="m1()">SFX-1</button>
-      <button id="ClapA" onclick="n1()">SFX-1</button>
-
-      <button id="ClapBA" onclick="a12()">SFX-2</button>
-      <button id="ClapB" onclick="b12()">SFX-2</button>
-      <button id="ClapB" onclick="c12()">SFX-2</button>
-      <button id="ClapB" onclick="d12()">SFX-2</button>
-      <button id="ClapB" onclick="e12()">SFX-2</button>
-      <button id="ClapB" onclick="f12()">SFX-2</button>
-      <button id="ClapB" onclick="g12()">SFX-2</button>
-      <button id="ClapB" onclick="h12()">SFX-2</button>
-      <button id="ClapB" onclick="i12()">SFX-2</button>
-      <button id="ClapB" onclick="j12()">SFX-2</button>
-      <button id="ClapB" onclick="k12()">SFX-2</button>
-      <button id="ClapB" onclick="l12()">SFX-2</button>
-      <button id="ClapB" onclick="m12()">SFX-2</button>
-      <button id="ClapB" onclick="n12()">SFX-2</button>
-
-      <button id="ClapCA" onclick="a13()">SFX-3</button>
-      <button id="ClapCB" onclick="b13()">SFX-3</button>
-      <button id="ClapC" onclick="c13()">SFX-3</button>
-      <button id="ClapC" onclick="d13()">SFX-3</button>
-      <button id="ClapC" onclick="e13()">SFX-3</button>
-      <button id="ClapC" onclick="f13()">SFX-3</button>
-      <button id="ClapC" onclick="g13()">SFX-3</button>
-      <button id="ClapC" onclick="h13()">SFX-3</button>
-      <button id="ClapC" onclick="i13()">SFX-3</button>
-      <button id="ClapC" onclick="j13()">SFX-3</button>
-      <button id="ClapC" onclick="k13()">SFX-3</button>
-      <button id="ClapC" onclick="l13()">SFX-3</button>
-      <button id="ClapC" onclick="m13()">SFX-3</button>
-      <button id="ClapC" onclick="n13()">SFX-3</button>
-
-      <button id="ClapDA" onclick="a14()">SFX-4</button>
-      <button id="ClapDA" onclick="b14()">SFX-4</button>
-      <button id="ClapDA" onclick="c14()">SFX-4</button>
-      <button id="ClapD" onclick="d14()">SFX-4</button>
-      <button id="ClapD" onclick="e14()">SFX-4</button>
-      <button id="ClapD" onclick="f14()">SFX-4</button>
-      <button id="ClapD" onclick="g14()">SFX-4</button>
-      <button id="ClapD" onclick="h14()">SFX-4</button>
-      <button id="ClapD" onclick="i14()">SFX-4</button>
-      <button id="ClapD" onclick="j14()">SFX-4</button>
-      <button id="ClapD" onclick="k14()">SFX-4</button>
-      <button id="ClapD" onclick="l14()">SFX-4</button>
-      <button id="ClapD" onclick="m14()">SFX-4</button>
-      <button id="ClapD" onclick="n14()">SFX-4</button>
-
-      <h6 id="MainTrack1"> Track 1</h6>
-
-      <button id="ClapE" onclick="a15()">SFX-5</button>
-      <button id="ClapE" onclick="b15()">SFX-5</button>
-      <button id="ClapE" onclick="c15()">SFX-5</button>
-      <button id="ClapE" onclick="d15()">SFX-5</button>
-      <button id="ClapE" onclick="e15()">SFX-5</button>
-      <button id="ClapE" onclick="f15()">SFX-5</button>
-      <button id="ClapE" onclick="g15()">SFX-5</button>
-      <button id="ClapE" onclick="h15()">SFX-5</button>
-      <button id="ClapE" onclick="i15()">SFX-5</button>
-      <button id="ClapE" onclick="j15()">SFX-5</button>
-      <button id="ClapE" onclick="k15()">SFX-5</button>
-      <button id="ClapE" onclick="l15()">SFX-5</button>
-      <button id="ClapE" onclick="m15()">SFX-5</button>
-      <button id="ClapE" onclick="n15()">SFX-5</button>
-
-      <button id="ClapFA" onclick="a16()">SFX-6</button>
-      <button id="ClapF" onclick="b16()">SFX-6</button>
-      <button id="ClapF" onclick="c16()">SFX-6</button>
-      <button id="ClapF" onclick="d16()">SFX-6</button>
-      <button id="ClapF" onclick="e16()">SFX-6</button>
-      <button id="ClapF" onclick="f16()">SFX-6</button>
-      <button id="ClapF" onclick="g16()">SFX-6</button>
-      <button id="ClapF" onclick="h16()">SFX-6</button>
-      <button id="ClapF" onclick="i16()">SFX-6</button>
-      <button id="ClapF" onclick="j16()">SFX-6</button>
-      <button id="ClapF" onclick="k16()">SFX-6</button>
-      <button id="ClapF" onclick="l16()">SFX-6</button>
-      <button id="ClapF" onclick="m16()">SFX-6</button>
-      <button id="ClapF" onclick="n16()">SFX-6</button>
-
-      <button id="ClapG2" onclick="a17()">SFX-7</button>
-      <button id="ClapG2" onclick="b17()">SFX-7</button>
-      <button id="ClapG" onclick="c17()">SFX-7</button>
-      <button id="ClapG" onclick="d17()">SFX-7</button>
-      <button id="ClapG" onclick="e17()">SFX-7</button>
-      <button id="ClapG" onclick="f17()">SFX-7</button>
-      <button id="ClapG" onclick="g17()">SFX-7</button>
-      <button id="ClapG" onclick="h17()">SFX-7</button>
-      <button id="ClapG" onclick="i17()">SFX-7</button>
-      <button id="ClapG" onclick="j17()">SFX-7</button>
-      <button id="ClapG" onclick="k17()">SFX-7</button>
-      <button id="ClapG" onclick="l17()">SFX-7</button>
-      <button id="ClapG" onclick="m17()">SFX-7</button>
-      <button id="ClapG" onclick="n17()">SFX-7</button>
     </div>
+    <div class="userprofile"></div>
+    <img id="profilepic" alt="pfp" width="35" height="35" id="pfp">
+    <h3 id="pfptxt"></h3>
 
-    <div id=Buttons2>
-      <button id="ClapA" onclick="a1a()">SFX-1</button>
-      <button id="ClapA" onclick="b1a()">SFX-1</button>
-      <button id="ClapA" onclick="c1a()">SFX-1</button>
-      <button id="ClapA" onclick="d1a()">SFX-1</button>
-      <button id="ClapA" onclick="e1a()">SFX-1</button>
-      <button id="ClapA" onclick="f1a()">SFX-1</button>
-      <button id="ClapA" onclick="g1a()">SFX-1</button>
-      <button id="ClapA" onclick="h1a()">SFX-1</button>
-      <button id="ClapA" onclick="i1a()">SFX-1</button>
-      <button id="ClapA" onclick="j1a()">SFX-1</button>
-      <button id="ClapA" onclick="k1a()">SFX-1</button>
-      <button id="ClapA" onclick="l1a()">SFX-1</button>
-      <button id="ClapA" onclick="m1a()">SFX-1</button>
-      <button id="ClapA" onclick="n1a()">SFX-1</button>
-
-      <button id="ClapBA" onclick="a12a()">SFX-2</button>
-      <button id="ClapB" onclick="b12a()">SFX-2</button>
-      <button id="ClapB" onclick="c12a()">SFX-2</button>
-      <button id="ClapB" onclick="d12a()">SFX-2</button>
-      <button id="ClapB" onclick="e12a()">SFX-2</button>
-      <button id="ClapB" onclick="f12a()">SFX-2</button>
-      <button id="ClapB" onclick="g12a()">SFX-2</button>
-      <button id="ClapB" onclick="h12a()">SFX-2</button>
-      <button id="ClapB" onclick="i12a()">SFX-2</button>
-      <button id="ClapB" onclick="j12a()">SFX-2</button>
-      <button id="ClapB" onclick="k12a()">SFX-2</button>
-      <button id="ClapB" onclick="l12a()">SFX-2</button>
-      <button id="ClapB" onclick="m12a()">SFX-2</button>
-      <button id="ClapB" onclick="n12a()">SFX-2</button>
-
-      <button id="ClapCA" onclick="a13a()">SFX-3</button>
-      <button id="ClapCB" onclick="b13a()">SFX-3</button>
-      <button id="ClapC" onclick="c13a()">SFX-3</button>
-      <button id="ClapC" onclick="d13a()">SFX-3</button>
-      <button id="ClapC" onclick="e13a()">SFX-3</button>
-      <button id="ClapC" onclick="f13a()">SFX-3</button>
-      <button id="ClapC" onclick="g13a()">SFX-3</button>
-      <button id="ClapC" onclick="h13a()">SFX-3</button>
-      <button id="ClapC" onclick="i13a()">SFX-3</button>
-      <button id="ClapC" onclick="j13a()">SFX-3</button>
-      <button id="ClapC" onclick="k13a()">SFX-3</button>
-      <button id="ClapC" onclick="l13a()">SFX-3</button>
-      <button id="ClapC" onclick="m13a()">SFX-3</button>
-      <button id="ClapC" onclick="n13a()">SFX-3</button>
-
-      <button id="ClapDA" onclick="a14a()">SFX-4</button>
-      <button id="ClapDA" onclick="b14a()">SFX-4</button>
-      <button id="ClapDA" onclick="c14a()">SFX-4</button>
-      <button id="ClapD" onclick="d14a()">SFX-4</button>
-      <button id="ClapD" onclick="e14a()">SFX-4</button>
-      <button id="ClapD" onclick="f14a()">SFX-4</button>
-      <button id="ClapD" onclick="g14a()">SFX-4</button>
-      <button id="ClapD" onclick="h14a()">SFX-4</button>
-      <button id="ClapD" onclick="i14a()">SFX-4</button>
-      <button id="ClapD" onclick="j14a()">SFX-4</button>
-      <button id="ClapD" onclick="k14a()">SFX-4</button>
-      <button id="ClapD" onclick="l14a()">SFX-4</button>
-      <button id="ClapD" onclick="m14a()">SFX-4</button>
-      <button id="ClapD" onclick="n14a()">SFX-4</button>
-
-      <h6 id="MainTrack2"> Track 2</h6>
-
-      <button id="ClapE" onclick="a15a()">SFX-5</button>
-      <button id="ClapE" onclick="b15a()">SFX-5</button>
-      <button id="ClapE" onclick="c15a()">SFX-5</button>
-      <button id="ClapE" onclick="d15a()">SFX-5</button>
-      <button id="ClapE" onclick="e15a()">SFX-5</button>
-      <button id="ClapE" onclick="f15a()">SFX-5</button>
-      <button id="ClapE" onclick="g15a()">SFX-5</button>
-      <button id="ClapE" onclick="h15a()">SFX-5</button>
-      <button id="ClapE" onclick="i15a()">SFX-5</button>
-      <button id="ClapE" onclick="j15a()">SFX-5</button>
-      <button id="ClapE" onclick="k15a()">SFX-5</button>
-      <button id="ClapE" onclick="l15a()">SFX-5</button>
-      <button id="ClapE" onclick="m15a()">SFX-5</button>
-      <button id="ClapE" onclick="n15a()">SFX-5</button>
-
-      <button id="ClapFA" onclick="a16a()">SFX-6</button>
-      <button id="ClapF" onclick="b16a()">SFX-6</button>
-      <button id="ClapF" onclick="c16a()">SFX-6</button>
-      <button id="ClapF" onclick="d16a()">SFX-6</button>
-      <button id="ClapF" onclick="e16a()">SFX-6</button>
-      <button id="ClapF" onclick="f16a()">SFX-6</button>
-      <button id="ClapF" onclick="g16a()">SFX-6</button>
-      <button id="ClapF" onclick="h16a()">SFX-6</button>
-      <button id="ClapF" onclick="i16a()">SFX-6</button>
-      <button id="ClapF" onclick="j16a()">SFX-6</button>
-      <button id="ClapF" onclick="k16a()">SFX-6</button>
-      <button id="ClapF" onclick="l16a()">SFX-6</button>
-      <button id="ClapF" onclick="m16a()">SFX-6</button>
-      <button id="ClapF" onclick="n16a()">SFX-6</button>
-
-      <button id="ClapG2" onclick="a17a()">SFX-7</button>
-      <button id="ClapG2" onclick="b17a()">SFX-7</button>
-      <button id="ClapG" onclick="c17a()">SFX-7</button>
-      <button id="ClapG" onclick="d17a()">SFX-7</button>
-      <button id="ClapG" onclick="e17a()">SFX-7</button>
-      <button id="ClapG" onclick="f17a()">SFX-7</button>
-      <button id="ClapG" onclick="g17a()">SFX-7</button>
-      <button id="ClapG" onclick="h17a()">SFX-7</button>
-      <button id="ClapG" onclick="i17a()">SFX-7</button>
-      <button id="ClapG" onclick="j17a()">SFX-7</button>
-      <button id="ClapG" onclick="k17a()">SFX-7</button>
-      <button id="ClapG" onclick="l17a()">SFX-7</button>
-      <button id="ClapG" onclick="m17a()">SFX-7</button>
-      <button id="ClapG" onclick="n17a()">SFX-7</button>
-    </div>
-    <div id="nav">
-    <h1 id="OmTitle">OMiX</h1>
-    <button onclick="LoopStart()" id="Loop">∞</button>
+    <input type="password" id="Scral" maxlength="10" placeholder="Sign In">
+    <button id="Scrals" onclick="SH()">Sign Up</button>
   </div>
-    <div id="divab">
-    <h6 id="Tunes">Tunes</h6>
-  </div>
-  <div id="nav">
-    <button onclick="Stop()" id="Loop2">■</button>
-    <button onclick="LoopBreak()" id="Loop3">x</button>
-    <div id="Logo">
-    <h6 id="trec">OMiX</h6>
-    <button id="App">App</button>
-    <button id="For"></button>
-  </div>
-    </div>
-  </div>
-  <div class="squarea"></div>
-  <input type="text" id="TuneShare" placeholder="Paste Token Here">
-  <input type="text" id="TuneShareID">
-  <button onclick="Share()" id="ShareTune">Copy Token</button>
-  <div class="square2"></div>
-  <button id="SpeedidLabel">Tempo:</button>
-  <input type="text" maxlength="3" id="Speedid">
-  <div class="squareb"></div>
-  <button id="SpeedidLabel2">Pitch:</button>
-  <input type="text" maxlength="3" id="Speedid2">
-
-  <button id="s1" onclick="swa1()">1</button>
-  <button id="s2" onclick="swa2()">1</button>
-  <button id="s3" onclick="swa3()">1</button>
-  <div id="asdf">
-  <button id="s4" onclick="swa4()">1</button>
-  <button id="s5" onclick="swa5()">1</button>
-  <button id="s6" onclick="swa6()">1</button>
-  <button id="s7" onclick="swa7()">1</button>
-</div>
-<div id="codac2">
-<button id="s1a" onclick="swa12()">1</button>
-<button id="s2a" onclick="swa22()">1</button>
-<button id="s3a" onclick="swa32()">1</button>
-<button id="s4a" onclick="swa42()">1</button>
-<button id="s5a" onclick="swa52()">1</button>
-<button id="s6a" onclick="swa62()">1</button>
-<button id="s7a" onclick="swa72()">1</button>
-
-</div>
-<div class="userprofile"></div>
-<img id="profilepic" alt="pfp" width="35" height="35" id="pfp">
-<h3 id="pfptxt"></h3>
-</div>
-
   <script>
-    if (navigator.userAgent.includes("Firefox")){
+    if (navigator.userAgent.includes("Firefox")) {
       window.location.assign("Error404.html");
-    }
-    else{
-if (navigator.userAgent.includes("Windows")) {
-ForVar = "For Windows"
     } else {
-      if (navigator.userAgent.includes("CrOS")) {
-        ForVar = "For ChromeOS"
+      if (navigator.userAgent.includes("Windows")) {
+        ForVar = "For Windows"
       } else {
-        if (navigator.userAgent.includes("Macintosh")) {
-          ForVar = "For MacOS"
-        }
-        else{
-window.location.assign("https://www.google.com/")
+        if (navigator.userAgent.includes("CrOS")) {
+          ForVar = "For ChromeOS"
+        } else {
+          if (navigator.userAgent.includes("Macintosh")) {
+            ForVar = "For MacOS"
+          } else {
+            window.location.assign("https://www.google.com/")
+          }
         }
       }
     }
-  }
-    function ks(){
+
+    function ks() {
       sw1 = false
     }
-function swa1(){
 
-if (sw1 == true){
-  
-  document.getElementById("Abeat").src = "Clap.mp3";
-  document.getElementById("s1").innerHTML = "1";
-  Abeat.play()
-  sw1 = false
-  zs1 = "zz1t"
-  }
-  else {
-    document.getElementById("Abeat").src = "Clap2.mp3";
-    document.getElementById("s1").innerHTML = "2";
-     Abeat.play()
-     sw1 = true
-     zs1 = "zz1t2"
-  }
+    function SH(){
+      window.location.assign("Signup.html")
+    }
 
-}
-function swa2(){
-  if (sw2 == true){
-  document.getElementById("Bbeat").src = "Paper.mp3";
-  document.getElementById("s2").innerHTML = "1";
-  Bbeat.play()
-  sw2 = false
-  zs2 = "zz2t"
-  }
-  else {
-    document.getElementById("Bbeat").src = "Paper2.mp3";
-    document.getElementById("s2").innerHTML = "2";
-     Bbeat.play()
-     sw2 = true
-     zs2 = "zz2t2"
-  }
-}
-function swa3(){
-  if (sw3 == true){
-  document.getElementById("Cbeat").src = "Metal.mp3";
-  document.getElementById("s3").innerHTML = "1";
-  Cbeat.play()
-  sw3 = false
-  zs3 = "zz3t"
-  }
-  else {
-    document.getElementById("Cbeat").src = "Metal2.mp3";
-    document.getElementById("s3").innerHTML = "2";
-     Cbeat.play()
-     sw3 = true
-     zs3 = "zz3t2"
-  }
-}
+    function swa1() {
 
-function swa4(){
-  if (sw4 == true){
-  document.getElementById("Dbeat").src = "Crunch.mp3";
-  document.getElementById("s4").innerHTML = "1";
-  Dbeat.play()
-  sw4 = false
-  zs4 = "zz4t"
-  }
-  else {
-    document.getElementById("Dbeat").src = "Crunch2.mp3";
-    document.getElementById("s4").innerHTML = "2";
-     Dbeat.play()
-     sw4 = true
-     zs4 = "zz4t2"
-  }
-}
+      if (sw1 == true) {
 
-function swa5(){
-  if (sw5 == true){
-  document.getElementById("Ebeat").src = "Swoosh.mp3";
-  document.getElementById("s5").innerHTML = "1";
-  Ebeat.play()
-  sw5 = false
-  zs5 = "zz5t"
-  }
-  else {
-    document.getElementById("Ebeat").src = "Swoosh2.mp3";
-    document.getElementById("s5").innerHTML = "2";
-     Ebeat.play()
-     sw5 = true
-     zs5 = "zz5t2"
-  }
-}
-function swa6(){
-  if (sw6 == true){
-  document.getElementById("Fbeat").src = "Glass.mp3";
-  document.getElementById("s6").innerHTML = "1";
-  Fbeat.play()
-  sw6 = false
-  zs6 = "zz6t2"
-  }
-  else {
-    document.getElementById("Fbeat").src = "Glass2.mp3";
-    document.getElementById("s6").innerHTML = "2";
-     Fbeat.play()
-     sw6 = true
-     zs6 = "zz6t2"
-  }
-}
+        document.getElementById("Abeat").src = "Clap.mp3";
+        document.getElementById("s1").innerHTML = "1";
+        Abeat.play()
+        sw1 = false
+        zs1 = "zz1t"
+      } else {
+        document.getElementById("Abeat").src = "Clap2.mp3";
+        document.getElementById("s1").innerHTML = "2";
+        Abeat.play()
+        sw1 = true
+        zs1 = "zz1t2"
+      }
 
-function swa7(){
-  if (sw7 == true){
-  document.getElementById("Gbeat").src = "Bell.mp3";
-  document.getElementById("s7").innerHTML = "1";
-  Gbeat.play()
-  sw7 = false
-  zs7 = "zz7t"
-  }
-  else {
-    document.getElementById("Gbeat").src = "Bell2.mp3";
-    document.getElementById("s7").innerHTML = "2";
-     Gbeat.play()
-     sw7 = true
-     zs7 = "zz7t2"
-  }
-}
+    }
+
+    function swa2() {
+      if (sw2 == true) {
+        document.getElementById("Bbeat").src = "Paper.mp3";
+        document.getElementById("s2").innerHTML = "1";
+        Bbeat.play()
+        sw2 = false
+        zs2 = "zz2t"
+      } else {
+        document.getElementById("Bbeat").src = "Paper2.mp3";
+        document.getElementById("s2").innerHTML = "2";
+        Bbeat.play()
+        sw2 = true
+        zs2 = "zz2t2"
+      }
+    }
+
+    function swa3() {
+      if (sw3 == true) {
+        document.getElementById("Cbeat").src = "Metal.mp3";
+        document.getElementById("s3").innerHTML = "1";
+        Cbeat.play()
+        sw3 = false
+        zs3 = "zz3t"
+      } else {
+        document.getElementById("Cbeat").src = "Metal2.mp3";
+        document.getElementById("s3").innerHTML = "2";
+        Cbeat.play()
+        sw3 = true
+        zs3 = "zz3t2"
+      }
+    }
+
+    function swa4() {
+      if (sw4 == true) {
+        document.getElementById("Dbeat").src = "Crunch.mp3";
+        document.getElementById("s4").innerHTML = "1";
+        Dbeat.play()
+        sw4 = false
+        zs4 = "zz4t"
+      } else {
+        document.getElementById("Dbeat").src = "Crunch2.mp3";
+        document.getElementById("s4").innerHTML = "2";
+        Dbeat.play()
+        sw4 = true
+        zs4 = "zz4t2"
+      }
+    }
+
+    function swa5() {
+      if (sw5 == true) {
+        document.getElementById("Ebeat").src = "Swoosh.mp3";
+        document.getElementById("s5").innerHTML = "1";
+        Ebeat.play()
+        sw5 = false
+        zs5 = "zz5t"
+      } else {
+        document.getElementById("Ebeat").src = "Swoosh2.mp3";
+        document.getElementById("s5").innerHTML = "2";
+        Ebeat.play()
+        sw5 = true
+        zs5 = "zz5t2"
+      }
+    }
+
+    function swa6() {
+      if (sw6 == true) {
+        document.getElementById("Fbeat").src = "Glass.mp3";
+        document.getElementById("s6").innerHTML = "1";
+        Fbeat.play()
+        sw6 = false
+        zs6 = "zz6t2"
+      } else {
+        document.getElementById("Fbeat").src = "Glass2.mp3";
+        document.getElementById("s6").innerHTML = "2";
+        Fbeat.play()
+        sw6 = true
+        zs6 = "zz6t2"
+      }
+    }
+
+    function swa7() {
+      if (sw7 == true) {
+        document.getElementById("Gbeat").src = "Bell.mp3";
+        document.getElementById("s7").innerHTML = "1";
+        Gbeat.play()
+        sw7 = false
+        zs7 = "zz7t"
+      } else {
+        document.getElementById("Gbeat").src = "Bell2.mp3";
+        document.getElementById("s7").innerHTML = "2";
+        Gbeat.play()
+        sw7 = true
+        zs7 = "zz7t2"
+      }
+    }
 
 
 
-function swa12(){
-if (sw1a == true){
-  
-  document.getElementById("Abeata").src = "Clap.mp3";
-  document.getElementById("s1a").innerHTML = "1";
-  Abeata.play()
-  sw1a = false
-  zs1a = "zx1ta"
-  }
-  else {
-    document.getElementById("Abeata").src = "Clap2.mp3";
-    document.getElementById("s1a").innerHTML = "2";
-     Abeata.play()
-     sw1a = true
-     zs1a = "zx1t2a"
-  }
+    function swa12() {
+      if (sw1a == true) {
 
-}
-function swa22(){
-  if (sw2a == true){
-  document.getElementById("Bbeata").src = "Paper.mp3";
-  document.getElementById("s2a").innerHTML = "1";
-  Bbeata.play()
-  sw2a = false
-  zs2a = "zx2ta"
-  }
-  else {
-    document.getElementById("Bbeata").src = "Paper2.mp3";
-    document.getElementById("s2a").innerHTML = "2";
-     Bbeata.play()
-     sw2a = true
-     zs2a = "zx2t2a"
-  }
-}
-function swa32(){
-  if (sw3a == true){
-  document.getElementById("Cbeata").src = "Metal.mp3";
-  document.getElementById("s3a").innerHTML = "1";
-  Cbeata.play()
-  sw3a = false
-  zs3a = "zx3ta"
-  }
-  else {
-    document.getElementById("Cbeata").src = "Metal2.mp3";
-    document.getElementById("s3a").innerHTML = "2";
-     Cbeata.play()
-     sw3a = true
-     zs3a = "zx3t2a"
-  }
-}
+        document.getElementById("Abeata").src = "Clap.mp3";
+        document.getElementById("s1a").innerHTML = "1";
+        Abeata.play()
+        sw1a = false
+        zs1a = "zx1ta"
+      } else {
+        document.getElementById("Abeata").src = "Clap2.mp3";
+        document.getElementById("s1a").innerHTML = "2";
+        Abeata.play()
+        sw1a = true
+        zs1a = "zx1t2a"
+      }
 
-function swa42(){
-  if (sw4a == true){
-  document.getElementById("Dbeata").src = "Crunch.mp3";
-  document.getElementById("s4a").innerHTML = "1";
-  Dbeata.play()
-  sw4a = false
-  zs4a = "zx4ta"
-  }
-  else {
-    document.getElementById("Dbeata").src = "Crunch2.mp3";
-    document.getElementById("s4a").innerHTML = "2";
-     Dbeata.play()
-     sw4a = true
-     zs4a = "zx4t2a"
-  }
-}
+    }
 
-function swa52(){
-  if (sw5a == true){
-  document.getElementById("Ebeata").src = "Swoosh.mp3";
-  document.getElementById("s5a").innerHTML = "1";
-  Ebeata.play()
-  sw5a = false
-  zs5a = "zx5ta"
-  }
-  else {
-    document.getElementById("Ebeata").src = "Swoosh2.mp3";
-    document.getElementById("s5a").innerHTML = "2";
-     Ebeata.play()
-     sw5a = true
-     zs5a = "zx5t2a"
-  }
-}
-function swa62(){
-  if (sw6a == true){
-  document.getElementById("Fbeata").src = "Glass.mp3";
-  document.getElementById("s6a").innerHTML = "1";
-  Fbeata.play()
-  sw6a = false
-  zs6a = "zx6ta"
-  }
-  else {
-    document.getElementById("Fbeata").src = "Glass2.mp3";
-    document.getElementById("s6a").innerHTML = "2";
-     Fbeata.play()
-     sw6a = true
-     zs6a = "zx6t2a"
-  }
-}
+    function swa22() {
+      if (sw2a == true) {
+        document.getElementById("Bbeata").src = "Paper.mp3";
+        document.getElementById("s2a").innerHTML = "1";
+        Bbeata.play()
+        sw2a = false
+        zs2a = "zx2ta"
+      } else {
+        document.getElementById("Bbeata").src = "Paper2.mp3";
+        document.getElementById("s2a").innerHTML = "2";
+        Bbeata.play()
+        sw2a = true
+        zs2a = "zx2t2a"
+      }
+    }
 
-function swa72(){
-  if (sw7a == true){
-  document.getElementById("Gbeata").src = "Bell.mp3";
-  document.getElementById("s7a").innerHTML = "1";
-  Gbeata.play()
-  sw7a = false
-  zs7a = "zx7ta"
-  }
-  else {
-    document.getElementById("Gbeata").src = "Bell2.mp3";
-    document.getElementById("s7a").innerHTML = "2";
-     Gbeata.play()
-     sw7a = true
-     zs7a = "zx7t2a"
-  }
-}
+    function swa32() {
+      if (sw3a == true) {
+        document.getElementById("Cbeata").src = "Metal.mp3";
+        document.getElementById("s3a").innerHTML = "1";
+        Cbeata.play()
+        sw3a = false
+        zs3a = "zx3ta"
+      } else {
+        document.getElementById("Cbeata").src = "Metal2.mp3";
+        document.getElementById("s3a").innerHTML = "2";
+        Cbeata.play()
+        sw3a = true
+        zs3a = "zx3t2a"
+      }
+    }
+
+    function swa42() {
+      if (sw4a == true) {
+        document.getElementById("Dbeata").src = "Crunch.mp3";
+        document.getElementById("s4a").innerHTML = "1";
+        Dbeata.play()
+        sw4a = false
+        zs4a = "zx4ta"
+      } else {
+        document.getElementById("Dbeata").src = "Crunch2.mp3";
+        document.getElementById("s4a").innerHTML = "2";
+        Dbeata.play()
+        sw4a = true
+        zs4a = "zx4t2a"
+      }
+    }
+
+    function swa52() {
+      if (sw5a == true) {
+        document.getElementById("Ebeata").src = "Swoosh.mp3";
+        document.getElementById("s5a").innerHTML = "1";
+        Ebeata.play()
+        sw5a = false
+        zs5a = "zx5ta"
+      } else {
+        document.getElementById("Ebeata").src = "Swoosh2.mp3";
+        document.getElementById("s5a").innerHTML = "2";
+        Ebeata.play()
+        sw5a = true
+        zs5a = "zx5t2a"
+      }
+    }
+
+    function swa62() {
+      if (sw6a == true) {
+        document.getElementById("Fbeata").src = "Glass.mp3";
+        document.getElementById("s6a").innerHTML = "1";
+        Fbeata.play()
+        sw6a = false
+        zs6a = "zx6ta"
+      } else {
+        document.getElementById("Fbeata").src = "Glass2.mp3";
+        document.getElementById("s6a").innerHTML = "2";
+        Fbeata.play()
+        sw6a = true
+        zs6a = "zx6t2a"
+      }
+    }
+
+    function swa72() {
+      if (sw7a == true) {
+        document.getElementById("Gbeata").src = "Bell.mp3";
+        document.getElementById("s7a").innerHTML = "1";
+        Gbeata.play()
+        sw7a = false
+        zs7a = "zx7ta"
+      } else {
+        document.getElementById("Gbeata").src = "Bell2.mp3";
+        document.getElementById("s7a").innerHTML = "2";
+        Gbeata.play()
+        sw7a = true
+        zs7a = "zx7t2a"
+      }
+    }
 
     function a1() {
       Abeat.play()
