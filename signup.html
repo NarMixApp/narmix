@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicona.png" />
+    <title>OMiXApp | Create An Account</title>
+    <style>
+      body{
+          background-color:rgb(61, 61, 61);
+          overflow-x:hidden;
+          overflow-y:hidden;
+          white-space: nowrap;
+      }
+      .A1{
+         width:140;
+         height: 80; 
+         background-color:rgb(104, 207, 255);
+         border-radius: 8px;
+         position: relative;
+         top:20;
+         left:20;
+         border:none;
+
+      }
+      .A2{
+         width:140;
+         height: 80; 
+         background-color:rgb(238, 120, 120);
+         border-radius: 8px;
+         position: relative;
+         top:20;
+         left:20;
+         border:none;
+
+      }
+      .A3{
+         width:140;
+         height: 80; 
+         background-color:rgb(104, 243, 139);
+         border-radius: 8px;
+         position: relative;
+         top:20;
+         left:20;
+         border:none;
+
+      }
+      .A4{
+         width:140;
+         height: 80; 
+         background-color:#555555;
+         border-radius: 8px;
+         position: relative;
+         top:20;
+         left:20;
+         border:none;
+
+      }
+      .A5{
+         width:140;
+         height: 80; 
+         background-color:rgb(226, 226, 226);
+         border-radius: 8px;
+         position: relative;
+         top:20;
+         left:20;
+         border:none;
+
+      }
+     #BGCS{
+       position:relative;
+       left:50;
+       top:30;
+     }
+     #Theme{
+         font-family: arial black;
+         color:white;
+         font-size:25;
+         position: relative;
+         left:20;
+         top:20;
+     }
+
+     #B1{
+         border-radius: 8px;
+         position: relative;
+         color:rgba(128, 128, 128, 0.699);
+         top:20;
+         left:20;
+     }
+     #Title{
+         position: relative;
+         top:0;
+         left:20;
+         font-size:40;
+         font-family:arial black;
+         color:white;
+     }
+
+     #Register{
+         width:250;
+         height: 70;
+         border-radius: 8px;
+         font-family:arial black;
+         font-size:30;
+         background-color:rgb(109, 255, 145);
+         border:none;
+         color:rgb(49, 49, 49);
+         position: relative;
+         top:130;
+         left:-422;
+         z-index:10;
+     }
+     .BG{
+         width:800;
+         height: 110%;
+         background-color:rgba(44, 44, 44, 0.925);
+         position: relative;
+         top:-750;
+         z-index:-100;
+         left:-10;
+         border-radius:8px;
+     }
+     #LoginCode{
+         position: relative;
+         top:60;
+         height: 30;
+         width:400;
+         left:20;
+         background-color: rgba(56, 248, 120, 0.938);
+         border-radius: 5px;
+         font-family:arial black;
+         color:rgb(31, 31, 31);
+         font-size:20;
+         text-align: center;
+         
+     }
+     #S{
+         position: relative;
+         left:624;
+         top:-120;
+         z-index:-1;
+     }
+    </style>
+</head>
+
+<body>
+<div id="BGCS">
+    <h1 id="Title">Sign Up</h1>
+    <h1 id="Theme">Select A Background Theme</h1>
+      <button class="A1" onclick="Blue()"></button>
+      <button class="A2" onclick="Red()"></button>
+      <button class="A3" onclick="Green()"></button>
+      <button class="A4" onclick="Dark()"></button>
+      <button class="A5" onclick="Light()"></button>
+
+      <h1 id="Theme">Select A Profile Picture</h1>
+      <img id="B1" src="UnknownBird.png" width="70" onclick="Bird()"></img>
+      <img id="B1" src="UnknownGiraffe.jpg" width="70" onclick="Giraffe()"></img>
+      <img id="B1" src="UnknownHousecat.jpg" width="70" onclick="Cat()"></img>
+      <img id="B1" src="UnknownGoose.jpg" width="70" onclick="Goose()"></img>
+      <img id="B1" src="UnknownSquid.jpg" width="70" onclick="Squid()"></img>
+      <img id="B1" src="UnknownRabbit.jpg" width="70" onclick="Rabbit()"></img>
+      <div id="LoginCode">0% Complete</div>
+      <img src="SignLabel.png" alt="Label" id="S">
+    
+      <div class="BG"></div>
+
+</div>
+<script>
+    var TagList = ["TAQ","TBQ","TCQ","TDQ","TEQ","TFQ","TGQ","THQ","TIQ","TJQ"]
+    var Tag = TagList[Math.floor(Math.random() * TagList.length)]
+
+    var BGC = "AX"
+    var PFP = "AX"
+    var Code = BGC + PFP + "AX" + Tag
+
+    function Red(){
+    document.getElementById("LoginCode").innerHTML = "50% Complete";
+    BGC = "YL"
+    Code = BGC + PFP + Tag
+    }
+    function Blue(){
+        document.getElementById("LoginCode").innerHTML = "50% Complete";
+    BGC = "YO"
+    Code = BGC + PFP + Tag
+    }
+    function Green(){
+        document.getElementById("LoginCode").innerHTML = "50% Complete";
+    BGC = "YK"
+    Code = BGC + PFP + Tag
+    }
+    function Dark(){
+        document.getElementById("LoginCode").innerHTML = "50% Complete";
+    BGC = "YE"
+    Code = BGC + PFP + Tag
+    }
+    function Light(){
+        document.getElementById("LoginCode").innerHTML = "50% Complete";
+    BGC = "YD"
+    Code = BGC + PFP + Tag
+    }
+
+    function Giraffe(){
+     PFP = "XJ"
+     Code = BGC + PFP+ Tag
+     Update()
+    }
+    function Squid(){
+     PFP = "XK"
+     Code = BGC + PFP + Tag
+     Update()
+    }
+    function Rabbit(){
+     PFP = "XI"
+     Code = BGC + PFP + Tag
+     Update()
+    }
+    function Goose(){
+     PFP = "XH"
+     Code = BGC + PFP + Tag
+     Update()
+    }
+    function Cat(){
+     PFP = "XG"
+     Code = BGC + PFP + Tag
+     Update()
+    }
+    function Bird(){
+     PFP = "XF"
+     Code = BGC + PFP + Tag
+     Update()
+    }
+    
+    function done(){
+        Update()
+    }
+    function Update(){
+        document.getElementById("LoginCode").innerHTML = "Retrieving Scral Data";
+        setTimeout(Display,300)
+    }
+    function Display(){
+        document.getElementById("LoginCode").innerHTML = "Your Login Code Is: " + Code;
+        }
+
+</script>
+</body>
+</html>
