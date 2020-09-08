@@ -2445,7 +2445,7 @@ if (pfptag == "#2819") {
                   if (pfptag == "#7849") {
                     pfptags = "TJQ"
                     }
-setTimeout(crtby,0)
+    setTimeout(crtby,0)
 }
 
 
@@ -2587,37 +2587,43 @@ function ScralScript(){
         document.getElementById("profilepic").src = "UnknownBird.png";
         document.getElementById("pfptxt").innerHTML = "KnownBird"+pfptag;
         pfpby = "p8zp"
+        document.getElementById('Scral').value = "XAXAXAX"
     }
     if (document.getElementById('Scral').value.includes("XG")) {
       document.getElementById("profilepic").src = "UnknownHousecat.jpg";
       document.getElementById("pfptxt").innerHTML = "KnownHousecat"+pfptag;
       pfpby = "p9p"
+      document.getElementById('Scral').value = "XAXAXAX"
     }
     if (document.getElementById('Scral').value.includes("XH")) {
       document.getElementById("profilepic").src = "UnknownGoose.jpg";
       document.getElementById("pfptxt").innerHTML = "KnownGoose"+pfptag;
       pfpby = "p10p"
+      document.getElementById('Scral').value = "XAXAXAX"
     }
     if (document.getElementById('Scral').value.includes("XI")) {
       document.getElementById("profilepic").src = "UnknownRabbit.jpg";
       document.getElementById("pfptxt").innerHTML = "KnownRabbit"+pfptag;
       pfpby = "p11p"
+      document.getElementById('Scral').value = "XAXAXAX"
     }
     if (document.getElementById('Scral').value.includes("XJ")) {
       document.getElementById("profilepic").src = "UnknownGiraffe.jpg";
       document.getElementById("pfptxt").innerHTML = "KnownGiraffe"+pfptag;
       pfpby = "p12p"
-
+      document.getElementById('Scral').value = "XAXAXAX"
     }
     if (document.getElementById('Scral').value.includes("XK")) {
       document.getElementById("profilepic").src = "UnknownSquid.jpg";
       document.getElementById("pfptxt").innerHTML = "KnownSquid"+pfptag;
       pfpby = "p13p"
+      document.getElementById('Scral').value = "XAXAXAX"
       }
       if (document.getElementById('Scral').value.includes("XV")) {
         document.getElementById("profilepic").src = "Scral.jpg";
         document.getElementById("pfptxt").innerHTML = "Admin"+pfptag;
         pfpby = "p7p"
+        document.getElementById('Scral').value = "XAXAXAX"
         }
 
 setTimeout(ScralScript,0)
