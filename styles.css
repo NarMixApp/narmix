@@ -1,28 +1,25 @@
 body {
-  background-color: #333333;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  background-color: #303030;
   white-space: nowrap;
   width: 100%;
-  zoom: 95%;
+  zoom: 89%;
   position: relative;
-  top:15;
-  left:30;
-  background-image: url("BG.jpg");
-  background-size: 100%;
-}
-.bodya {
-  background-color: #333333;
-  white-space: nowrap;
-  width: 100%;
-  zoom: 55%;
-  position: relative;
-  top:1%;
+  top:2%;
   left:1.5%;
   background-size: 100%;
-  position:fixed;
+  position: fixed;
   padding:1%;
+  height: 100%;
+  display: grid;
+  vertical-align: middle;
+  width:100%;
+  min-width:1000px;
+  height:auto;
+
 }
+
+
+
 #divab {
   position: relative;
   left: 40;
@@ -35,7 +32,7 @@ body {
   position: relative;
   left: 0;
   background-color: rgb(192, 192, 192);
-  border: none;
+border:none;
   width: 80;
   outline: none;
   top: -100;
@@ -44,6 +41,7 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
 
 }
 
@@ -599,6 +597,8 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
+
 }
 
 #ClapBA {
@@ -614,6 +614,8 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
+
 }
 
 #ClapC {
@@ -629,6 +631,8 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
+
 }
 
 #ClapCA {
@@ -644,6 +648,7 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
 
 }
 
@@ -660,6 +665,8 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
+
 }
 
 #ClapD {
@@ -675,6 +682,8 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
+
 }
 
 #ClapDA {
@@ -690,6 +699,8 @@ body {
   font-family: arial black;
   color: rgb(24, 24, 24);
   object-fit: cover;
+  background-image: url("BGA.jpg");
+
 }
 
 #MainTrack1 {
@@ -735,6 +746,8 @@ body {
   color: rgb(24, 24, 24);
   object-fit: cover;
   z-index: 30000000;
+  background-image: url("BGA.jpg");
+
 }
 
 #ClapF {
@@ -751,6 +764,7 @@ body {
   color: rgb(24, 24, 24);
   object-fit: cover;
   white-space: nowrap;
+  background-image: url("BGA.jpg");
 }
 
 #ClapFA {
@@ -767,6 +781,7 @@ body {
   color: rgb(24, 24, 24);
   object-fit: cover;
   white-space: nowrap;
+  background-image: url("BGA.jpg");
 }
 
 #ClapG {
@@ -783,6 +798,7 @@ body {
   color: rgb(24, 24, 24);
   object-fit: cover;
   white-space: nowrap;
+  background-image: url("BGA.jpg");
 }
 
 #ClapG2 {
@@ -799,6 +815,7 @@ body {
   color: rgb(24, 24, 24);
   object-fit: cover;
   white-space: nowrap;
+  background-image: url("BGA.jpg");
 }
 
 #buttons2 {
@@ -1351,6 +1368,7 @@ top:17;
 max-width: 500px;
 left:-415;
 margin: auto;
+vertical-align: 1px;
 }
 #pfptxt{
   position: relative;
@@ -1360,5 +1378,56 @@ margin: auto;
   font-family: arial;
   color:white;
 }
-
-
+#Scral{
+  position:relative;
+  top:-1897;
+  z-index: 10000000000000000000000000;
+  background-color:rgb(206, 206, 206);
+  outline: none;
+  width: 150;
+  height: 32;
+  left:450;
+  border:none;
+  border-radius: 8px;
+  color:rgb(51, 51, 51);
+  font-family: arial black;
+  font-size: 15;
+  text-align: center;
+}
+#Scrals{
+  position:relative;
+  top:-1897;
+  z-index: 10000000000000000000000000;
+  background-color:rgb(173, 173, 173);
+  outline: none;
+  width: 260;
+  height: 32;
+  left:470;
+  border:none;
+  border-radius: 8px;
+  color:rgb(51, 51, 51);
+  font-family: arial black;
+  font-size: 15;
+  text-align: center;
+  width: 180;
+}
+.light {
+  background-image:url("");
+  background-color:rgb(190, 190, 190);
+}
+.dark {
+  background-image:url("");
+  background-color:#333333;
+}
+.green {
+  background-image:url("");
+  background-color:rgb(159, 255, 183);
+}
+.red {
+  background-image:url("");
+  background-color:rgb(255, 159, 159);
+}
+.blue {
+  background-image:url("");
+  background-color:rgb(137, 255, 225);
+}
