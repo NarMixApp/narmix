@@ -1,3 +1,21 @@
+var TagSelector = ['TAQ','TBQ','TCQ','TDQ','TEQ','TFQ','TGQ','THQ','TIQ','TJQ']; 
+TagSelector = TagSelector[Math.floor(Math.random() * TagSelector.length)];
+pfptag = "#0000"
+Abeat.volume = .6;
+Bbeat.volume = .6;
+Cbeat.volume = .6;
+Dbeat.volume = .6;
+Ebeat.volume = .6;
+Fbeat.volume = .6;
+Gbeat.volume = .6;
+Abeata.volume = .6;
+Bbeata.volume = .6;
+Cbeata.volume = .6;
+Dbeata.volume = .6;
+Ebeata.volume = .6;
+Fbeata.volume = .6;
+Gbeata.volume = .6;
+
 var sw1 = false
 var sw2 = false
 var sw3 = false
@@ -1115,6 +1133,37 @@ function Wait13a() {
   }
 }
 function Verify(){
+
+  if (document.getElementById('TuneShare').value.includes("TAQ")){
+    pfptag = ("#2819")
+  }
+  if (document.getElementById('TuneShare').value.includes("TBQ")){
+    pfptag = ("#1473")
+  }
+  if (document.getElementById('TuneShare').value.includes("TCQ")){
+    pfptag = ("#9840")
+  }
+  if (document.getElementById('TuneShare').value.includes("TDQ")){
+    pfptag = ("#7490")
+  }
+  if (document.getElementById('TuneShare').value.includes("TEQ")){
+    pfptag = ("#5450")
+  }
+  if (document.getElementById('TuneShare').value.includes("TFQ")){
+    pfptag = ("#6039")
+  }
+  if (document.getElementById('TuneShare').value.includes("TGQ")){
+    pfptag = ("#8360")
+  }
+  if (document.getElementById('TuneShare').value.includes("THQ")){
+    pfptag = ("#2130")
+  }
+  if (document.getElementById('TuneShare').value.includes("TIQ")){
+    pfptag = ("#8134")
+  }
+  if (document.getElementById('TuneShare').value.includes("TJQ")){
+    pfptag = ("#7849")
+  }
 
   if (document.getElementById('TuneShare').value.includes("a1")) {
     document.getElementById('codeinput1').value = "a1"
@@ -2279,7 +2328,7 @@ var pfpby
 var profile = null
 profile = Math.floor((Math.random() * 6) + 1);
 if (profile == 1){
-document.getElementById("profilepic").src = "AnonymousBird.png";
+document.getElementById("profilepic").src = "UnknownBird.png";
 document.getElementById("pfptxt").innerHTML = "UnknownBird";
 pfpby = "p0p"
 }
@@ -2311,7 +2360,7 @@ if (profile == 3){
 crtby()
 function crtby(){
 if (document.getElementById('TuneShare').value.includes("p0p")) {
-  document.getElementById("profilepic").src = "AnonymousBird.png";
+  document.getElementById("profilepic").src = "UnknownBird.png";
 document.getElementById("pfptxt").innerHTML = "Created By: UnknownBird";
 }
 if (document.getElementById('TuneShare').value.includes("p1p")) {
@@ -2334,8 +2383,72 @@ if (document.getElementById('TuneShare').value.includes("p6p")) {
   document.getElementById("profilepic").src = "UnknownGoose.jpg";
 document.getElementById("pfptxt").innerHTML = "Created By: UnknownGoose";
 }
+if (document.getElementById('TuneShare').value.includes("p7p")) {
+  document.getElementById("profilepic").src = "Scral.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: Admin"+pfptag;
+}
+if (document.getElementById('TuneShare').value.includes("p8zp")) {
+  document.getElementById("profilepic").src = "UnknownBird.png";
+document.getElementById("pfptxt").innerHTML = "Created By: KnownBird"+pfptag;
+}
+if (document.getElementById('TuneShare').value.includes("p9p")) {
+  document.getElementById("profilepic").src = "UnknownHousecat.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: KnownHousecat"+pfptag;
+}
+if (document.getElementById('TuneShare').value.includes("p10p")) {
+  document.getElementById("profilepic").src = "UnknownGoose.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: KnownGoose"+pfptag;
+}
+if (document.getElementById('TuneShare').value.includes("p11p")) {
+  document.getElementById("profilepic").src = "UnknownRabbit.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: KnownRabbit"+pfptag;
+}
+if (document.getElementById('TuneShare').value.includes("p11p")) {
+  document.getElementById("profilepic").src = "UnknownRabbit.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: KnownRabbit"+pfptag;
+}
+if (document.getElementById('TuneShare').value.includes("p12p")) {
+  document.getElementById("profilepic").src = "UnknownGiraffe.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: KnownGiraffe"+pfptag;
+}
+if (document.getElementById('TuneShare').value.includes("p13p")) {
+  document.getElementById("profilepic").src = "UnknownSquid.jpg";
+document.getElementById("pfptxt").innerHTML = "Created By: KnownSquid"+pfptag;
+}
+if (pfptag == "#2819") {
+  pfptags = "TAQ"
+  }
+  if (pfptag == "#1473") {
+    pfptags = "TBQ"
+    }
+    if (pfptag == "#9840") {
+      pfptags = "TCQ"
+      }
+      if (pfptag == "#7490") {
+        pfptags = "TDQ"
+        }
+        if (pfptag == "#5450") {
+          pfptags = "TEQ"
+          }
+          if (pfptag == "#6039") {
+            pfptags = "TFQ"
+            }
+            if (pfptag == "#8360") {
+              pfptags = "TGQ"
+              }
+              if (pfptag == "#2130") {
+                pfptags = "THQ"
+                }
+                if (pfptag == "#8134") {
+                  pfptags = "TIQ"
+                  }
+                  if (pfptag == "#7849") {
+                    pfptags = "TJQ"
+                    }
 setTimeout(crtby,0)
 }
+
+
 var ci1
 var ci2 = ["q2x","s6p","v1v","r1o","xwq","Q2X","S6P","V1V","R1O","XWQ"]
 function Share() {
@@ -2347,11 +2460,166 @@ function Share() {
   document.getElementById('codeinput9').value + document.getElementById('codeinput10').value+
   document.getElementById('codeinput3').value + document.getElementById('codeinput11').value+
   document.getElementById('codeinput13').value + document.getElementById('codeinput12').value+document.getElementById('codeinput14').value
-+aaa1+aaa2+aaa3+aaa4+aaa5+aaa6+aaa7+aaa8+aaa9+aaa10+aaa11+bOz15+aaa12+aaa13+aaa14+zs1+pfpby+zs2+zs3+zs4+zs5+zs6+zs7+zs1a+zs2a+zs3a+zs4a+zs5a+zs6a+zs7a
++aaa1+aaa2+aaa3+aaa4+aaa5+aaa6+aaa7+aaa8+aaa9+aaa10+aaa11+bOz15+aaa12+aaa13+aaa14+zs1+zs2+zs3+zs4+zs5+zs6+zs7+zs1a+zs2a+zs3a+zs4a+zs5a+zs6a+zs7a+pfpby+pfptags
   document.getElementById('TuneShareID').value = ci1
   var copyText = document.getElementById("TuneShareID");
   copyText.select();
   document.execCommand("copy");
   alert("Copied Token To Clipboard");
 }
- 
+ScralScript()
+function ScralScript(){   
+    if (document.getElementById('Scral').value.includes("UZA")) {
+      Abeat.volume = 0.2;
+      Bbeat.volume = 0.2;
+      Cbeat.volume = 0.2;
+      Dbeat.volume = 0.2;
+      Ebeat.volume = 0.2;
+      Fbeat.volume = 0.2;
+      Gbeat.volume = 0.2;
+      Abeata.volume = 0.2;
+      Bbeata.volume = 0.2;
+      Cbeata.volume = 0.2;
+      Dbeata.volume = 0.2;
+      Ebeata.volume = 0.2;
+      Fbeata.volume = 0.2;
+      Gbeata.volume = 0.2;
+    }
+    if (document.getElementById('Scral').value.includes("UZB")) {
+      Abeat.volume = .6;
+      Bbeat.volume = .6;
+      Cbeat.volume = .6;
+      Dbeat.volume = .6;
+      Ebeat.volume = .6;
+      Fbeat.volume = .6;
+      Gbeat.volume = .6;
+      Abeata.volume = .6;
+      Bbeata.volume = .6;
+      Cbeata.volume = .6;
+      Dbeata.volume = .6;
+      Ebeata.volume = .6;
+      Fbeata.volume = .6;
+      Gbeata.volume = .6;
+    }
+    if (document.getElementById('Scral').value.includes("UZC")) {
+      Abeat.volume = 1;
+      Bbeat.volume = 1;
+      Cbeat.volume = 1;
+      Dbeat.volume = 1;
+      Ebeat.volume = 1;
+      Fbeat.volume = 1;
+      Gbeat.volume = 1;
+      Abeata.volume = 1;
+      Bbeata.volume = 1;
+      Cbeata.volume = 1;
+      Dbeata.volume = 1;
+      Ebeata.volume = 1;
+      Fbeata.volume = 1;
+      Gbeata.volume = 1;
+    }
+
+
+    if (document.getElementById('Scral').value.includes("TAQ")) {
+      pfptag = "#2819"
+    }
+    if (document.getElementById('Scral').value.includes("TBQ")) {
+      pfptag = "#1473"
+    }
+    if (document.getElementById('Scral').value.includes("TCQ")) {
+      pfptag = "#9840"
+    }
+    if (document.getElementById('Scral').value.includes("TDQ")) {
+      pfptag = "#7490"
+    }
+    if (document.getElementById('Scral').value.includes("TEQ")) {
+      pfptag = "#5450"
+    }
+    if (document.getElementById('Scral').value.includes("TFQ")) {
+      pfptag = "#6039"
+    }
+    if (document.getElementById('Scral').value.includes("TGQ")) {
+      pfptag = "#8360"
+    }
+    if (document.getElementById('Scral').value.includes("THQ")) {
+      pfptag = "#2130"
+    }
+    if (document.getElementById('Scral').value.includes("TIQ")) {
+      pfptag = "#8134"
+    }
+    if (document.getElementById('Scral').value.includes("TJQ")) {
+      pfptag = "#7849"
+    }
+
+    if (document.getElementById('Scral').value.includes("YD")) {
+    
+        var element = document.body;
+        element.classList.add("light");
+
+    }
+    if (document.getElementById('Scral').value.includes("YE")) {
+      var elementd = document.body;
+      elementd.classList.add("dark");
+    }
+    if (document.getElementById('Scral').value.includes("YK")) {
+      var elemente = document.body;
+      elemente.classList.add("green");
+    }
+    if (document.getElementById('Scral').value.includes("YL")) {
+      var elementx = document.body;
+      elementx.classList.add("red");
+    }
+    if (document.getElementById('Scral').value.includes("YO")) {
+      var elementxa = document.body;
+      elementxa.classList.add("blue");
+    }
+  
+    if (document.getElementById('Scral').value.includes("cli.win")) {
+      document.getElementById('For').innerHTML = "For Windows"
+    }
+    if (document.getElementById('Scral').value.includes("cli.mac")) {
+      document.getElementById('For').innerHTML = "For MacOS"
+    }
+    if (document.getElementById('Scral').value.includes("cli.cro")) {
+      document.getElementById('For').innerHTML = "For ChromeOS"
+    }
+
+    if (document.getElementById('Scral').value.includes("XF")) {
+        document.getElementById("profilepic").src = "UnknownBird.png";
+        document.getElementById("pfptxt").innerHTML = "KnownBird"+pfptag;
+        pfpby = "p8zp"
+    }
+    if (document.getElementById('Scral').value.includes("XG")) {
+      document.getElementById("profilepic").src = "UnknownHousecat.jpg";
+      document.getElementById("pfptxt").innerHTML = "KnownHousecat"+pfptag;
+      pfpby = "p9p"
+    }
+    if (document.getElementById('Scral').value.includes("XH")) {
+      document.getElementById("profilepic").src = "UnknownGoose.jpg";
+      document.getElementById("pfptxt").innerHTML = "KnownGoose"+pfptag;
+      pfpby = "p10p"
+    }
+    if (document.getElementById('Scral').value.includes("XI")) {
+      document.getElementById("profilepic").src = "UnknownRabbit.jpg";
+      document.getElementById("pfptxt").innerHTML = "KnownRabbit"+pfptag;
+      pfpby = "p11p"
+    }
+    if (document.getElementById('Scral').value.includes("XJ")) {
+      document.getElementById("profilepic").src = "UnknownGiraffe.jpg";
+      document.getElementById("pfptxt").innerHTML = "KnownGiraffe"+pfptag;
+      pfpby = "p12p"
+
+    }
+    if (document.getElementById('Scral').value.includes("XK")) {
+      document.getElementById("profilepic").src = "UnknownSquid.jpg";
+      document.getElementById("pfptxt").innerHTML = "KnownSquid"+pfptag;
+      pfpby = "p13p"
+      }
+      if (document.getElementById('Scral').value.includes("XV")) {
+        document.getElementById("profilepic").src = "Scral.jpg";
+        document.getElementById("pfptxt").innerHTML = "Admin"+pfptag;
+        pfpby = "p7p"
+        }
+
+setTimeout(ScralScript,0)
+}
+var pfptags = "T0Q"
