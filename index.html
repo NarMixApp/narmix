@@ -1,13 +1,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <meta property="og:type" content="website">
-<meta property="og:title" content="OMiXApp | Create Music For Free" />
-<meta property="og:description" content="OMiXApp is a web tool that allows you to create short music clips for free." />
-<meta property="og:url" content="https://omixapp.github.io/OMiX/" />
-    <link rel="shortcut icon" href="favicona.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OMiXApp | Music Made Easy</title>
+    <title>OMiXApp | Home</title>
     <link rel="shortcut icon" href="favicona.png" />
     <Link rel="stylesheet" href="homepage.css">
         <style>
@@ -30,6 +25,21 @@
           z-index: -20;
           border-radius: 8px;
         }
+        .card {
+          height: 450px;
+          width: 87%;
+          min-width:900px;
+          background-color: #414141;
+          position: relative;
+          top:-200;
+          left:-10;
+          z-index: -99999999; 
+        }
+  #Exps{
+    position: relative;
+    top:-574;
+    left:50%;
+  }
   #Brand{
   padding: 20px;
   color: rgba(255,255,255,.9);
@@ -52,25 +62,25 @@
   font-size:17;
   right: 0;
   }
+
         </style>
 </head>
 <body>
-    <button id="Studio" onclick="Open()">Open OMiXApp</button>
-    <h1 id="Titles">OMiXApp</h1>
-    <h1 id="mme">Music Made Easy</h1>
-    <h3 id="What">What Is OMiXApp?</h3>
-    <h3 id="What2">OMiXApp is a web application which allows you to create short music</h3>
-    <h3 id="What3">segments without any experience and for free. To use OMiXApp, all you have</h3>
-    <h3 id="What3"> to do is click the sounds you choose in chronological order, then press play.</h3>
-    <h3 id="What4">Privacy</h3>
-    <h3 id="What3">The only data being used by OMiXApp is your browser's useragent, we use</h3>
-    <h3 id="What3a">to provide you the best experience possible for your device.</h3>
-    <div class="square"></div>
-    <div class="square2"></div>
+  <h1 id="Titles">OMiXApp</h1>
+    <button id="Studio" onclick="Open()">Create Audio</button>
+
+    <h1 id="mme">Create Audio For Free And Easily All In Your Browser  </h1>
     <img id="Branding" src="Branding.png" alt="Logo" width="40" onclick="YT()">
+    <button id="Studioa" onclick="Open2()">Sign Up</button>
+    <div id="Car">
+    <img src="Exp.png" alt="Exp"width="450" class="card">
+  </div>
    <script>
         function Open(){
             window.location.assign("https://omixapp.github.io/OMiX/editor")
+        }
+        function Open2(){
+            window.location.assign("Signup.html")
         }
         function YT(){
           window.location.assign("https://www.youtube.com/channel/UCIo6_kjGjRrQovwoGZ9LpsQ?view_as=subscriber")
