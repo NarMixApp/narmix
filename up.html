@@ -20,7 +20,7 @@
          top:20;
          left:20;
          border:none;
-
+         outline:none;
       }
       .A2{
          width:140;
@@ -31,7 +31,7 @@
          top:20;
          left:20;
          border:none;
-
+         outline:none;
       }
       .A3{
          width:140;
@@ -42,7 +42,7 @@
          top:20;
          left:20;
          border:none;
-
+         outline:none;
       }
       .A4{
          width:140;
@@ -53,7 +53,7 @@
          top:20;
          left:20;
          border:none;
-
+         outline:none;
       }
       .A5{
          width:140;
@@ -64,7 +64,7 @@
          top:20;
          left:20;
          border:none;
-
+         outline:none;
       }
      #BGCS{
        position:relative;
@@ -115,7 +115,7 @@
          height: 110%;
          background-color:rgba(44, 44, 44, 0.925);
          position: relative;
-         top:-750;
+         top:-780;
          z-index:-100;
          left:-10;
          border-radius:8px;
@@ -140,6 +140,21 @@
          top:-120;
          z-index:-1;
      }
+     #SI{
+         position: relative;
+         top:-220;
+         left:-148;
+         width:170;
+         height: 60;
+         background-color:rgb(92, 255, 154);
+         font-family:arial black;
+         font-size:23;
+         border:none;
+         border-radius:4px;
+         color:rgb(20, 20, 20);
+         outline:none;
+     }
+
     </style>
 </head>
 
@@ -162,9 +177,11 @@
       <img id="B1" src="UnknownRabbit.jpg" width="70" onclick="Rabbit()"></img>
       <div id="LoginCode">0% Complete</div>
       <img src="SignLabel.png" alt="Label" id="S">
+      
+      <button id="SI" onclick="Done()">Register</button>
+
     
       <div class="BG"></div>
-
 </div>
 <script>
     var TagList = ["TAQ","TBQ","TCQ","TDQ","TEQ","TFQ","TGQ","THQ","TIQ","TJQ"]
@@ -173,6 +190,10 @@
     var BGC = "AX"
     var PFP = "AX"
     var Code = BGC + PFP + "AX" + Tag
+
+    function Done(){
+        window.location.assign("https://omixapp.github.io/OMiX/editor")
+    }
 
     function Red(){
     document.getElementById("LoginCode").innerHTML = "50% Complete";
